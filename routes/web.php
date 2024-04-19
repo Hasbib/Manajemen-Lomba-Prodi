@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginWithGoogleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -66,3 +67,7 @@ Route::get('/pengumpulankarya', [PagesController::class, 'pengumpulankarya']);
 
 
 Route::get('/proses', [PagesController::class, 'proses']);
+Route::controller(LoginWithGoogleController::class)->group(function(){
+    Route::get('authorized/google', 'googlepage')->name('auth.google');
+    Route::get('authorized/google/callback', 'googlecallback');
+});
