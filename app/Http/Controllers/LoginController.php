@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Users; // Perbaikan namespace model User
+use App\Models\User; // Perbaikan namespace model User
 use Illuminate\Support\Facades\Auth; // Penambahan import Auth
 use Illuminate\Support\Facades\Validator;
 
