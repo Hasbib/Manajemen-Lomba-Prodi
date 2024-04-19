@@ -2,7 +2,7 @@
 	<section style="background: url(../assets/images/login-images/bg-forgot-password.jpg);">
 		<div class="wrapper">
 			<div class="section-authentication-signin d-flex justify-content-center my-5 my-lg-1">
-				<div class="container-fluid jarak-isi-data">
+				<div class="container-fluid jarak-top-lebih10">
 					<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
 						<div class="col mx-auto">
 							<div class="card">
@@ -16,7 +16,7 @@
 											<form class="row g-3">
 												<div class="col-12">
 													<label for="namalengkap" class="form-label">Nama Lengkap</label>
-													<<input v-model="name" type="text" class="form-control" id="inputNamaLengkap" placeholder="Nama lengkap">
+													<input v-model="name" type="text" class="form-control" id="inputNamaLengkap" placeholder="Nama lengkap">
 												</div>
 												<div class="col-12 jarak-top-lebih6">
 													<label for="username" class="form-label">Username</label>
@@ -46,6 +46,7 @@
 														<hr/>
 													</div>
 													<div class="d-grid jarak-top-kurang10">
+														<a class="btn shadow-sm btn-white" href="#" @click="loginWithGoogle"></a>
 														<a class="btn shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
 															<img class="me-2" src="../../../../public/assets/images/icons/search.svg" width="16" alt="Image Description">
 															<span>Masuk dengan Google</span>
@@ -66,17 +67,12 @@
 						</div>
 					</div>
 					<!--end row-->
-
-
-
-
-
-
 				</div>
 			</div>
 		</div>
 	</section>
 </template>
+
 <script>
 import axios from 'axios';
 
@@ -137,4 +133,3 @@ export default {
     },
 };
 </script>
-

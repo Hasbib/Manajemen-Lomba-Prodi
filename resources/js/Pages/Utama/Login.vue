@@ -13,7 +13,7 @@
 										  <br>
 									  </div>
 									  <div class="form-body">
-										  <form class="row g-3">
+										<form class="row g-3" @submit.prevent="loginUser">
 											  <div class="col-12">
 												  <label for="emailorusername" class="form-label">Email atau Username</label>
 												  <input type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukka Email atau Username">
@@ -45,6 +45,7 @@
 													  <hr/>
 												  </div>
 												  <div class="d-grid jarak-top-kurang4">
+													<a class="btn shadow-sm btn-white" href="#" @click="loginWithGoogle"></a>
 													  <a class="btn shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
 														  <img class="me-2" src="../../../../public/assets/images/icons/search.svg" width="16" alt="Image Description">
 														  <span >Masuk dengan Google</span>
@@ -73,20 +74,110 @@
 	  ==========================-->
 	</section>
   </template>
-  
-  <script>
-	  $(document).ready(function () {
-		  $("#show_hide_password a").on('click', function (event) {
-			  event.preventDefault();
-			  if ($('#show_hide_password input').attr("type") == "text") {
-				  $('#show_hide_password input').attr('type', 'password');
-				  $('#show_hide_password i').addClass("bx-hide");
-				  $('#show_hide_password i').removeClass("bx-show");
-			  } else if ($('#show_hide_password input').attr("type") == "password") {
-				  $('#show_hide_password input').attr('type', 'text');
-				  $('#show_hide_password i').removeClass("bx-hide");
-				  $('#show_hide_password i').addClass("bx-show");
-			  }
-		  });
-	  });
-  </script>
+ 
+<script>
+import axios from 'axios';
+
+export default {
+    data() {
+        return {
+            email: '',
+            password: '',
+            rememberMe: true,
+            captcha: {},
+            captchaInput: ''
+        };
+    },
+    methods: {
+        async loginUser() {
+            try {
+                // Check if captcha input matches the answer
+                if (parseInt(this.captchaInput) !== this.captcha.answer) {
+                    alert("Hasil penjumlahan yang Anda masukkan salah!");
+                    return;
+                }
+
+                // Assuming API call for login
+                const response = await axios.post('http://localhost:8000/api/login', {
+                    email: this.email,
+                    password: this.password
+                });
+
+                // Assuming API returns role information
+                const userRole = response.data.role;
+
+                // Redirect user based on role
+                switch (userRole) {
+                    case 'admin':
+                        window.location.href = '/index2'; // Redirect to admin dashboard
+                        break;
+                    case 'petugas':
+                        window.location.href = '/dashboardpetugas'; // Redirect to petugas dashboard
+                        break;
+                    case 'juri':
+                        window.location.href = '/dashboardjuri'; // Redirect to juri dashboard
+                        break;
+                    default:
+                        window.location.href = '/overviewpeserta'; // Redirect to user dashboard or homepage
+                        break;
+                }
+
+            } catch (error) {
+                console.error(error.response.data);
+            }
+        },
+        async fetchCaptcha() {
+            try {
+                // Generate random numbers for the captcha question
+                const num1 = Math.floor(Math.random() * 10);
+                const num2 = Math.floor(Math.random() * 10);
+                const question = `${num1} + ${num2}`;
+                
+                // Calculate the answer
+                const answer = num1 + num2;
+
+                // Set the captcha data
+                this.captcha = {
+                    question: question,
+                    answer: answer
+                };
+            } catch (error) {
+                console.error(error.response.data);
+            }
+        },
+        loginWithGoogle() {
+            // Redirect to Google OAuth URL
+            window.location.href ="auth.google"
+
+            // Tangani respons autentikasi dari server
+            window.addEventListener('message', (event) => {
+                if (event.origin !== 'http://localhost:8000') return;
+
+                const message = event.data;
+                if (message.authenticated === true) {
+                    // Pengguna berhasil diautentikasi, arahkan ke halaman overviewpeserta
+                    window.location.href = '/overviewpeserta';
+                }
+            });
+        }
+    },
+    mounted() {
+        this.fetchCaptcha();
+    }
+};
+    // Pembaruan pada skrip jQuery untuk menampilkan / menyembunyikan password
+	$(document).ready(function () {
+		$("#show_hide_password a").on('click', function (event) {
+			event.preventDefault();
+			if ($('#show_hide_password input').attr("type") == "text") {
+				$('#show_hide_password input').attr('type', 'password');
+				$('#show_hide_password i').addClass("bx-hide");
+				$('#show_hide_password i').removeClass("bx-show");
+			} else if ($('#show_hide_password input').attr("type") == "password") {
+				$('#show_hide_password input').attr('type', 'text');
+				$('#show_hide_password i').removeClass("bx-hide");
+				$('#show_hide_password i').addClass("bx-show");
+			}
+		});
+	});
+</script>
