@@ -41,9 +41,9 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'name' => 'required', 
-            'username' => 'required|unique:users', // Tambahkan aturan unik untuk username
-            'email' => 'required|email|unique:users', // Tambahkan aturan unik untuk email
+            'name' => 'required|unique:name', 
+            'username' => 'required|unique:username', // Tambahkan aturan unik untuk username
+            'email' => 'required|email|unique:email', // Tambahkan aturan unik untuk email
             'password' => 'required|min:6',
         ]);
 
@@ -81,9 +81,9 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'username' => 'required|unique:users,username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
-            'email' => 'required|email|unique:users,email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
+            'name' => 'required|unique:name',
+            'username' => 'required|unique:username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
+            'email' => 'required|email|unique:email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
             'password' => 'required|min:6',
         ]);
 
