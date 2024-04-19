@@ -1,57 +1,57 @@
 <template>
-	<body style="background-color: #C0D6E8;">
+  <section style="background: url(../assets/images/login-images/bg-forgot-password.jpg);">
     <div class="wrapper">
-		<div class="section-authentication-signin d-flex justify-content-center my-5 my-lg-0">
-			<div class="container-fluid">
+		<div class="section-authentication-signin d-flex justify-content-center my-5 my-lg-1">
+			<div class="container-fluid jarak-top-lebih10">
 				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
 					<div class="col mx-auto">
 						<div class="card">
 							<div class="card-body">
 								<div class="border p-4 rounded">
 									<div class="text-center">
-										<h3 class="">Login</h3>
-										<br><br>
+										<h3>Login</h3>
+										<br>
 									</div>
 									<div class="form-body">
 										<form class="row g-3">
 											<div class="col-12">
-												<label for="inputEmailAddress" class="form-label">Email atau Username</label>
-												<input type="email" class="form-control" id="inputEmailAddress" placeholder="Masukka Email atau Username">
+												<label for="emailorusername" class="form-label">Email atau Username</label>
+												<input type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukka Email atau Username">
 											</div>
 											<div class="col-12">
-												<label for="inputChoosePassword" class="form-label">Password</label>
+												<label for="password" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="inputChoosePassword" value="12345678" placeholder="Enter Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" id="password" value="12345678"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>
-											<div class="col-md-6">
-												<div class="form-check form-switch">
+											<div class="col-md-6 jarak-top-lebih4 ">
+												<!-- <div class="form-check form-switch">
 													<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
 													<label class="form-check-label check-login" for="flexSwitchCheckChecked">Ingatkan saya</label>
-												</div>
+												</div> -->
 											</div>
-											<div class="col-md-6 text-end">	<a href="/lupapassword">Lupa Password ?</a>
+											<div class="col-md-6 text-end jarak-top-lebih7">	<a href="/lupapassword">Lupa Password ?</a>
 											</div>
-                                            <div class="d-grid">
+                                            <div class="d-grid jarak-top-lebih10">
                                                 <a class="btn shadow-sm btn-white" href="javascript:;">
                                                     <span>Capcha</span>
                                                 </a>
                                             </div>
 											<div class="col-12">
-												<div class="d-grid">
-													<a href="/index2" class="btn btn-primary"><i class='bx bxs-lock-open'></i>Masuk</a>
+												<div class="d-grid jarak-top-kurang5">
+													<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Masuk</a>
 												</div>
-												<div class="login-separater text-center mb-4"> <span>ATAU MASUK DENGAN EMAIL</span>
+												<div class="login-separater text-center mb-4 jarak-top-kurang15"> <span>ATAU MASUK DENGAN EMAIL</span>
 													<hr/>
 												</div>
-												<div class="d-grid">
+												<div class="d-grid jarak-top-kurang4">
 													<a class="btn shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
 														<img class="me-2" src="../../../../public/assets/images/icons/search.svg" width="16" alt="Image Description">
-														<span>Masuk dengan Google</span>
+														<span >Masuk dengan Google</span>
 														</span>
 													</a>
 												</div>
-												<div class="text-center">
+												<div class="text-center jarak-top-kurang10">
 													<br>
 													<p>Belum punya akun? <a href="/daftar">Daftar disini</a>
 													</p>
@@ -71,7 +71,7 @@
     <!--=========================
         LOGIN END
     ==========================-->
-</body>
+  </section>
 </template>
 
 <script>
