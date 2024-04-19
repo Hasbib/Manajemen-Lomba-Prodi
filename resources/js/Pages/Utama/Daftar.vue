@@ -16,20 +16,20 @@
 											<form class="row g-3">
 												<div class="col-12">
 													<label for="namalengkap" class="form-label">Nama Lengkap</label>
-													<input type="namalengkap" class="form-control jarak-top-kurang6" id="namalengkap" placeholder="Masukkan Nama Lengkap">
+													<input v-model="name" type="text" class="form-control" id="inputNamaLengkap" placeholder="Nama lengkap">
 												</div>
 												<div class="col-12 jarak-top-lebih6">
 													<label for="username" class="form-label">Username</label>
-													<input type="username" class="form-control jarak-top-kurang6" id="username" placeholder="Masukkan Username">
+													<input v-model="username" type="text" class="form-control" id="inputUsername" placeholder="Username">
 												</div>
 												<div class="col-12 jarak-top-lebih6">
 													<label for="email" class="form-label">Email</label>
-													<input type="email" class="form-control jarak-top-kurang6" id="email" placeholder="Masukkan Email">
+													<input v-model="email" type="email" class="form-control" id="inputEmailAddress" placeholder="Email">
 												</div>
 												<div class="col-12 jarak-top-lebih6">
 													<label for="password" class="form-label">Password</label>
 													<div class="input-group" id="show_hide_password">
-														<input type="password" class="form-control border-end-0" id="password" value="12345678"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+														<input v-model="password" type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Masukkan Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 													</div>
 												</div>
 												<!-- <div>
@@ -71,3 +71,64 @@
 		</div>
 	</section>
 </template>
+
+<script>
+import axios from 'axios';
+
+export default {
+    data() {
+        return {
+            name: '',
+            username: '',
+            email: '',
+            password: '',
+        };
+    },
+    methods: {
+        async registerUser() {
+            try {
+                const response = await axios.post('http://localhost:8000/api/registrasi', {
+                    name: this.name,
+                    username: this.username,
+                    email: this.email,
+                    password: this.password,
+                });
+
+                console.log(response.data);
+
+                // Redirect to login page after successful registration
+                window.location.href = '/login';
+
+            } catch (error) {
+                console.error(error.response.data);
+            }
+        },
+		loginWithGoogle() {
+            // Redirect to Google OAuth URL
+            window.location.href ="auth.google"
+
+            // Tangani respons autentikasi dari server
+            window.addEventListener('message', (event) => {
+                if (event.origin !== 'http://localhost:8000') return;
+
+                const message = event.data;
+                if (message.authenticated === true) {
+                    // Pengguna berhasil diautentikasi, arahkan ke halaman overviewpeserta
+                    window.location.href = '/overviewpeserta';
+                }
+            });
+        },
+        cancelLogin() {
+            this.$router.go(-1);
+        },
+    },
+    head() {
+        return {
+            script: [
+                { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js' },
+                { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js' },
+            ],
+        };
+    },
+};
+</script>
