@@ -2988,14 +2988,23 @@ input.search-control-2::placeholder {
 .crud-width-50 {
 	width: 50px;
 }
+.crud-width60 {
+	width: 60px;
+}
 .crud-width-70 {
 	width: 70px;
 }
 .crud-width-90 {
 	width: 90px;
 }
+.crud-width100 {
+	width: 100px;
+}
 .crud-width-110 {
 	width: 110px;
+}
+.crud-width120 {
+	width: 120px;
 }
 .crud-width-150 {
 	width: 150px;

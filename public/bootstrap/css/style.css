@@ -805,8 +805,8 @@ button {
 .tf__upcoming_event::after,
 .tf__banner::after {
     position: absolute;
-    content: "";
-    background: url(../images/banner_shape.png);
+    /* content: "";
+    background: url(../images/banner_shape.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -833,8 +833,8 @@ button {
 .tf__banner_3 .tf__banner_text::before,
 .tf__banner::before {
     position: absolute;
-    content: "";
-    background: url(../images/arrow_shapes.png);
+    /* content: "";
+    background: url(../images/arrow_shapes.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
