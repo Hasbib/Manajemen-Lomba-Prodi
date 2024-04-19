@@ -9,11 +9,11 @@
 								<div class="card-body">
 									<div class="border p-4 rounded">
 										<div class="text-center">
-											<h3 class="">Buat Akun</h3>
+											<h3 style="color: black;">Buat Akun</h3>
 										</div>
 										<br>
 										<div class="form-body">
-											<form class="row g-3">
+											<form class="row g-3" @click.prevent="registerUser">
 												<div class="col-12">
 													<label for="namalengkap" class="form-label">Nama Lengkap</label>
 													<input v-model="name" type="text" class="form-control" id="inputNamaLengkap" placeholder="Nama lengkap">
@@ -32,26 +32,19 @@
 														<input v-model="password" type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Masukkan Password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 													</div>
 												</div>
-												<!-- <div>
-													<div class="form-check form-switch">
-														<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-														<label class="form-check-label check-login" for="flexSwitchCheckChecked">Saya membaca serta menyetujui Syarat & Ketentuan </label>
-													</div>
-												</div> -->
 												<div class="col-12 jarak-top-lebih12">
 													<div class="d-grid">
-														<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Registrasi</a>
+														<button type="submit" class="btn btn-primary"><i class='bx bx-user'></i>Registrasi</button>
 													</div>
 													<div class="login-separater text-center mb-4 jarak-top-kurang18"> <span>ATAU MASUK DENGAN EMAIL</span>
 														<hr/>
 													</div>
 													<div class="d-grid jarak-top-kurang10">
-														<a class="btn shadow-sm btn-white" href="#" @click="loginWithGoogle"></a>
-														<a class="btn shadow-sm btn-white" href="javascript:;"> <span class="d-flex justify-content-center align-items-center">
+														<button @click.prevent="loginWithGoogle" class="btn shadow-sm btn-white"> <span class="d-flex justify-content-center align-items-center">
 															<img class="me-2" src="../../../../public/assets/images/icons/search.svg" width="16" alt="Image Description">
 															<span>Masuk dengan Google</span>
 															</span>
-														</a>
+														</button>
 													</div>
 													<div class="text-center jarak-top-kurang12">
 														<br>
@@ -107,29 +100,7 @@ export default {
 		loginWithGoogle() {
             // Redirect to Google OAuth URL
             window.location.href ="auth.google"
-
-            // Tangani respons autentikasi dari server
-            window.addEventListener('message', (event) => {
-                if (event.origin !== 'http://localhost:8000') return;
-
-                const message = event.data;
-                if (message.authenticated === true) {
-                    // Pengguna berhasil diautentikasi, arahkan ke halaman overviewpeserta
-                    window.location.href = '/overviewpeserta';
-                }
-            });
         },
-        cancelLogin() {
-            this.$router.go(-1);
-        },
-    },
-    head() {
-        return {
-            script: [
-                { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js' },
-                { src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js' },
-            ],
-        };
     },
 };
 </script>

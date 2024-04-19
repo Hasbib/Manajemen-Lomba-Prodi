@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User; // Ubah dari Users menjadi User
+
+use App\Models\Users; // Ubah dari Users menjadi User
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -12,7 +13,7 @@ class RegistrasiController extends Controller
     public function index()
     {
         // Ambil data dari tabel users
-        $registrasis = User::orderBy('name', 'asc')->get(); // Ubah 'username' menjadi 'asc' karena orderBy hanya menerima satu argumen
+        $registrasis = Users::orderBy('name', 'asc')->get(); // Ubah 'username' menjadi 'asc' karena orderBy hanya menerima satu argumen
 
         // Buat respons JSON
         return response()->json([
@@ -26,7 +27,7 @@ class RegistrasiController extends Controller
     public function show($id)
     {
         // Temukan registrasi berdasarkan ID
-        $registrasi = User::findOrFail($id); 
+        $registrasi = Users::findOrFail($id); 
 
         // Buat respons JSON
         return response()->json([
@@ -41,9 +42,9 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'name' => 'required|unique:name', 
-            'username' => 'required|unique:username', // Tambahkan aturan unik untuk username
-            'email' => 'required|email|unique:email', // Tambahkan aturan unik untuk email
+            'name' => 'required', 
+            'username' => 'required|unique:users', // Tambahkan aturan unik untuk username
+            'email' => 'required|email|unique:users', // Tambahkan aturan unik untuk email
             'password' => 'required|min:6',
         ]);
 
@@ -53,7 +54,7 @@ class RegistrasiController extends Controller
         }
 
         // Simpan ke database
-        $registrasi = User::create([
+        $registrasi = Users::create([
             'name' => $request->name,
             'username' => $request->username,
             'email' => $request->email,
@@ -81,9 +82,9 @@ class RegistrasiController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'name' => 'required|unique:name',
-            'username' => 'required|unique:username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
-            'email' => 'required|email|unique:email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
+            'name' => 'required',
+            'username' => 'required|unique:users,username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
+            'email' => 'required|email|unique:users,email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
             'password' => 'required|min:6',
         ]);
 
@@ -93,7 +94,7 @@ class RegistrasiController extends Controller
         }
 
         // Temukan registrasi berdasarkan ID
-        $registrasi = User::findOrFail($id);
+        $registrasi = Users::findOrFail($id);
 
         // Jika registrasi ditemukan
         if ($registrasi) {
@@ -118,7 +119,7 @@ class RegistrasiController extends Controller
     public function destroy($id)
     {
         // Temukan registrasi berdasarkan ID
-        $registrasi = User::findOrFail($id);
+        $registrasi = Users::findOrFail($id);
 
         // Jika registrasi ditemukan
         if ($registrasi) {

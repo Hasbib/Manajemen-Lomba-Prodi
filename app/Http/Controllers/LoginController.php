@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\User; // Perbaikan namespace model User
-use Illuminate\Support\Facades\Auth; // Penambahan import Auth
+use App\Models\Users; 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class LoginController extends Controller
@@ -49,7 +48,7 @@ class LoginController extends Controller
 
     public function logout(Request $request)
     {
-        $user = $request->user(); // Mengambil user dari request
+        $user = Auth::user();
         $user->tokens()->delete();
 
         return response()->json([

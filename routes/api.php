@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\RegistrasiController;
-use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\RegistrasiController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\Auth\LoginWithGoogleController;
 use Illuminate\Support\Facades\Auth;
 
