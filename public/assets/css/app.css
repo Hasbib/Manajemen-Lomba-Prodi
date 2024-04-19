@@ -2628,7 +2628,7 @@ input.search-control-2::placeholder {
 /*  NEW  */
 
 .card-overview {
-	height: 240px;
+	height: 270px;
 }
 
 .card-panjang {
@@ -2651,6 +2651,11 @@ input.search-control-2::placeholder {
 .text-left {
 	text-align: left
 }
+
+.text-lupa-pw {
+	font-size: 13px;
+}
+
 
 
 
@@ -2771,6 +2776,19 @@ input.search-control-2::placeholder {
 	margin-bottom: 8px;
 }
 
+.h6-landing-page1 {
+	text-align: center; 
+	margin-bottom: 25px; 
+	font-size: 20px;
+}
+
+.h6-landing-page2 {
+	margin-bottom: 18px; 
+	color: #8D8686;
+}
+
+
+
 
 /*-- BTN --*/
 .btn-putih {
@@ -2811,9 +2829,188 @@ input.search-control-2::placeholder {
 	margin-bottom: 30px
 }
 
+.btn-landing-page {
+	position: absolute; 
+	bottom: 10px; 
+	width: 300px;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-posisi {
+	display: flex;
+}
+
+.btn-export {
+	margin-top: -7px; 
+	float: right;
+}
+
 
 /* AVATAR */
 .avatar-all {
 	width: 38px; 
 	height: 38px;
 }
+
+/* CONTAINER */
+.container-pertama {
+	height: 180px; 
+	background-color: #E4EDF3;
+}
+
+
+/* Index */
+.judul-lomba-index {
+	margin-bottom: 20px;
+}
+
+.border-radius {
+	border-radius: 15px;
+}
+
+.jarak-container {
+	margin-bottom: -50px;
+}
+
+.jarak-judul-index {
+	margin-bottom: 40px;
+}
+
+
+/* Akun */
+.jarak-top-lebih4 {
+	margin-top: 4px;
+}
+
+.jarak-top-kurang4 {
+	margin-top: -4px;
+}
+
+.jarak-top-kurang5 {
+	margin-top: -5px;
+}
+
+.jarak-top-lebih6 {
+	margin-top: 6px;
+}
+
+.jarak-top-kurang6 {
+	margin-top: -6px;
+}
+
+.jarak-top-lebih7 {
+	margin-top: 7px;
+}
+
+.jarak-top-kurang7 {
+	margin-top: -7px;
+}
+
+.jarak-top-kurang10 {
+	margin-top: -10px;
+}
+
+.jarak-top-lebih10 {
+	margin-top: 10px;
+}
+
+.jarak-top-lebih12 {
+	margin-top: 12px;
+}
+
+.jarak-top-kurang12 {
+	margin-top: -12px;
+}
+
+.jarak-top-kurang15 {
+	margin-top: -15px;
+}
+
+.jarak-top-kurang18 {
+	margin-top: -18px;
+}
+
+/* KONTAK */
+.judul-kontak {
+	margin-bottom: 13px;
+}
+.input-kontak {
+	margin-bottom: 15px
+}
+
+
+/* CRUD */
+.navbar-crud {
+	margin-left: auto;
+}
+
+.judul-form {
+	color: black
+}
+
+.keterangan-foto {
+	font-size: 13px
+}
+
+.jarak-sertifikat {
+	margin-top: 20px; 
+	margin-bottom: 30px;
+}
+
+.dropdown-crud {
+	margin-right: 10px;
+}
+
+.margin-top5-crud {
+	margin-bottom: 5px; 
+	color: black;
+}
+
+.margin-top10-crud {
+	margin-bottom: 10px; 
+	color: black;
+}
+
+.margin-bottom5-crud {
+	margin-bottom: 5px;
+	color: black;
+}
+
+.role-add {
+	margin-bottom: 5px; 
+	margin-top: 10px;
+}
+
+.width-id {
+	width: 10px;
+}
+.crud-width-50 {
+	width: 50px;
+}
+.crud-width-70 {
+	width: 70px;
+}
+.crud-width-90 {
+	width: 90px;
+}
+.crud-width-110 {
+	width: 110px;
+}
+.crud-width-150 {
+	width: 150px;
+}
+.crud-width-180 {
+	width: 180px;
+}
+
+.btn-crud {
+	text-align: center;
+}
+
+/* WARNA */
+.warna-hitam {
+	color: black
+}
+
+
