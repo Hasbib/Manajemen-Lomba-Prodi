@@ -54,3 +54,4 @@ Route::resource('/registrasiadministrator', RegistrasiAdministratorController::c
 Route::post('/lomba', [LombaController::class, 'store']);
 
 
+

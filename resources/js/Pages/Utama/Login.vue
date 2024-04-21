@@ -16,7 +16,7 @@
 										<form class="row g-3" @submit.prevent="loginUser">
 											  <div class="col-12">
 												  <label for="email" class="form-label">Username</label>
-												  <input v-model="username"   type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukkan Username">
+												  <input v-model="username"   type="username" class="form-control" id="username" placeholder="Masukkan Username">
 											  </div>
 											  <div class="col-12">
 												  <label for="password" class="form-label">Password</label>
