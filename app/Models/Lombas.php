@@ -23,7 +23,8 @@ class Lombas extends Model
         'date_end',
         'picture',
         'link_file',
-        'biaya_daftar'
+        'biaya_daftar',
+        'nama_pj'
     ];
 }
 

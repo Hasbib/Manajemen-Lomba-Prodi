@@ -4,50 +4,46 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Laravel\Socialite\Facades\Socialite;
-use App\Models\Users; // Menggunakan singular "User" sesuai konvensi Laravel
+use App\Models\Users;
 use Illuminate\Support\Facades\Auth;
 use Exception;
 
 class LoginWithGoogleController extends Controller
 {
-    public function googlepage()
+     public function googlepage()
     {
-        try {
-            return Socialite::driver('google')->redirect();
-        } catch (Exception $e) {
-            // Menangani kesalahan Socialite dengan memberikan respons yang sesuai
-            return redirect()->route('index')->withErrors(['error' => 'Gagal mengalihkan ke Google untuk login.']);
-        }
+        return Socialite::driver('google')->redirect();
     }
 
     public function googlecallback()
     {
         try {
+      
             $user = Socialite::driver('google')->user();
-
-            $existingUser = Users::where('google_id', $user->id)->first();
-
-            if ($existingUser) {
-                Auth::login($existingUser);
-
-                // Redirect langsung ke halaman overview peserta setelah berhasil login
-                return redirect()->route('overviewpeserta');
-            } else {
+       
+            $finduser = Users::where('google_id', $user->id)->first();
+       
+            if($finduser){
+       
+                Auth::login($finduser);
+      
+                return redirect()->intended('overviewpeserta');
+       
+            }else{
                 $newUser = Users::create([
                     'name' => $user->name,
                     'email' => $user->email,
-                    'google_id' => $user->id,
-                    'email_verified_at' => now(),
+                    'google_id'=> $user->id,
                 ]);
-
+      
                 Auth::login($newUser);
-
-                // Redirect langsung ke halaman overview peserta setelah berhasil login
-                return redirect()->route('overviewpeserta');
+      
+                return redirect()->intended('overviewpeserta');
             }
+      
         } catch (Exception $e) {
-            // Menangani kesalahan autentikasi dengan memberikan respons yang sesuai
-            return redirect()->route('index')->withErrors(['error' => 'Gagal melakukan autentikasi dengan Google.']);
+            dd($e->getMessage());
         }
     }
+
 }
