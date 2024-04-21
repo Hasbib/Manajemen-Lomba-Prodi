@@ -22,7 +22,8 @@ class Lombas extends Model
         'date_start',
         'date_end',
         'picture',
-        'link_file'
+        'link_file',
+        'biaya_daftar'
     ];
 }
 

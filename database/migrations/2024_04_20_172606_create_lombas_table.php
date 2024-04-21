@@ -21,6 +21,7 @@ return new class extends Migration
             $table->dateTime('date_end')->nullable();
             $table->string('picture')->nullable();
             $table->string('link_file')->nullable();
+            $table->string('biaya_daftar')->nullable();
             $table->timestamps();
         });
     }
