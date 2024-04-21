@@ -9,7 +9,7 @@
 								<div class="card-body">
 									<div class="border p-4 rounded">
 										<div class="text-center">
-											<h3 class="">Buat Akun</h3>
+											<h3>Buat Akun</h3>
 										</div>
 										<br>
 										<div class="form-body">

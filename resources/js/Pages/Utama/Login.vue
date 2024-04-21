@@ -30,7 +30,8 @@
 													<label class="form-check-label check-login" for="flexSwitchCheckChecked">Ingatkan saya</label>
 												</div> -->
 											</div>
-											<div class="col-md-6 text-end jarak-top-lebih7">	<a href="/lupapassword">Lupa Password ?</a>
+											<div class="col-md-6 text-end jarak-top-lebih7">	
+												<a href="/lupapassword">Lupa Password ?</a>
 											</div>
                                             <div class="d-grid jarak-top-lebih10">
                                                 <a class="btn shadow-sm btn-white" href="javascript:;">

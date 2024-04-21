@@ -2,44 +2,56 @@
     <div class="wrapper">
         <!--start header -->
         <header>
-            <div class="navbar-tambah">
-                <div class="navbar-left">
-                    <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
-                </div>
-                <div class="navbar-right" style="margin-left: auto;">
-                    <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#">
-						<div class="user-info ps-3">
-							<p class="user-name mb-0">Habib</p>						
-						</div>
-                        <img src="../../../../../public/bootstrap/images/profil.png" class="user-img" alt="user avatar" style="width: 38px; height: 38px;">
-					</a>
-                </div>
+            <div class="c-topbar">
+                <nav class="navbar navbar-expand">
+                    <!-- Navbar tambah untuk logo di kiri -->
+                    <div class="navbar-tambah">
+                        <div class="navbar-left">
+                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                        </div>
+                    </div>
+                    <!-- Mobile toggle menu -->
+                    <!-- Search bar -->
+                    <div class="search-bar flex-grow-1">
+                    </div>
+                    <!-- Top menu -->
+                    <div class="top-menu ms-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <div class="user-info ps-3">
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>					
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
+                        </ul>
+                    </div>		
+                </nav>
             </div>
         </header>
         <!--end header -->
         <!--start page wrapper -->
-        <div class="page-wrapper-tambah">
+        <div class="page-wrapper-new">
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0">Detail Berita</h4>
                         <hr/>
-                        <div class="">
-                            <div class="col-md-6"  style="margin-bottom: 10px;">
-                                <label style="margin-bottom: 5px;  color: black;"><b>Nama Sponsor</b></label>
-                                <div style="margin-bottom: 20px;">D3TI UNS</div>
+                        <div>
+                            <div class="col-md-6 c-mb10">
+                                <label class="c-mb5-black"><b>Nama Sponsor</b></label>
+                                <div class="c-mb20">D3TI UNS</div>
                             </div>
-                            <div class="">
-                                <label style="margin-bottom: 5px; color: black;"><b>Link</b></label>
-                                <div style="margin-bottom: 20px;">https://s4-eight.vercel.app/</div>
+                            <div>
+                                <label class="col-md-6 c-mb10 warna-hitam"><b>Link</b></label>
+                                <div class="c-mb20"><a href="#">Link</a></div>
                             </div>
-                            <div class=""  style="margin-bottom: 10px;">
-                                <label style="margin-bottom: 5px; color: black;"><b>Gambar</b></label><br>
+                            <div class="c-mb10">
+                                <label class="c-mb5-black"><b>Gambar</b></label><br>
                                 <img src="../../../../../public/bootstrap/images/about_2_img_3.jpg" alt="Product Image" class="img-fluid" style="display:flex; margin: auto;" >
                             </div>
                         </div>
-                        <div style="display: flex;">
-                            <button class="btn btn-danger" style="width: 200px; margin: auto; margin-top: 50px; margin-bottom: 30px" onclick="window.location.href='/sponsor'">Kembali</button>
+                        <div class="btn-posisi">
+                            <button class="btn btn-danger btn-kembali" onclick="window.location.href='/sponsor'">Kembali</button>
                         </div>
                     </div>
                 </div>

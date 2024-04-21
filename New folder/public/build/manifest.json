@@ -1,0 +1,126 @@
+{
+  "public/assets/images/icons/forgot-2.png": {
+    "file": "assets/forgot-2-dtwkh_4L.png",
+    "src": "public/assets/images/icons/forgot-2.png"
+  },
+  "public/assets/images/icons/search.svg": {
+    "file": "assets/search-Dkx3kuv0.svg",
+    "src": "public/assets/images/icons/search.svg"
+  },
+  "public/bootstrap/images/about_2_img_3.jpg": {
+    "file": "assets/about_2_img_3-DMFduUdV.jpg",
+    "src": "public/bootstrap/images/about_2_img_3.jpg"
+  },
+  "public/bootstrap/images/aplikasi-mobile.jpg": {
+    "file": "assets/aplikasi-mobile-B5tlysbY.jpg",
+    "src": "public/bootstrap/images/aplikasi-mobile.jpg"
+  },
+  "public/bootstrap/images/ar-vr.jpg": {
+    "file": "assets/ar-vr-DmRaxT0w.jpg",
+    "src": "public/bootstrap/images/ar-vr.jpg"
+  },
+  "public/bootstrap/images/d3ti.png": {
+    "file": "assets/d3ti-CU4j6Ocg.png",
+    "src": "public/bootstrap/images/d3ti.png"
+  },
+  "public/bootstrap/images/desain-website.jpg": {
+    "file": "assets/desain-website-CS9zRsq5.jpg",
+    "src": "public/bootstrap/images/desain-website.jpg"
+  },
+  "public/bootstrap/images/desain.jpg": {
+    "file": "assets/desain-Cuf1uiZV.jpg",
+    "src": "public/bootstrap/images/desain.jpg"
+  },
+  "public/bootstrap/images/em.png": {
+    "file": "assets/em-TqWCJJNM.png",
+    "src": "public/bootstrap/images/em.png"
+  },
+  "public/bootstrap/images/error_img.png": {
+    "file": "assets/error_img-CwRQExGk.png",
+    "src": "public/bootstrap/images/error_img.png"
+  },
+  "public/bootstrap/images/event_img_1.jpg": {
+    "file": "assets/event_img_1-D2yIp3G6.jpg",
+    "src": "public/bootstrap/images/event_img_1.jpg"
+  },
+  "public/bootstrap/images/farel.png": {
+    "file": "assets/farel-Bdx7OtwP.png",
+    "src": "public/bootstrap/images/farel.png"
+  },
+  "public/bootstrap/images/game.png": {
+    "file": "assets/game-B9LaeQYU.png",
+    "src": "public/bootstrap/images/game.png"
+  },
+  "public/bootstrap/images/habib.jpg": {
+    "file": "assets/habib-CWFKkuvD.jpg",
+    "src": "public/bootstrap/images/habib.jpg"
+  },
+  "public/bootstrap/images/liburan.jpg": {
+    "file": "assets/liburan-DmO2wUcQ.jpg",
+    "src": "public/bootstrap/images/liburan.jpg"
+  },
+  "public/bootstrap/images/logo-sv.png": {
+    "file": "assets/logo-sv-BeGh3nxo.png",
+    "src": "public/bootstrap/images/logo-sv.png"
+  },
+  "public/bootstrap/images/logo.png": {
+    "file": "assets/logo-D-U8IkZL.png",
+    "src": "public/bootstrap/images/logo.png"
+  },
+  "public/bootstrap/images/logocb.png": {
+    "file": "assets/logocb-DuI5mWIi.png",
+    "src": "public/bootstrap/images/logocb.png"
+  },
+  "public/bootstrap/images/membuat-game.jpg": {
+    "file": "assets/membuat-game-fTKyJSD4.jpg",
+    "src": "public/bootstrap/images/membuat-game.jpg"
+  },
+  "public/bootstrap/images/sertifikat.png": {
+    "file": "assets/sertifikat-B-MruiyU.png",
+    "src": "public/bootstrap/images/sertifikat.png"
+  },
+  "public/bootstrap/images/sistem-keamanan-data.jpg": {
+    "file": "assets/sistem-keamanan-data-DNBQsFOD.jpg",
+    "src": "public/bootstrap/images/sistem-keamanan-data.jpg"
+  },
+  "public/bootstrap/images/uns.png": {
+    "file": "assets/uns-I8sogSwS.png",
+    "src": "public/bootstrap/images/uns.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BzNn3i7l.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "assets": [
+      "assets/logocb-DuI5mWIi.png",
+      "assets/logo-D-U8IkZL.png",
+      "assets/about_2_img_3-DMFduUdV.jpg",
+      "assets/desain-website-CS9zRsq5.jpg",
+      "assets/sertifikat-B-MruiyU.png",
+      "assets/desain-Cuf1uiZV.jpg",
+      "assets/ar-vr-DmRaxT0w.jpg",
+      "assets/aplikasi-mobile-B5tlysbY.jpg",
+      "assets/sistem-keamanan-data-DNBQsFOD.jpg",
+      "assets/membuat-game-fTKyJSD4.jpg",
+      "assets/event_img_1-D2yIp3G6.jpg",
+      "assets/liburan-DmO2wUcQ.jpg",
+      "assets/farel-Bdx7OtwP.png",
+      "assets/game-B9LaeQYU.png",
+      "assets/logo-sv-BeGh3nxo.png",
+      "assets/uns-I8sogSwS.png",
+      "assets/d3ti-CU4j6Ocg.png",
+      "assets/em-TqWCJJNM.png",
+      "assets/habib-CWFKkuvD.jpg",
+      "assets/error_img-CwRQExGk.png",
+      "assets/search-Dkx3kuv0.svg",
+      "assets/forgot-2-dtwkh_4L.png"
+    ]
+  }
+}

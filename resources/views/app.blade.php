@@ -81,7 +81,7 @@
 
     <!-- KE DUA-->
     <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
     <!--plugins -->
     <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
@@ -109,7 +109,7 @@
     <script src="admin/dist/libs/apexcharts/dist/apexcharts.min.js"></script>
 
     <!-- Tabler Core -->
-    <script src="admin/dist/js/tabler.min.js"></script>
+    <!-- <script src="admin/dist/js/tabler.min.js"></script> -->
 
 
 </body>

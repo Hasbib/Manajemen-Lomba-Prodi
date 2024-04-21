@@ -26,17 +26,17 @@
                         <div class="menu-title">Event</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
+                        <li class="jarak-dropdown"> <a href="/lomba">Lomba</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
+                        <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
+                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
+                        <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
+                        <li class="jarak-dropdown"> <a href="/berita">Berita</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
+                        <li class="jarak-dropdown"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
                 </li>
@@ -68,13 +68,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -93,10 +93,11 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib</p>						
-                        </div>
-                        <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
-                        </div>
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -118,31 +119,21 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content">
-                <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-                    <div class="ps-3">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb mb-0 p-0">
-                                <li class="breadcrumb-item">
-                                </li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Sponsor</h4>
-                        <hr style="margin-top: 10px;" />		
-                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahsponsor'">Tambah Sponsor</button>
-                        <hr style="margin-top: 10px;" />    
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Sponsor</h4>
+                        <hr class="c-mt10" />		
+                        <button class="btn btn-success jarak-top-kurang7" onclick="window.location.href='/tambahsponsor'">Tambah Sponsor</button>
+                        <hr class="c-mt10" />    
                         <div class="table-responsive">	
-                            <table id="example" class="table table-bordered" style="width:100%">
+                            <table id="example" class="table table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th>ID</th>
+                                        <th class="width-id">ID</th>
                                         <th>Nama Sponsor</th>
                                         <th>Logo</th>
                                         <th>Link</th>
-                                        <th style="width: 180px;">Aksi</th>
+                                        <th class="crud-width-180">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -151,7 +142,7 @@
                                         <td>D3TI UNS</td>
                                         <td>d3ti.jpg</td>
                                         <td>https://s4-eight.vercel.app/</td>
-                                        <td style="text-align: center;">
+                                        <td class="btn-crud">
                                             <button class="btn btn-secondary" onclick="window.location.href='/detailsponsor'"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-primary" onclick="window.location.href='/editsponsor'"><i class="bi bi-pencil-square"></i></button>    
                                             <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
@@ -165,9 +156,6 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
     </div>
 </template>
     

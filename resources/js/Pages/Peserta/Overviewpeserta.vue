@@ -61,13 +61,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -86,9 +86,10 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Lionel Andres</p>			
+                                <p class="user-role">leon</p>					
                             </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -112,63 +113,57 @@
 		<div class="page-wrapper">
 			<div class="page-content">
 				<!--breadcrumb-->
-				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
-					<div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">UI / UX</h6>
+				<div class="tf__activities_slider_area">
+                    <div class="container">
+                        <!--breadcrumb-->
+                        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                                    <label class="judul-overview">UI / UX</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                </div>
                             </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">AR / VR</h6>
+                            <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">AR / VR</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">APLIKASI MOBILE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">DESAIN WEBSITE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">SISTEM KEAMANAN DATA</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">UI / UX</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    </div>
+                                </div> 
                             </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">APLIKASI MOBILE</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">DESAIN WEBSITE</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">SISTEM KEAMANAN DATA</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-                    <div class="col">
-						<div class="card radius-15 card-overview">
-							<div class="text-overview">
-                                <h6 class="ukuran">MEMBUAT GAME</h6>
-                            </div>
-                            <div class="d-grid button-overview"> <a href="#" class="btn btn-primary radius-10">Detail</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--end row-->
+                        <!--end row-->
+                    </div>
+                </div>				
+                <!--end row-->
 			</div>
 		</div>
 	
