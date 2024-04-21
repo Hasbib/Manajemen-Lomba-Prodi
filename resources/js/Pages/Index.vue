@@ -36,7 +36,7 @@
                        <a class="nav-link" href="/kontak">Kontak</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link common_btn" href="/login">Login</a>
+                       <a class="nav-link common_btn" href="/login">Masuk</a>
                    </li>
                </ul>
            </div>
@@ -50,11 +50,11 @@
    <!--=================================
        BANNER START
    ==================================-->
-   <section class="tf__banner" style="background: url(bootstrap/images/home.jpg);">
+   <section class="tf__banner" style="background: url(bootstrap/images/home2.jpg);">
        <div class="container">
            <div class="row">
                <div class="col-xl-7 col-lg-8">
-                   <div class="tf__banner_text wow fadeInUp" data-wow-duration="1.5s">
+                   <div class="tf__banner_text wow fadeInUp">
                        <h1 style="font-size: 26px;"><b>Olimpiade Informatika Nasional</b></h1>
                        <h1 style="font-size: 40px;"><b>OLINAS 2024</b></h1>
                    </div>
@@ -72,12 +72,12 @@
    <section id="tentang-section" class="tf__home_2_about pt_100 pb_100" style="background: url(bootstrap/images/about_2_bg.jpg);">
        <div class="container">
            <div class="row">
-               <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-duration="1.5s">
+               <div class="col-xl-6 col-lg-6 wow fadeInLeft">
                    <div class="tf__home_2_about_img">
                        <img src="../../../public/bootstrap/images/about_2_img_3.jpg" alt="about us" class="img-fluid w-100">
                    </div>
                </div>
-               <div class="col-xl-6 col-lg-6 wow fadeInRight" data-wow-duration="1.5s">
+               <div class="col-xl-6 col-lg-6 wow fadeInRight">
                    <div> <!-- <div class="tf__home_2_about_text"-->
                        <div class="tf__heading_area tf__heading_area_left mb_25">
                            <h5>Apa itu OLINAS ?</h5>
@@ -101,107 +101,95 @@
        CATEGORIES START
    ==================================-->
    <section id="lomba-section" class="tf__categories mt_95">
-       <div class="tf__activities_slider_area">
+        <div class="tf__activities_slider_area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
                         <div class="tf__heading_area mb_15">
-                            <h5>Daftar Lomba</h5>
+                            <h5 class="judul-lomba-index">Lomba</h5>
                         </div>
                     </div>
                 </div>
-                <div class="row wow fadeInUp" data-wow-duration="1.5s">
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item light_blue">
-                            <span> <i class="fal fa-book"></i> </span>
-                            <h3>Lomba AR</h3>
+				<!--breadcrumb-->
+				<div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                    <div class="col">
+                        <div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                            <button class="btn btn-danger btn-landing-page" href="#">UI / UX </button>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item green">
-                            <span> <i class="fas fa-graduation-cap"></i> </span>
-                            <h3>Lomba VR</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item orange">
-                            <span> <i class="far fa-university"></i> </span>
-                            <h3>Lomba Desain</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item blue">
-                            <span> <i class="fas fa-books-medical"></i> </span>
-                            <h3>Lomba Web</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item green">
-                            <span> <i class="fas fa-analytics"></i> </span>
-                            <h3>Lomba Aplikasi Mobile</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item green">
-                            <span> <i class="fas fa-analytics"></i> </span>
-                            <h3>Lomba Creative Video</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item green">
-                            <span> <i class="fas fa-analytics"></i> </span>
-                            <h3>Lomba Cybersecurity</h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <div class="tf__activities_item green">
-                            <span> <i class="fas fa-analytics"></i> </span>
-                            <h3>Lomba Robotik</h3>
-                        </div>
-                    </div>
-                </div>
+                   <div class="col">
+						<div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
+                            <a class="btn btn-danger btn-landing-page" href="#">AR / VR </a>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
+                            <a class="btn btn-danger btn-landing-page" href="#">Aplikasi Mobile</a>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
+                            <a class="btn btn-danger btn-landing-page" href="#">Desain Website </a>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
+                            <a class="btn btn-danger btn-landing-page" href="#">Sistem Keamanan Data </a>
+						</div>
+					</div>
+                    <div class="col">
+						<div class="card radius-15 card-overview">
+                            <img src="../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
+                            <a class="btn btn-danger btn-landing-page" href="#">Membuat Game </a>
+						</div>
+					</div> 
+				</div>
+				<!--end row-->
             </div>
         </div>
    </section>
    <!--=================================
        CATEGORIES END
    ==================================-->
-
-
-   <section id="timeline-section" class="tf__categories mt_95">
-       <div class="container" style="margin-bottom: -50px;">
-           <div class="row">
-               <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
-                   <div class="tf__heading_area mb_15">
-                       <h5 style="margin-bottom: 40px;">Timeline</h5>
-                       <div class="card" style="height: 180px; background-color: #D9D9D9;">
+    <section id="timeline-section" class="tf__categories mt_95">
+        <div class="container jarak-container">
+            <div class="row">
+                <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
+                    <div class="tf__heading_area mb_15">
+                        <h5 class="c-mb-40">Timeline</h5>
+                        <div class="card container-hg180-index">
                             <div class="card-body p-4 text-center">
-                                <h6 style="text-align: center; margin-bottom: 25px; font-size: 20px;"><b>Event OLINAS</b></h6>
-                               <h6 style="margin-bottom: 18px; color: #8D8686;"><b>Tanggal Mulai : 12 April 2024</b></h6>
-                               <h6 style="margin-bottom: 18px; color: #8D8686;"><b>Tanggal Berakhir : 13 Mei 2024</b></h6>
+                                <h6 class="h6-landing-page1"><b>Event OLINAS</b></h6>
+                                <h6 class="h6-landing-page2"><b>Tanggal Mulai : 12 April 2024</b></h6>
+                                <h6 class="h6-landing-page2"><b>Tanggal Berakhir : 13 Mei 2024</b></h6>
                             </div>                        
                         </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </section>
-   <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
 
-<!--=================================
+    <!--=================================
        EVENT START
-   ==================================-->
-   <section id="berita-section" class="tf__event mt_95">
-       <div class="container">
-           <div class="row">
-               <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
+    ==================================-->
+    <section id="berita-section" class="tf__event mt_95">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
                    <div class="tf__heading_area mb_40">
                        <h5>Berita</h5>
                    </div>
                </div>
            </div>
            <div class="row event_slider">
-               <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s" onclick="window.location.href='/informasiberita'">
+               <div class="col-xl-4 wow fadeInUp" onclick="window.location.href='/informasiberita'">
                    <div class="tf__single_event">
                        <div class="tf__single_event_img">
                            <img src="../../../public/bootstrap/images/event_img_1.jpg" alt="event" class="img-fluid w-100">
@@ -215,7 +203,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s" onclick="window.location.href='/informasiberita'">
+               <div class="col-xl-4 wow fadeInUp" onclick="window.location.href='/informasiberita'">
                    <div class="tf__single_event">
                        <div class="tf__single_event_img">
                            <img src="../../../public/bootstrap/images/liburan.jpg" alt="event" class="img-fluid w-100">
@@ -229,7 +217,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s" onclick="window.location.href='/informasiberita'">
+               <div class="col-xl-4 wow fadeInUp" onclick="window.location.href='/informasiberita'">
                    <div class="tf__single_event">
                        <div class="tf__single_event_img">
                            <img src="../../../public/bootstrap/images/farel.png" alt="event" class="img-fluid w-100">
@@ -243,7 +231,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 wow fadeInUp" data-wow-duration="1.5s" onclick="window.location.href='/informasiberita'">
+               <div class="col-xl-4 wow fadeInUp" onclick="window.location.href='/informasiberita'">
                    <div class="tf__single_event">
                        <div class="tf__single_event_img">
                            <img src="../../../public/bootstrap/images/game.png" alt="event" class="img-fluid w-100">
@@ -300,14 +288,5 @@
    <!--=================================
        FOOTER END
    ==================================-->
-
-
-   <!--=============================
-       SCROLL BUTTON START
-   ==============================-->
-   <div class="tf__scroll_btn" href="#"> go to top </div>
-   <!--=============================
-       SCROLL BUTTON END 
-   ==============================-->
 </template>
 

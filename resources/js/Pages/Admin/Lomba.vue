@@ -94,24 +94,25 @@
 					<div class="top-menu ms-auto">
 						<ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-							<p class="user-name mb-0">Habib</p>						
-						</div>
-                        <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
-                        </div>
-							<li class="nav-item dropdown dropdown-large">
-								<div class="dropdown-menu dropdown-menu-end">
-									<div class="header-notifications-list">
-									</div>
-								</div>
-							</li>
-							<li class="nav-item dropdown dropdown-large">	
-								<div class="dropdown-menu dropdown-menu-end">
-									<div class="header-message-list">
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>		
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>					
+						    </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
+                            <li class="nav-item dropdown dropdown-large">
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-notifications-list">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dropdown-large">	
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    <div class="header-message-list">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>		
 				</nav>
 			</div>
 		</header>
@@ -129,20 +130,20 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Lomba</h4>
-                        <hr class="jarak-hr"/>		
-                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahlomba'">Tambah Lomba</button>
-                        <hr class="jarak-hr" />
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Lomba</h4>
+                        <hr class="c-mt10"/>		
+                        <a class="btn btn-success jarak-top-kurang7" href="/tambahlomba">Tambah Lomba</a>
+                        <hr class="c-mt10" />
 						<div class="table-responsive">
 							<table id="example" class="table mt-3  table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 10px;">ID</th>
+                                        <th class="width-id">ID</th>
                                         <th>Nama Lomba</th>
                                         <th>Deskripsi</th>
                                         <th>Nama PJ</th>
                                         <th>Kontak PJ</th>  
-                                        <th style="width: 180px;">Aksi</th>
+                                        <th class="crud-width-180">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -152,7 +153,7 @@
                                         <td>Desain adalah</td>
                                         <td>Leocris</td>
                                         <td>29 Maret 2024</td>
-                                        <td style="text-align: center;">
+                                        <td class="btn-crud">
                                             <button class="btn btn-secondary" onclick="window.location.href='/detaillomba'"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-primary" onclick="window.location.href='/editlomba'"><i class="bi bi-pencil-square"></i></button>    
                                             <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
@@ -171,9 +172,6 @@
 		<!--end overlay-->
 		<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
 		<!--End Back To Top Button-->
-		<footer class="page-footer">
-			<p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-		</footer>
     </div>
     <!--end wrapper-->
     <!--start switcher-->

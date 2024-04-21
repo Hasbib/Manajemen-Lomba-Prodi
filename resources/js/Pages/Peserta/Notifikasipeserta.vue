@@ -61,13 +61,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -86,9 +86,10 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Lionel Andres</p>			
+                                <p class="user-role">leon</p>								
                             </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -111,10 +112,10 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content"> 
-                <div class="card-body" style="text-align: center;">
-                    <div class="d-grid notifikasi-peserta"> <a class="btn btn-danger radius-3 text-warna" style="color: black;">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</a>
+                <div class="card-body btn-crud">
+                    <div class="d-grid notifikasi-peserta"> <a class="btn btn-danger radius-3 text-warna warna-hitam">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</a>
 					</div>
-                    <div class="d-grid notifikasi-peserta-2"> <a class="btn btn-success radius-3 text-warna" style="color: black;">Selamat TIM anda telah terdaftar lomba UI/UX</a>
+                    <div class="d-grid notifikasi-peserta-2"> <a class="btn btn-success radius-3 text-warna warna-hitam">Selamat TIM anda telah terdaftar lomba UI/UX</a>
 				    </div>
                 </div>
             </div>

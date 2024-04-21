@@ -115,6 +115,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Setting');
     }
+    public function tambahsetting()
+    {
+        return Inertia::render('Admin/Setting/Tambahsetting');
+    }
     public function editsetting()
     {
         return Inertia::render('Admin/Setting/Editsetting');
@@ -135,6 +139,10 @@ class PagesController extends Controller
     public function overviewpeserta()
     {
         return Inertia::render('Peserta/Overviewpeserta');
+    }
+    public function detailpeserta()
+    {
+        return Inertia::render('Peserta/Detailpeserta');
     }
     public function profilpeserta()
     {

@@ -21,7 +21,7 @@
 											<div class="col-12">
 												<label for="password" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="password" value="12345678"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" id="password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>
 											<div class="col-md-6 jarak-top-lebih4 ">
@@ -30,7 +30,8 @@
 													<label class="form-check-label check-login" for="flexSwitchCheckChecked">Ingatkan saya</label>
 												</div> -->
 											</div>
-											<div class="col-md-6 text-end jarak-top-lebih7">	<a href="/lupapassword">Lupa Password ?</a>
+											<div class="col-md-6 text-end jarak-top-lebih7">	
+												<a href="/lupapassword">Lupa Password ?</a>
 											</div>
                                             <div class="d-grid jarak-top-lebih10">
                                                 <a class="btn shadow-sm btn-white" href="javascript:;">
