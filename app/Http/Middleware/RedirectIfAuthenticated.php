@@ -23,7 +23,7 @@ class RedirectIfAuthenticated
                 if ($guard === 'google') {
                     return redirect('/overviewpeserta'); // Ganti '/home' dengan rute yang sesuai untuk autentikasi dengan Google
                 }
-                return redirect('/login'); // Ganti '/dashboard' dengan rute yang sesuai untuk autentikasi biasa
+                return redirect('/'); // Ganti '/dashboard' dengan rute yang sesuai untuk autentikasi biasa
             }
         }
 

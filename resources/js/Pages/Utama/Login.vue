@@ -15,8 +15,8 @@
 									  <div class="form-body">
 										<form class="row g-3" @submit.prevent="loginUser">
 											  <div class="col-12">
-												  <label for="email" class="form-label">Email atau Username</label>
-												  <input v-model="email" type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukka Email atau Username">
+												  <label for="email" class="form-label">Username</label>
+												  <input v-model="username"   type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukkan Username">
 											  </div>
 											  <div class="col-12">
 												  <label for="password" class="form-label">Password</label>
@@ -83,7 +83,7 @@ import axios from 'axios';
 export default {
     data() {
         return {
-            email: '',
+            username: '',
             password: '',
             rememberMe: true,
             captcha: {},
@@ -101,7 +101,7 @@ export default {
 
                 // Assuming API call for login
                 const response = await axios.post('http://localhost:8000/api/login', {
-                    email: this.email,
+                    username: this.username,
                     password: this.password
                 });
 
@@ -147,21 +147,24 @@ export default {
                 console.error(error.response.data);
             }
         },
-        loginWithGoogle() {
-            // Redirect to Google OAuth URL
-            window.location.href ="auth.google"
+		loginWithGoogle() {
+    // Redirect to Google OAuth URL
+    window.location.href = "/authorized/google";
 
-            // Tangani respons autentikasi dari server
-            window.addEventListener('message', (event) => {
-                if (event.origin !== 'http://localhost:8000') return;
+    // Tangani respons autentikasi dari server
+    window.addEventListener('message', (event) => {
+        // Pastikan pesan berasal dari origin yang diizinkan
+        if (event.origin !== 'http://localhost:8000') return;
 
-                const message = event.data;
-                if (message.authenticated === true) {
-                    // Pengguna berhasil diautentikasi, arahkan ke halaman overviewpeserta
-                    window.location.href = '/overviewpeserta';
-                }
-            });
+        const message = event.data;
+        // Periksa pesan apakah pengguna berhasil diautentikasi
+        if (message.authenticated === true) {
+            // Pengguna berhasil diautentikasi, arahkan ke halaman overviewpeserta
+            window.location.href = '/overviewpeserta';
         }
+    });
+}
+
     },
     mounted() {
         this.fetchCaptcha();

@@ -175,5 +175,21 @@
 	</div>
 	<!--end switcher-->      
 </template>
+
+<script>
+import axios from 'axios';
+import { onMounted, ref, computed } from 'vue';
+
+export default {
+  computed: {
+    username() {
+      return this.$store.state.username;
+    },
+    isLoggedIn() {
+      return this.$store.state.isLoggedIn;
+    },
+  },
+};
+</script>
     
 

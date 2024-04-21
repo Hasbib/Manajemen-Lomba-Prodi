@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Users; 
+use App\Models\Users;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
@@ -13,7 +13,7 @@ class LoginController extends Controller
     {
         // Set validasi
         $validator = Validator::make($request->all(), [
-            'email' => 'required|email',
+            'username' => 'required',
             'password' => 'required',
         ]);
 
@@ -22,8 +22,8 @@ class LoginController extends Controller
             return response()->json($validator->errors(), 400);
         }
 
-        // Coba melakukan login
-        if (Auth::attempt($request->only('email', 'password'))) {
+        // Coba melakukan login dengan username dan password
+        if (Auth::attempt($request->only('username', 'password'))) {
             $user = Auth::user();
             $token = $user->createToken('authToken')->plainTextToken;
 
@@ -34,7 +34,7 @@ class LoginController extends Controller
                 'success' => true,
                 'message' => 'Login berhasil',
                 'data' => $user,
-                'role' => $role, // Menambahkan peran pengguna ke dalam respons
+                'role' => $role, 
                 'token' => $token,
             ], 200);
         }
@@ -42,7 +42,7 @@ class LoginController extends Controller
         // Jika login gagal
         return response()->json([
             'success' => false,
-            'message' => 'Email atau password salah',
+            'message' => 'Username atau password salah',
         ], 401);
     }
 

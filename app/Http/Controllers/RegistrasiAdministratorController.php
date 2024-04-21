@@ -6,7 +6,7 @@ use App\Models\Users; // Mengubah dari User menjadi Users
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
-class RegistrasiController extends Controller 
+class RegistrasiAdministratorController extends Controller 
 {
     // Index
     public function index()
@@ -43,8 +43,8 @@ class RegistrasiController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required', 
             'username' => 'required|unique:users', // Tambahkan aturan unik untuk username
-            'email' => 'required|email|unique:users', // Tambahkan aturan unik untuk email
             'password' => 'required|min:6',
+            'role' => 'required|in:admin,petugas,juri' // Hanya role admin, petugas, dan juri yang diperbolehkan
         ]);
 
         // Respons kesalahan validasi
@@ -56,8 +56,8 @@ class RegistrasiController extends Controller
         $registrasi = Users::create([
             'name' => $request->name,
             'username' => $request->username,
-            'email' => $request->email,
             'password' => bcrypt($request->password),
+            'role' => $request->role
         ]);
 
         // Sukses menyimpan ke database
@@ -83,8 +83,8 @@ class RegistrasiController extends Controller
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'username' => 'required|unique:users,username,' . $id, // Tambahkan aturan unik untuk username, kecuali untuk ID saat ini
-            'email' => 'required|email|unique:users,email,' . $id, // Tambahkan aturan unik untuk email, kecuali untuk ID saat ini
             'password' => 'required|min:6',
+            'role' => 'required|in:admin,petugas,juri' // Hanya role admin, petugas, dan juri yang diperbolehkan
         ]);
 
         // Respons kesalahan validasi
@@ -98,7 +98,12 @@ class RegistrasiController extends Controller
         // Jika registrasi ditemukan
         if ($registrasi) {
             // Update registrasi
-            $registrasi->update($request->all());
+            $registrasi->update([
+                'name' => $request->name,
+                'username' => $request->username,
+                'password' => bcrypt($request->password),
+                'role' => $request->role
+            ]);
 
             return response()->json([
                 'success' => true,

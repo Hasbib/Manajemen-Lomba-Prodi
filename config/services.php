@@ -22,7 +22,7 @@ return [
     'google' => [
         'client_id' => ('446426747430-o4ukvslhkf3g97v1rc9gp5steunqtqvh.apps.googleusercontent.com'),
         'client_secret' => ('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'),
-        'redirect' => ('https://v3422031.mhs.d3tiuns.com/authorized/google/callback'),
+        'redirect' => ('http://localhost:8000/authorized/google/callback'),
       
     ],
 
