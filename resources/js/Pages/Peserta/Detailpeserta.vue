@@ -7,7 +7,7 @@
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
                         <div class="navbar-left">
-                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            <img src="../../../../public/bootstrap/images/logo.png" alt="Logo">
                         </div>
                     </div>
                     <!-- Mobile toggle menu -->
@@ -30,35 +30,25 @@
         </header>
         <!--end header -->
         <!--start page wrapper -->
-        <div class="page-wrapper-new">
+        <div class="page-wrapper-peserta">
             <div class="page-content">
-                <div class="card">
+                <div class="card container-hg180">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Berita</h4>
-                        <hr/>
-                        <div>
-                            <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Nama Sponsor</b></label>
-                                <div class="c-mb20">D3TI UNS</div>
+                        <div class="row">
+                            <div class="col-md-7 label-left">
+                                <h5 class="judul-detail c-ml-80 c-mt10"><b>Tema Lomba</b></h5>
+                                <div class="judul-lomba-index c-ml-80 warna-hitam"><b>Desain Website</b></div>
                             </div>
-                            <div>
-                                <label class="col-md-6 c-mb10 warna-hitam"><b>Link</b></label>
-                                <div class="c-mb20"><a href="#">Link</a></div>
-                            </div>
-                            <div class="c-mb10">
-                                <label class="c-mb5-black"><b>Gambar</b></label><br>
-                                <img src="../../../../../public/bootstrap/images/about_2_img_3.jpg" alt="Product Image" class="img-fluid" style="display:flex; margin: auto;" >
+                            <div class="col-md-5 d-flex justify-content-end align-items-center">
+                                <a class="btn btn-primary crud-width-180  isi-data" href="/daftarlomba">Daftar Lomba</a>
                             </div>
                         </div>
-                        <div class="btn-posisi">
-                            <button class="btn btn-danger btn-kembali" onclick="window.location.href='/sponsor'">Kembali</button>
-                        </div>
-                    </div>
+                    </div>      
                 </div>
             </div>
         </div>
         <!--end page wrapper -->
     </div>
+
 </template>
     
-   

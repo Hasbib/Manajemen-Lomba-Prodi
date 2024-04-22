@@ -1,9 +1,9 @@
 <template>
     <!--=================================
-           MAIN MENU START
-       ==================================-->
+        MAIN MENU START
+    ==================================-->
     <nav class="navbar navbar-expand-lg main_menu">
-       <div class="container">
+        <div class="container">
             <a class="navbar-brand" href="/">
                <img src="../../../../public/bootstrap/images/logo.png" alt="Eduor" class="img-fluid w-100">
            </a>
@@ -55,11 +55,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="tf__breadcrumb_text">
-                        <h2>Kontak</h2>
-                        <ul>
-                           <li><a></a></li>
-                           <li><a></a></li>
-                        </ul>
+                        <h2 style="color: #000000;">Kontak</h2>
                     </div>
                 </div>
             </div>
@@ -76,65 +72,22 @@
     <section class="tf__contact_page mt_190 xs_mt_95">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-8 col-xl-7  wow fadeInLeft" data-wow-duration="1.5s">
+                <div class="col-xxl-8 col-xl-7  wow fadeInLeft">
                     <div class="tf__contact_form">
                         <div class="tf__heading_area tf__heading_area_left mb_25">
-                           <h5 style="margin-bottom: 13px;">HUBUNGI KAMI</h5>
+                           <h5 class="c-mb-13">HUBUNGI KAMI</h5>
                         </div>
-                        <form>
-                            <div>
-                                <div>
-                                   <input style="margin-bottom: 15px;" type="text" placeholder="Nama">
-                                </div>
-                                <div>
-                                    <input style="margin-bottom: 15px;"  type="email" placeholder="Email">
-                                </div>
-                                <div>
-                                    <input style="margin-bottom: 15px;"  type="email" placeholder="No. WhatsApp">
-                                </div>
-                                <div class="col-xl-12">
-                                    <textarea rows="8" placeholder="Pesan"></textarea>
-                                    <button type="submit" class="common_btn_2">Kirim</button>
-                                </div>
-                            </div>
+                        <form @submit.prevent="submit">
+                            <input id="nama" v-model="form.nama" placeholder="Nama"/>
+                            <input id="email" v-model="form.email" placeholder="Email" />
+                            <input id="nomor" v-model="form.nomor" placeholder="No. WhatsApp"/>
+                            <input id="pesan" v-model="form.pesan" placeholder="Pesan"/>
+                            <button type="submit" class="common_btn_2">Kirim</button>
                         </form>
                     </div>
                 </div>
-                <div class="col-xxl-4 col-xl-5  ">
-                    <!-- <div class="tf__contact_text"> -->
-                    <div>
-                        <div class="tf__contact_single">
-                            <div class="icon blue">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="text">
-                                <h3 class="akun">Whatsapp</h3>
-                                <a href="callto:+6285800086454">6285800086454 (Habib)</a>
-                                <a href="callto:+6285800086454">6285800086454 (Habib)</a>
-                            </div>
-                        </div>
-                        <div class="tf__contact_single">
-                            <div class="icon orange">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div class="text">
-                                <h3 class="akun">Email</h3>
-                                <a href="habibshohiburrotib@gmail.com">habibshohiburrotib@gmail.com</a>
-                            </div>
-                            </div>
-                            <div class="tf__contact_single">
-                                <div class="icon green">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <div class="text">
-                                    <h3 class="akun">Alamat</h3>
-                                    <p>Karanganyar</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 wow fadeInUp" data-wow-duration="1.5s">
-                    <div class="tf__contact_map mt_100">
+                <div class="col-xl-12 wow fadeInUp">
+                    <div class="tf__contact_map mt_30">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.4794374146772!2d110.98160354801688!3d-7.591865364294748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a19d07a714fd3%3A0xaea18d5d16dea09d!2sWaduk%20Delingan!5e1!3m2!1sen!2sid!4v1711694566155!5m2!1sen!2sid" width="600" height="450" style="border:0;" 
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -145,27 +98,22 @@
     </section>
    <!--=================================
            CONTACT PAGE END
-       ==================================-->
-   
-   
-    <!--=================================
-    FOOTER START
     ==================================-->
-    <footer class="tf__footer mt_100">
-        <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
-            Copyright ©2024 Tim Website OLINAS
-        </div>
-    </footer>
-    <!--=================================
-       FOOTER END
-    ==================================-->
-   
-   
-    <!--=============================
-       SCROLL BUTTON START
-    ==============================-->
-    <div class="tf__scroll_btn"> go to top </div>
-    <!--=============================
-       SCROLL BUTTON END 
-    ==============================-->
 </template>
+
+
+<script setup>
+import { reactive } from 'vue'
+import { router } from '@inertiajs/vue3'
+
+const form = reactive({
+  nama: null,
+  email: null,
+  nomor: null,
+  pesan: null,
+})
+
+function submit() {
+  router.post('/kontak', form)
+}
+</script>

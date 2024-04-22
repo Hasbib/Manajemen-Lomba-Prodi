@@ -1,13 +1,9 @@
 <?php
 
 use App\Http\Controllers\PagesController;
-use Illuminate\Foundation\Application;
+use App\Http\Controllers\UsersController;
+use App\Http\Controllers\PesanController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LoginWithGoogleController;
-use Illuminate\Support\Facades\Auth;
-use Laravel\Socialite\Facades\Socialite;
-use App\Models\Users;
-use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,21 +20,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [PagesController::class, 'index'])->name('index');
-Route::get('/kontak', [PagesController::class, 'kontak']);
+Route::get('/', [PagesController::class, 'index']);
+Route::get('/kontak', [PagesController::class, 'kontak'])->name('pesan.index');
+Route::post('/kontak', [PesanController::class, 'store']);
+
 Route::get('/informasiberita', [PagesController::class, 'informasiberita']);
-Route::get('/login', [PagesController::class, 'login']);
+
+
+Route::get('/login', [PagesController::class, 'login'])->name('login');
+Route::post('/login', [UsersController::class, 'show']);
 Route::get('/daftar', [PagesController::class, 'daftar']);
+Route::post('/daftar', [UsersController::class, 'store'])->name('daftar.store');
+
+
 Route::get('/lupapassword', [PagesController::class, 'lupapassword']);
-Route::get('/index2', [PagesController::class, 'index2']);
+Route::get('/index2', [PagesController::class, 'index2'])->name('index2');
 Route::get('/partisipan', [PagesController::class, 'partisipan']);
 Route::get('/pesan', [PagesController::class, 'pesan']);
 Route::get('/lomba', [PagesController::class, 'lomba']);
-Route::get('/tambahlomba', [PagesController::class, 'tambahlomba']);
+Route::get('tambahlomba', [PagesController::class, 'tambahlomba']);
 Route::get('/editlomba', [PagesController::class, 'editlomba']);
 Route::get('/detaillomba', [PagesController::class, 'detaillomba']);
-Route::get('/administrator', [PagesController::class, 'administrator']);
+Route::get('/administrator', [PagesController::class, 'administrator'])->name('administrator');
+
+
 Route::get('/tambahadministrator', [PagesController::class, 'tambahadministrator']);
+Route::post('/tambahadministrator', [UsersController::class, 'store'])->name('daftar.store');
+
+
 Route::get('/editadministrator', [PagesController::class, 'editadministrator']);
 Route::get('/detailadministrator', [PagesController::class, 'detailadministrator']);
 Route::get('/tim', [PagesController::class, 'tim']);
@@ -53,30 +62,26 @@ Route::get('/editberita', [PagesController::class, 'editberita']);
 Route::get('/detailberita', [PagesController::class, 'detailberita']);
 Route::get('/setting', [PagesController::class, 'setting']);
 Route::get('/editsetting', [PagesController::class, 'editsetting']);
-Route::get('/dashboardjuri', [PagesController::class, 'dashboardjuri']);
-Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas']);
+Route::get('/tambahsetting', [PagesController::class, 'tambahsetting']);
+Route::get('/rangking', [PagesController::class, 'rangking']);
+Route::get('/tabelrangking', [PagesController::class, 'tabelrangking']);
+
+Route::get('/dashboardjuri', [PagesController::class, 'dashboardjuri'])->name('dashboardjuri');
+
+
+Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas'])->name('dashboardpetugas');
+
+
 Route::get('/overviewpeserta', [PagesController::class, 'overviewpeserta'])->name('overviewpeserta');
+Route::get('/detailpeserta', [PagesController::class, 'detailpeserta']);
 Route::get('/profilpeserta', [PagesController::class, 'profilpeserta']);
 Route::get('/notifikasipeserta', [PagesController::class, 'notifikasipeserta']);
 Route::get('/reportpeserta', [PagesController::class, 'reportpeserta']);
+Route::get('/detailtimreport', [PagesController::class, 'detailtimreport']);
 Route::get('/daftarlomba', [PagesController::class, 'daftarlomba']);
 Route::get('/datatim', [PagesController::class, 'datatim']);
 Route::get('/anggotatim', [PagesController::class, 'anggotatim']);
 Route::get('/pengumpulankarya', [PagesController::class, 'pengumpulankarya']);
+
+
 Route::get('/proses', [PagesController::class, 'proses']);
-
-
-//Login Auth Google
-Route::controller(LoginWithGoogleController::class)->group(function(){
-    Route::get('authorized/google', 'googlepage')->name('auth.google');
-    Route::get('authorized/google/callback', 'googlecallback');
-});
-
-
-//Client Auth Controller
-Route::POST('/admin/login-process', [ClientAuthController::class, 'processLoginAdmin']);
-Route::POST('/login-process', [ClientAuthController::class, 'processLoginParticipant']);
-Route::GET('/index2/logout', [ClientAuthController::class, 'processLogoutAdmin']);
-Route::GET('/logout', [ClientAuthController::class, 'processLogoutUser']);
-
-

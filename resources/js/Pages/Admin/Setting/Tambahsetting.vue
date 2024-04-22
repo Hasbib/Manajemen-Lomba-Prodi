@@ -34,48 +34,60 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Tambah Berita</h4>
+                        <h4 class="mb-0">Tambah Event</h4>
                         <hr/>
                         <div>
                             <div class="c-mb10">
-                                <label class="c-mb5-black"><b>Judul</b></label>
-                                <input type="email" class="form-control" value="Monitoring Perkembangan Projek Manajemen Lomba Prodi ">
-                            </div>
-                            <div>
-                                <label class="c-mb5-black"><b>Deskripsi Awal</b></label>
-                                <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="2" value="Platform yang sering kami gunakan untuk melakukan diskusi online selai..."></textarea>
-                                </div>
-                            </div>
+                                <label class="c-mb5-black"><b>Nama Event</b></label>
+                                <input type="email" class="form-control" value="Olinas">
+                            </div>  
                             <div>
                                 <label class="c-mb5-black"><b>Deskripsi</b></label>
                                 <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="5" value="Dalam rangka memperkuat semangat kompetisi yang sehat dan mendorong pencapaian akademik yang gemilang, Universitas [Nama Universitas] dengan bangga mempersembahkan Proyek Manajemen Lomba Prodi."></textarea>
+                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="4" value="Olinas adalah"></textarea>
                                 </div>
                             </div>
                             <div class="c-mb10">
-                                <label class="c-mb5-black"><b>Penerbit</b></label>
-                                <input type="email" class="form-control" value="Admin">
+                                <label class="c-mb5-black"><b>Judul</b></label>
+                                <input type="email" class="form-control" value="OLINAS 2024">
+                            </div>
+                            <div class="c-mb10">
+                                <label class="c-mb5-black"><b>Sub Judul</b></label>
+                                <input type="email" class="form-control">
                             </div>
                             <div>
-                                <label class="form-label warna-hitam"><b>Tanggal Upload</b></label>
-								<input type="date" class="form-control jarak-btn8">
+                                <label class="form-label warna-hitam"><b>Tanggal Mulai</b></label>
+								<input type="date" class="form-control label-8">
                             </div>
-
                             <div>
-                                <label for="formFile" class="form-label warna-hitam"><b>Upload Gambar</b></label>
+                                <label class="form-label warna-hitam"><b>Tanggal Berakhir</b></label>
+								<input type="date" class="form-control label-8">
+                            </div>
+                            <div>
+                                <label for="formFile" class="form-label warna-hitam"><b>Logo 1</b></label>
 								<input class="form-control" type="file" id="formFile">
-                                <p class="keterangan-foto">Max 2 MB (500 x 500 px)</p>
+                                <p class="keterangan-foto">Max 2 MB ( 180 x 55 px )</p>
+                            </div>
+                            <div>
+                                <label for="formFile" class="form-label warna-hitam jarak-top-lebih6"><b>Logo 2 (background)</b></label>
+								<input class="form-control" type="file" id="formFile">
+                                <p class="keterangan-foto">Max 2 MB ( 1200 x 800 px )</p>
+                            </div>
+                            <div>
+                                <label for="formFile" class="form-label warna-hitam jarak-top-lebih6"><b>Logo 3</b></label>
+								<input class="form-control" type="file" id="formFile">
+                                <p class="keterangan-foto">Max 2 MB ( 450 x 450 px )</p>
                             </div>
                         </div>
                         <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/berita'">Tambah</button>
-                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/berita'">Batal</button>
+                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/setting'">Tambah</button>
+                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/setting'">Batal</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!--end page wrapper -->
     </div>
 </template>

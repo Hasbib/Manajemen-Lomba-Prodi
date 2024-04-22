@@ -55,6 +55,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -93,10 +100,11 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib</p>						
-                        </div>
-                        <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
-                        </div>
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -128,9 +136,9 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Partisipan</h4>
-                        <hr class="jarak-hr"/>
-                        <button class="btn btn-primary" style="float: right;">Export Excel</button>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Partisipan</h4>
+                        <hr class="c-mt10"/>
+                        <button class="btn btn-primary btn-float-right">Export Excel</button>
                             <label class="jarak-filterstatus">Filter by Status</label> 
                             <select class="form-select2">
                                 <option selected>Semua</option>
@@ -139,7 +147,7 @@
                             </select>   
                             <br><br>
                             <div class="table-responsive">	
-                                <table id="example" class="table table-bordered" style="width:100%">
+                                <table id="example" class="table table-bordered">
                                     <thead class="table-dark">
                                         <tr>
                                             <th>ID</th>
@@ -148,7 +156,7 @@
                                             <th>Instansi</th>
                                             <th>Email</th>
                                             <th>Status</th>
-                                            <th style="width: 100px;">Tanggal</th>
+                                            <th class="crud-width100">Tanggal</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -262,9 +270,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
-						</div>
-					</div>
-				</div>      
+						    </div>
+					    </div>
+				    </div>      
                 <!--end row-->
             </div>
         </div>
@@ -275,9 +283,6 @@
         <!--Start Back To Top Button-->
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
     </div>
     <!--end wrapper-->
     <!--start switcher-->  

@@ -55,6 +55,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -93,7 +100,8 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>
@@ -150,9 +158,9 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
+                                        <h5 class="mb-0"><b>50 Pesan</b></h5>
                                         <br>
-                                        <p class="mb-0 font-13">-</p>
+                                        <p class="mb-0 font-13">5 Pesan Belum di Buka</p>
                                     </div>
                                 </div>
                             </div>
@@ -163,9 +171,9 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
+                                        <h5 class="mb-0"><b>30 Akun Adminis</b></h5>
                                         <br>
-                                        <p class="mb-0 font-13">-</p>
+                                        <p class="mb-0 font-13">1 Akun Admin</p>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +182,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title" style="text-align: center;"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
+                        <h3 class="card-title btn-crud"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
                         <br><br>
                         <div id="bi-weekly-visit" class="chart-lg"></div>
                     </div>
@@ -189,9 +197,6 @@
         <!--Start Back To Top Button-->
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
     </div>
     <!--end wrapper-->
     <!--start switcher--> 

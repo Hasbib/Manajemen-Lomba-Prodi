@@ -26,17 +26,17 @@
                         <div class="menu-title">Event</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
+                        <li class="jarak-dropdown"> <a href="/lomba">Lomba</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
+                        <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
+                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
+                        <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
+                        <li class="jarak-dropdown"> <a href="/berita">Berita</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
+                        <li class="jarak-dropdown"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
                   </li>
@@ -55,6 +55,13 @@
                     </a>
                 </li>         
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -68,13 +75,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -93,10 +100,11 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib</p>						
-                        </div>
-                        <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
-                        </div>
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -120,19 +128,21 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Setting Event</h4>
-                        <hr style="margin-top: 10px;" />	
+                        <h4 class="mb-0 jarak-top-kurang5">Setting Event</h4>
+                        <hr class="c-mt10" />		
+                        <button class="btn btn-success jarak-top-kurang7" onclick="window.location.href='/tambahsetting'">Tambah Event</button>
+                        <hr class="c-mt10" /> 	
                         <div class="table-responsive">	     
-                            <table id="example" class="table table-bordered" style="width:100%">
+                            <table id="example" class="table table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 0px;">ID</th>
-                                        <th style="width: 80px;">Logo</th>
-                                        <th style="width: 80px;">Judul</th>
-                                        <th style="width: 30px;">Tahun</th>
-                                        <th style="width: 80px;">Tanggal Mulai</th>
-                                        <th style="width: 80px;">Tanggal Berakhir</th>
-                                        <th style="width: 50px;">Aksi</th>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-180">Nama Event</th>
+                                        <th class="crud-width-180">Judul</th>
+                                        <th class="crud-width-180">Sub Judul</th>
+                                        <th class="crud-width-180">Tanggal Mulai</th>
+                                        <th class="crud-width-180">Tanggal Berakhir</th>
+                                        <th class="crud-width-50">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -141,9 +151,9 @@
                                         <td>images1.jpg</td>
                                         <td>Olinas</td>
                                         <td>2024</td>
-                                        <td>10/04/2024</td>
-                                        <td>29/04/2024</td>
-                                        <td style="text-align: center;">
+                                        <td>April 1, 2024</td>
+                                        <td>April 20, 2024</td>
+                                        <td class="btn-crud">
                                             <button class="btn btn-primary" onclick="window.location.href='/editsetting'"><i class="bi bi-pencil-square"></i></button>
                                         </td>
                                     </tr>
@@ -155,9 +165,6 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
     </div>
 </template>
 

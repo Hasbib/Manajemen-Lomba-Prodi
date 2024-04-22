@@ -61,13 +61,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -86,9 +86,10 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Lionel Andres</p>			
+                                <p class="user-role">leon</p>									
                             </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -111,17 +112,17 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content">
-                <div class="card" style="height: 300px;">
+                <div class="card card-height200">
                     <div class="card-body">
-                        <button class="btn btn-danger" style="width: 300px;">TIDAK LOLOS</button>
+                        <button class="btn btn-danger btn-report">TIDAK LOLOS</button>
                         <br><br>
                         <div class="row">
-                            <div class="col-md-7" style="text-align: left;">
-                                <h5 style="color: black; margin-bottom: 20px;"><b>Poster Keamanan Data</b></h5>
-                                <div style="margin-bottom: 20px;">Olinas Periode 2024</div>
+                            <div class="col-md-7 label-left">
+                                <h5 class="judul-report"><b>Poster Keamanan Data</b></h5>
+                                <div class="judul-lomba-index">Olinas Periode 2024</div>
                             </div>
                             <div class="col-md-5 d-flex justify-content-end align-items-center">
-                                <button class="btn btn-primary" style="width: 150px;">Detail</button>
+                                <a class="btn btn-primary crud-width-150" href="/detailtimreport">Detail</a>
                             </div>
                         </div>
                     </div>      

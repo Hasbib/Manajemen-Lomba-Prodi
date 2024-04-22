@@ -115,6 +115,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Setting');
     }
+    public function tambahsetting()
+    {
+        return Inertia::render('Admin/Setting/Tambahsetting');
+    }
     public function editsetting()
     {
         return Inertia::render('Admin/Setting/Editsetting');
@@ -124,6 +128,15 @@ class PagesController extends Controller
     {
         return Inertia::render('Juri/Dashboardjuri');
     }
+    public function rangking()
+    {
+        return Inertia::render('Admin/Adminrangking');
+    }
+    public function tabelrangking()
+    {
+        return Inertia::render('Admin/Rangking/Tabelrangking');
+    }
+
 
 
     public function dashboardpetugas()
@@ -136,6 +149,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Peserta/Overviewpeserta');
     }
+    public function detailpeserta()
+    {
+        return Inertia::render('Peserta/Detailpeserta');
+    }
     public function profilpeserta()
     {
         return Inertia::render('Peserta/Profilpeserta');
@@ -147,6 +164,10 @@ class PagesController extends Controller
     public function reportpeserta()
     {
         return Inertia::render('Peserta/Reportpeserta');
+    }
+    public function detailtimreport()
+    {
+        return Inertia::render('Peserta/Report/Detailtimreport');
     }
     public function daftarlomba()
     {

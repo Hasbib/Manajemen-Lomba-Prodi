@@ -26,17 +26,17 @@
                         <div class="menu-title">Event</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/lomba">Lomba</a>
+                        <li class="jarak-dropdown"> <a href="/lomba">Lomba</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/administrator">Administrator</a>
+                        <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/tim">Tim</a>
+                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/sponsor">Sponsor</a>
+                        <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/berita">Berita</a>
+                        <li class="jarak-dropdown"> <a href="/berita">Berita</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/setting">Setting</a>
+                        <li class="jarak-dropdown"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
                 </li>
@@ -55,6 +55,13 @@
                     </a>
                 </li> 
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -68,13 +75,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -93,10 +100,11 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib</p>						
-                        </div>
-                        <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
-                        </div>
+                            <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                            <p class="user-role">habib</p>							
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -120,10 +128,10 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Tim</h4>
-                        <hr style="margin-top: 10px;" />		
-                        <button class="btn btn-primary" style="margin-top: -7px; float: right;">Export Excel</button>
-                        <label style="margin-right: 10px;">Filter by Status</label> 
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Tim</h4>
+                        <hr class="c-mt10"/>		
+                        <button class="btn btn-primary btn-export">Export Excel</button>
+                        <label class="dropdown-crud">Filter by Status</label> 
 						<select class="form-select2">
 							<option selected>Semua</option>
 							<option>Verified</option>
@@ -131,17 +139,17 @@
 						</select>
                         <br><br>
                         <div class="table-responsive">	
-                            <table id="example" class="table table-bordered" style="width:100%">
+                            <table id="example" class="table table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 2px;">ID</th>
-                                        <th style="width: 90px;">Nama Tim</th>
-                                        <th style="width: 90px;">Lomba</th>
-                                        <th style="width: 100px;">No WhatsApp</th>
-                                        <th style="width: 120px;">Email</th>
-                                        <th style="width: 90px;">Instansi</th>
-                                        <th style="width: 60px;">Status</th>
-                                        <th style="width: 60px;">Aksi</th>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-90">Nama Tim</th>
+                                        <th class="crud-width-90">Lomba</th>
+                                        <th class="crud-width-100">No WhatsApp</th>
+                                        <th class="crud-width-120">Email</th>
+                                        <th class="crud-width-90">Instansi</th>
+                                        <th class="crud-width-60">Status</th>
+                                        <th class="crud-width-60">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -153,7 +161,7 @@
                                         <td>goat@gmail.com</td>
                                         <td>Universitas</td>
                                         <td>Verified</td>
-                                        <td style="text-align: center;">
+                                        <td class="btn-crud">
                                             <button class="btn btn-secondary" onclick="window.location.href='/detailtim'"><i class="bi bi-eye"></i></button>
                                         </td>
                                     </tr>
@@ -164,10 +172,7 @@
                 </div>
             </div>
         </div>
-        <!--end page wrapper -->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
+        <!--end page wrapper --> 
     </div>
 </template>
 

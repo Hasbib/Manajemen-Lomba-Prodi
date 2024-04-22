@@ -55,6 +55,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -93,8 +100,9 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib</p>						
-                        </div>
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>						
+                            </div>
                         <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                         </div>
                             <li class="nav-item dropdown dropdown-large">
@@ -128,8 +136,8 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0" style="margin-top: -5px;">Tabel Partisipan</h4>
-                        <hr class="jarak-hr"/>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Partisipan</h4>
+                        <hr class="c-mt10"/>
                             <label class="jarak-filterstatus">Filter by Status</label> 
                             <select class="form-select2">
                                 <option selected>Semua</option>
@@ -138,16 +146,16 @@
                             </select>                           
                             <br><br>
                             <div class="table-responsive">	
-                                <table id="example" class="table table-bordered" style="width:100%">
+                                <table id="example" class="table table-bordered">
                                     <thead class="table-dark">
                                         <tr>
                                             <th>ID</th>
                                             <th>Nama</th>  
                                             <th>Email</th>
-                                            <th style="width: 100px;" >No WhatsApp</th>
-                                            <th style="width: 290px;">Pesan</th>
-                                            <th style="border: none;">Status</th>
-                                            <th style="border: none;"></th> 
+                                            <th class="crud-width100" >No WhatsApp</th>
+                                            <th class="crud-width-290">Pesan</th>
+                                            <th class="border-none">Status</th>
+                                            <th class="border-none"></th> 
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -157,8 +165,8 @@
                                             <td>goat@gmail.com</td>
                                             <td>08123456789</td>
                                             <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                            <td style="border: none;"><label>Belum Baca</label></td>
-                                            <td style="border: none;">
+                                            <td class="border-none"><label>Belum Baca</label></td>
+                                            <td class="border-none">
                                                 <input type="checkbox">
                                             </td>
                                         </tr>
@@ -168,8 +176,8 @@
                                             <td>goat@gmail.com</td>
                                             <td>08123456789</td>
                                             <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                            <td style="border: none;"><label>Sudah Baca</label></td>
-                                            <td style="border: none;">
+                                            <td class="border-none"><label>Sudah Baca</label></td>
+                                            <td class="border-none">
                                                 <input type="checkbox" checked>
                                             </td>
                                         </tr>
@@ -188,9 +196,6 @@
         <!--Start Back To Top Button-->
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright ©2024 Tim Website OLINAS.</p>
-        </footer>
     </div>
     <!--end wrapper-->
     <!--start switcher-->  

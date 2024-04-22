@@ -18,8 +18,8 @@
                         </div>
                         <div class="menu-title">Dashboard</div>
                     </a>
-                </li>
-                <li>
+                    </li>
+                    <li>
                     <a href="javascript:;" class="has-arrow">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
                         </div>
@@ -39,13 +39,13 @@
                         <li class="jarak-dropdown"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
-                  </li>
-                  <li>
-                      <a href="/partisipan">
-                          <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
-                          </div>
-                          <div class="menu-title">Partisipan</div>
-                      </a>
+                </li>
+                <li>
+                <a href="/partisipan">
+                    <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                    </div>
+                    <div class="menu-title">Partisipan</div>
+                </a>
                 </li>
                 <li>
                     <a href="/pesan">
@@ -53,7 +53,7 @@
                         </div>
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
-                </li>         
+                </li>
                 <li>
                     <a href="/rangking">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
@@ -100,11 +100,11 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                            <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                            <p class="user-role">habib</p>							
-                        </div>
-                        <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
-                        </div>
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -123,53 +123,64 @@
             </div>
         </header>
         <!--end header -->
-        <!--start page wrapper -->
-        <div class="page-wrapper">
-            <div class="page-content">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Berita</h4>
-                        <hr class="c-mt10" />		
-                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahberita'">Tambah Berita</button>
-                        <hr class="c-mt10" />
-                        <div class="table-responsive">
-                            <table id="example" class="table mt-3  table-bordered">
-                                <thead class="table-dark">
-                                <tr>
-                                    <th class="width-id">ID</th>
-                                    <th class="crud-width100">Judul</th>
-                                    <th class="crud-width130">Deskripsi Awal</th>
-                                    <th class="crud-width-40">Penerbit</th>
-                                    <th class="crud-custom">Tanggal Upload</th>  
-                                    <th class="crud-width-150">Aksi</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Profil Ketua Emailkomp Periode 2024</td>
-                                        <td>Emailkomp adalah sebuah organisasi dibawah pengawasan langsung oleh Prodi Teknik Informatika</td>
-                                        <td>Admin</td>   
-                                        <td>February 27, 2024</td>
-                                        <td class="btn-crud">
-                                            <button class="btn btn-secondary" onclick="window.location.href='/detailberita'"><i class="bi bi-eye"></i></button>
-                                            <button class="btn btn-primary" onclick="window.location.href='/editberita'"><i class="bi bi-pencil-square"></i></button>    
-                                            <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+		<!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content">
+				<!--breadcrumb-->
+				<div class="tf__activities_slider_area">
+                    <div class="container">
+                        <!--breadcrumb-->
+                        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                                    <label class="judul-overview">UI / UX</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Lihat Peserta</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">AR / VR</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">APLIKASI MOBILE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">DESAIN WEBSITE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">SISTEM KEAMANAN DATA</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Detail</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">UI / UX</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabelrangking">Detail</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        <!--end row-->
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--end page wrapper -->
-    </div>
+                </div>				
+                <!--end row-->
+			</div>
+		</div>
+	
+	</div>
+	<!--end switcher-->      
 </template>
-    
-<script>
-$(document).ready(function() {
-    $('#example').DataTable();
-  } );
-</script>

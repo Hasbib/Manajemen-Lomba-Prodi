@@ -61,13 +61,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -86,9 +86,10 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Lionel Andres</p>			
+                                <p class="user-role">leon</p>						
                             </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -114,48 +115,47 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0 jarak-teks1">Daftar lomba</h4>
-                        <div class="row">
-                        </div>
-                        <div class="card card-panjang">
+                        <div class="card">
                             <h5 class="p-3">Info Tim Lomba</h5>
                             <hr class="garis">
                             <div class="row">
-                                <div class="col-md-3 jarak-daftar-lomba">
-                                    <label class="judul-daftar-lomba"><b>PARTISIPAN</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>NAMA TIM</b></label>
                                     <div class="data-tim">Lomba Desain</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>NAMA TIM</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>INSTANSI</b></label>
                                     <div class="data-tim">Start Green</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>LOMBA</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>LOMBA</b></label>
                                     <div class="data-tim">Lomba Desain</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>EMAIL</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>EMAIL</b></label>
                                     <div class="data-tim">goat@gmail.com</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba "><b>NO WHATSAPP</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black "><b>NO WHATSAPP</b></label>
                                     <div class="data-tim">0850000000s</div>
                                 </div>
-                                <div class="col-md-3 jarak-daftar-lomba">
-                                    <label class="judul-daftar-lomba"><b>INSTASNSI</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>SERTIFIKAT</b></label>
                                     <div class="data-tim">Universitas</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>STATUS</b></label>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>STATUS</b></label>
                                     <div class="data-tim">Verified</div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>Surat</b></label>
-                                    <div class="data-tim">-----</div>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>Surat</b></label>
+                                    <div class="data-tim"><a href="#">Lihat Surat</a></div>
                                 </div>
-                                <div class="col-md-2">
-                                    <label class="judul-daftar-lomba"><b>PEMBAYARAN</b></label>
-                                    <div class="data-tim">images.jpg</div>
+                                <div class="col-md-2 jarak-daftar-lomba">
+                                    <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
+                                    <div class="data-tim c-mb-70"><a href="#">Lihat Bukti</a></div>
                                 </div>
+                               
                                 <div>
                                     <button onclick="window.location.href='/datatim'" class="btn btn-primary radius-5 isi-data">Isi Data</button>
                                 </div>
@@ -164,31 +164,31 @@
                         <div class="card">
                             <h5 class="p-3">Input Anggota Tim</h5>
                             <div class="row row-cards jarak-data-peserta">
-                            <div class="col-md-6 col-lg-3" style="max-width: 260px;">
+                            <div class="col-md-6 col-lg-3 crud-max-width260">
                                 <div class="card">
-                                    <div class="card-header" style="text-align: center;">
+                                    <div class="card-header btn-crud ">
                                         <h6><b>Ketua</b></h6>
                                     </div>
-                                    <div class="card-body p-4 text-center" style="margin-bottom: 23px;">
-                                        <div style="text-align: center;">
+                                    <div class="card-body p-4 text-center posisi-mb23">
+                                        <div class="btn-crud ">
 							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
 			                            </div>
                                         <br>
                                             <h6><b>Muhammaad Afkar Triwardana</b></h6>
                                         <br>
-                                        <div style="margin-bottom: 7px;">1234567890</div>
+                                        <div class="posisi-mb7">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-3" style="max-width: 260px;">
+                            <div class="col-md-6 col-lg-3 crud-max-width260">
                                 <div class="card">
-                                    <div class="card-header" style="text-align: center;">
+                                    <div class="card-header btn-crud" >
                                         <h6><b>Anggota 1</b></h6>
                                     </div>
-                                    <div class="card-body p-4 text-center" style="margin-bottom: 23px;">
-                                        <div style="text-align: center;">
-                                            <button class="btn btn-white btn-putih" onclick="window.location.href='/anggotatim'"> + </button>
+                                    <div class="card-body p-4 text-center posisi-mb23">
+                                        <div class="btn-crud ">
+                                            <button class="btn btn-white btn-putih" @click="showPopup"> + </button>
 						                </div>
                                         <br>
                                     </div>                        
@@ -196,13 +196,24 @@
                             </div>
                             </div>
                         </div>  
-                        <div class="card" style="height: 220px;">
+                        <div v-if="isPopupVisible" class="popup">
+                            <div class="popup-content">
+                                <span class="close" @click="hidePopup">&times;</span>
+                                <h5>Input Anggota Tim</h5>
+                                <hr />
+                                <div class="position-relative">
+                                    <input type="text" class="form-control ps-5" placeholder="Search by email">
+                                    <span class="position-absolute top-50 product-show-edit translate-middle-y"><i class="bx bx-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
                             <h5 class="p-3">PENGUMPULAN KARYA</h5>
                             <div class="card-body p-4 text-center">
                                <div class="row">
                                     <div class="col-md-3 text-left">
                                         <label class="jarak-teks05" ><b>JUDUL</b></label>                                                
-                                        <div class="data-tim">Lo,ba Desain</div>
+                                        <div class="data-tim">Lomba Desain</div>
                                     </div>
                                     <div class="col-md-3 text-left">
                                         <label class="jarak-teks05"><b>DESKRIPSI</b></label>
@@ -214,7 +225,7 @@
                                     </div>
                                     <div class="col-md-3 text-left">
                                         <label class="jarak-teks05"><b>LINK VIDEO</b></label>
-                                        <div class="data-tim" >s4-eight.vercel.app/</div>
+                                        <div class="data-tim c-mb-70"><a href="#">Link Video</a></div>
                                     </div>
                                     <div>
                                         <button onclick="window.location.href='/pengumpulankarya'" class="btn btn-primary radius-5 isi-data jarak-isi-data">Isi Data</button>
@@ -222,8 +233,8 @@
                                 </div>
                             </div>             
                         </div>
-                        <div style="text-align: right;">
-                            <button href="#" class="btn btn-primary radius-5">Submit</button>
+                        <div class="btn-dl">
+                            <button href="#" class="btn btn-primary radius-5 lebar-btn">Submit</button>
                         </div>           
                     </div>
                 </div>   
@@ -232,4 +243,21 @@
         <!--end page wrapper -->
     </div>
 </template>
-    
+<script>
+export default {
+  data() {
+    return {
+      isPopupVisible: false
+    };
+  },
+  methods: {
+    showPopup() {
+      this.isPopupVisible = true;
+    },
+    hidePopup() {
+      this.isPopupVisible = false;
+    }
+  }
+}
+</script>
+
