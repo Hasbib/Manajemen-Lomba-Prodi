@@ -55,6 +55,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
@@ -93,7 +100,8 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib</p>						
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                <p class="user-role">habib</p>							
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
                             </div>

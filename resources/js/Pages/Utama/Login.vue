@@ -13,15 +13,16 @@
 										<br>
 									</div>
 									<div class="form-body">
-										<form class="row g-3">
+										<form class="row g-3" @submit.prevent="submit">
+											<div v-if="errors.email" class="text-danger">{{ errors.email }}</div>
 											<div class="col-12">
 												<label for="emailorusername" class="form-label">Email atau Username</label>
-												<input type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukka Email atau Username">
+												<input type="emailorusername" class="form-control" id="emailorusername" placeholder="Masukka Email atau Username" v-model="form.email" required>
 											</div>
 											<div class="col-12">
 												<label for="password" class="form-label">Password</label>
 												<div class="input-group" id="show_hide_password">
-													<input type="password" class="form-control border-end-0" id="password"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+													<input type="password" class="form-control border-end-0" value="12345678" v-model="form.password" required> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
 												</div>
 											</div>
 											<div class="col-md-6 jarak-top-lebih4 ">
@@ -40,7 +41,7 @@
                                             </div>
 											<div class="col-12">
 												<div class="d-grid jarak-top-kurang5">
-													<a href="/index2" class="btn btn-primary"><i class='bx bx-user'></i>Masuk</a>
+													<button type="submit" class="btn btn-primary"><i class='bx bx-user'></i>Masuk</button>
 												</div>
 												<div class="login-separater text-center mb-4 jarak-top-kurang15"> <span>ATAU MASUK DENGAN EMAIL</span>
 													<hr/>
@@ -75,8 +76,24 @@
   </section>
 </template>
 
-<script>
-	$(document).ready(function () {
+<script setup>
+import { reactive } from 'vue'
+import { router } from '@inertiajs/vue3'
+
+defineProps({ errors: Object })
+
+const form = reactive({
+  email: null,
+  password: null,
+})
+
+function submit() {
+  router.post('/login', form)
+}
+
+
+
+$(document).ready(function () {
 		$("#show_hide_password a").on('click', function (event) {
 			event.preventDefault();
 			if ($('#show_hide_password input').attr("type") == "text") {

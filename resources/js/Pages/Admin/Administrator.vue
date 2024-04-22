@@ -55,6 +55,13 @@
                         </a>
                     </li>
                     <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
+                    <li>
                         <a href="/">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                             </div>

@@ -36,50 +36,33 @@
                     <div class="card-body">
                         <h4 class="mb-0">TAMBAH ADMINISTRATOR</h4>
                         <hr/>
-                        <div class="row">
-                            <div class="col-md-6 margin-top10-crud">
-                                <label class="c-mb5-black"><b>Nama Lengkap</b></label>
-                                <input type="email" class="form-control">
-                            </div>
-                            <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Username</b></label>
-                                <input type="email" class="form-control">
-                            </div>
-                            <div>
-                                <label for="inputChoosePassword" class="form-label warna-hitam"><b>Password</b></label>
-								<div class="input-group" id="show_hide_password">
-					    			<input type="password" class="form-control border-end-0" id="inputChoosePassword"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
-								</div>
-                            </div>
-                            <div>
-                                <label class="role-add "><b class="warna-hitam">Role</b></label>
-                                <div class="col-12">
-                                    <select class="form-select" id="inputProductType">
-                                        <option value="1" selected>Admin</option>
-                                        <option value="2">Juri</option>
-                                        <option value="3">Petugas</option>
-                                    </select>
+                        <form @submit.prevent="submit">
+                            <div class="row" >
+                                <div class="col-md-6 margin-top10-crud">
+                                    <label class="c-mb5-black"><b>Nama Lengkap</b></label>
+                                    <input type="name" v-model="form.name" class="form-control">
+                                </div>
+                 
+                                <div class="col-md-6 margin-top10-crud">
+                                    <label class="c-mb5-black"><b>Username</b></label>
+                                    <input type="username" v-model="form.username" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="c-mb5-black"><b>Email</b></label>
+                                    <input type="email" v-model="form.email"  class="form-control">
+                                </div>
+                                <div>
+                                    <label for="inputChoosePassword" class="form-label warna-hitam"><b>Password</b></label>
+                                    <div class="input-group" id="show_hide_password">
+                                        <input type="password"  v-model="form.password"  class="form-control border-end-0" id="inputChoosePassword"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+                                    </div>
+                                </div>
+                                <div class="btn-posisi">
+                                    <button class="btn btn-primary button-tabel-right"  type="submit">Tambah</button>
+                                    <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/administrator'">Batal</button>
                                 </div>
                             </div>
-                            <div>
-                                <label class="role-add"><b class="warna-hitam">Lomba</b></label>
-                                <div class="col-12">
-                                    <select class="form-select" id="inputProductType">
-                                        <option value="1" selected>Satu</option>
-                                        <option value="2">Dua</option>
-                                        <option value="3">Tiga</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div>
-                                <label class="form-label c-mt10b"><b>Tanggal</b></label>
-								<input type="date" class="form-control label-8">
-                            </div>
-                        </div>
-                        <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/administrator'">Tambah</button>
-                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/administrator'">Batal</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -88,5 +71,18 @@
         <!--end page wrapper -->
     </div>
     </template>
-    
-   
+
+<script setup>
+import { reactive } from 'vue'
+import { router } from '@inertiajs/vue3'
+
+const form = reactive({
+  name: null,
+  email: null,
+  password: null,
+})
+
+function submit() {
+    router.post('/tambahadministrator', form)
+}
+</script>

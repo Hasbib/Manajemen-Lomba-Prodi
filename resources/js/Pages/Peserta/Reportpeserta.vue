@@ -122,7 +122,7 @@
                                 <div class="judul-lomba-index">Olinas Periode 2024</div>
                             </div>
                             <div class="col-md-5 d-flex justify-content-end align-items-center">
-                                <button class="btn btn-primary crud-width-150">Detail</button>
+                                <a class="btn btn-primary crud-width-150" href="/detailtimreport">Detail</a>
                             </div>
                         </div>
                     </div>      

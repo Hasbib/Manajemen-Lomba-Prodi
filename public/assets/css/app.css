@@ -2884,6 +2884,10 @@ input.search-control-2::placeholder {
 	margin-top: -18px;
 }
 
+.jarak-bottom-kurang13 {
+	margin-bottom: -13px;
+}
+
 /* KONTAK */
 .judul-kontak {
 	margin-bottom: 13px;
@@ -3041,6 +3045,11 @@ input.search-control-2::placeholder {
 	margin-bottom: 70px;
 }
 
+/* JARAK LEFT*/
+.c-ml-160 {
+	margin-left: 160px;
+}
+
 /* LEFT */
 @media (min-width: 768px) {
     .c-ml-80 {
@@ -3104,6 +3113,9 @@ input.search-control-2::placeholder {
 /* WARNA */
 .warna-hitam {
 	color: black;
+}
+.warna-abu {
+	color: #8D8686;
 }
 
 /* BTN */
@@ -3386,6 +3398,95 @@ input.search-control-2::placeholder {
 	}
 }
 
+
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+    .page-wrapper-report {
+        margin-top: 0px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+    .page-wrapper-report {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+	.topbar {
+		left: 0!important
+	}
+	.mobile-search-icon {
+		display: block
+	}
+	.mobile-toggle-menu {
+		display: block
+	}
+	.sidebar-wrapper {
+		left: -300px;
+		box-shadow: none
+	}
+	.page-wrapper-report {
+		margin-left: 0
+	}
+	.page-footer {
+		left: 0
+	}
+	.search-bar {
+		display: none
+	}
+	.full-search-bar {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 100;
+		background: #ffffff;
+		height: 60px;
+		padding: 0 1.4rem
+	}
+	.search-bar-box {
+		width: 100%
+	}
+	.search-close {
+		display: block
+	}
+	.search-show {
+		left: 15px;
+		right: auto
+	}
+	.search-control {
+		background-color: #fff;
+		border: 1px solid #f2efef00;
+		padding-left: 2.5rem
+	}
+	.search-control-2 {
+		color: #fff;
+		background-color: #212529;
+		border: 1px solid rgb(255 255 255 / 12%)!important;
+		padding-left: 2.5rem
+	}
+	.wrapper.toggled .sidebar-wrapper {
+		left: 0
+	}
+	.wrapper.toggled .page-wrapper-report{
+		margin-left: 0
+	}
+}
+
+
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+    .page-wrapper-report {
+        margin-top: 0px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
 
 /* DETAIL PESERTA */
 

@@ -128,6 +128,15 @@ class PagesController extends Controller
     {
         return Inertia::render('Juri/Dashboardjuri');
     }
+    public function rangking()
+    {
+        return Inertia::render('Admin/Adminrangking');
+    }
+    public function tabelrangking()
+    {
+        return Inertia::render('Admin/Rangking/Tabelrangking');
+    }
+
 
 
     public function dashboardpetugas()
@@ -155,6 +164,10 @@ class PagesController extends Controller
     public function reportpeserta()
     {
         return Inertia::render('Peserta/Reportpeserta');
+    }
+    public function detailtimreport()
+    {
+        return Inertia::render('Peserta/Report/Detailtimreport');
     }
     public function daftarlomba()
     {
