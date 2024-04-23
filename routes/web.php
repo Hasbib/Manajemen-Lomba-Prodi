@@ -67,7 +67,11 @@ Route::get('/rangking', [PagesController::class, 'rangking']);
 Route::get('/tabelrangking', [PagesController::class, 'tabelrangking']);
 
 Route::get('/dashboardjuri', [PagesController::class, 'dashboardjuri'])->name('dashboardjuri');
-
+Route::get('/lombajuri', [PagesController::class, 'lombajuri']);
+Route::get('/tabellomba', [PagesController::class, 'tabellomba']);
+Route::get('/rangkingjuri', [PagesController::class, 'rangkingjuri']);
+Route::get('/tabelrangkingjuri', [PagesController::class, 'tabelrangkingjuri']);
+Route::get('/nilai', [PagesController::class, 'nilai']);
 
 Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas'])->name('dashboardpetugas');
 

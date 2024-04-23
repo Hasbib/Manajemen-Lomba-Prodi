@@ -99,71 +99,61 @@
 
         <!--start page wrapper -->
         <div class="page-wrapper">
-            <div class="page-content">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-info">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>1265 Partisipan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1250 Verified</p>
-                                    </div>
+			<div class="page-content">
+				<!--breadcrumb-->
+				<div class="tf__activities_slider_area">
+                    <div class="container">
+                        <!--breadcrumb-->
+                        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                                    <label class="judul-overview">UI / UX</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">AR / VR</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">APLIKASI MOBILE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">DESAIN WEBSITE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">SISTEM KEAMANAN DATA</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">UI / UX</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        <!--end row-->
                     </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-success">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">Semua Lomba</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-danger">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>50 Pesan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">5 Pesan Belum di Buka</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>	  
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-warning">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>30 Akun Adminis</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1 Akun Admin</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>             
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title btn-crud"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
-                        <br><br>
-                        <div id="bi-weekly-visit" class="chart-lg"></div>
-                    </div>
-                </div>
+                </div>				
                 <!--end row-->
-            </div>
-        </div>
+			</div>
+		</div>
     </div>        
 </template>
     

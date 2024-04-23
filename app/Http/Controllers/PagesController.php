@@ -124,17 +124,40 @@ class PagesController extends Controller
         return Inertia::render('Admin/Setting/Editsetting');
     }
 
+
     public function dashboardjuri()
     {
         return Inertia::render('Juri/Dashboardjuri');
     }
+    public function rangkingjuri()
+    {
+        return Inertia::render('Juri/Rangkingjuri');
+    }
+    public function tabelrangkingjuri()
+    {
+        return Inertia::render('Juri/Rangking/Tabelrangkingjuri');
+    }
+    public function lombajuri()
+    {
+        return Inertia::render('Juri/Lombajuri');
+    }
+    public function tabellomba()
+    {
+        return Inertia::render('Juri/Lomba/Tabellomba');
+    }
+    public function nilai()
+    {
+        return Inertia::render('Juri/Lomba/Nilai');
+    }
+
+
     public function rangking()
     {
         return Inertia::render('Admin/Adminrangking');
     }
     public function tabelrangking()
     {
-        return Inertia::render('Admin/Rangking/Tabelrangking');
+        return Inertia::render('Admin/Rangking/Tabelrangkingjuri');
     }
 
 
