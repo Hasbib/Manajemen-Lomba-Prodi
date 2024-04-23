@@ -44,7 +44,7 @@
                   </li>
                   <li>
                       <a href="/partisipan">
-                          <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                          <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
                           </div>
                           <div class="menu-title">Partisipan</div>
                       </a>

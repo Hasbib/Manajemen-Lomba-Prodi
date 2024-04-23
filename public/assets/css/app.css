@@ -2958,6 +2958,10 @@ input.search-control-2::placeholder {
 	width: 10px;
 }
 
+.btn-mid {
+	display: block;
+    margin: 0 auto;
+}
 
 .btn-crud {
 	text-align: center;
@@ -3029,6 +3033,9 @@ input.search-control-2::placeholder {
 /* JARAK TOP*/
 .c-mt10 {
 	margin-top: 10px;
+}
+.c-mt40 {
+	margin-top: 40px;
 }
 
 .c-mt10b {
@@ -3201,6 +3208,11 @@ input.search-control-2::placeholder {
 	margin-bottom: 8px;
 }
 
+/* LEFT */
+.c-ml20 {
+	margin-left: 20px;
+}
+
 /* PROFIL */
 .ukuran-foto {
 	width: 200px; 
@@ -3218,8 +3230,11 @@ input.search-control-2::placeholder {
 .profil-font15 {
 	font-size: 15px;
 }
+.c-font25 {
+	font-size: 25px;
+}
 .c-font48 {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 /*-- BTN --*/
@@ -3290,7 +3305,18 @@ input.search-control-2::placeholder {
 	margin-top: -7px; 
 	float: right;
 }
+.btn-petugas {
+    position: absolute;
+    top: 10px;
+}
 
+.btn-gagal {
+    right: 200px;
+}
+
+.btn-verifikasi {
+    right: 20px;
+}
 
 /* USERNAME */
 .user-role {

@@ -166,6 +166,30 @@ class PagesController extends Controller
     {
         return Inertia::render('Petugas/Dashboardpetugas');
     }
+    public function partisipanpetugas()
+    {
+        return Inertia::render('Petugas/Partisipanpetugas');
+    }
+    public function timpetugas()
+    {
+        return Inertia::render('Petugas/Timpetugas');
+    }
+    public function timdetail()
+    {
+        return Inertia::render('Petugas/Tim/Timdetail');
+    }
+    public function pesanpetugas()
+    {
+        return Inertia::render('Petugas/Pesanpetugas');
+    }
+    public function rangkingpetugas()
+    {
+        return Inertia::render('Petugas/Rangkingpetugas');
+    }
+    public function petugasrangking()
+    {
+        return Inertia::render('Petugas/Rangking/Petugasrangking');
+    }
 
 
     public function overviewpeserta()
