@@ -23,25 +23,26 @@ class UsersController extends Controller
             'email' => ['required', 'max:50', 'email'],
             'password' => ['required'],
         ]);
-        $otherAttributes = $request->except(['name', 'username', 'email', 'password']);
 
-        // Enkripsi password dan tambahkan atribut role
         $validatedData['password'] = bcrypt($validatedData['password']);
-        $validatedData['role'] = 'peserta';
+        $validatedData['role'] = $request->input('role', 'peserta');
 
-        // Gabungkan data yang divalidasi dengan atribut lainnya
-        $userData = array_merge($validatedData, $otherAttributes);
+        $user = User::create($validatedData);
 
-        User::create($validatedData);
-
-        if ($request->is('daftar')) {
-            return redirect()->route('login');
+        switch ($validatedData['role']) {
+            case 'admin':
+                return redirect()->route('administrator');
+            case 'juri':
+                return redirect()->route('administrator');
+            case 'petugas':
+                return redirect()->route('administrator');
+            case 'peserta':
+                return redirect()->route('login');
+            default:
+                break;
         }
-        if ($request->is('tambahadministrator')) {
-            return redirect()->route('administrator');
-        }
-
     }
+
 
     public function show(Request $request)
     {

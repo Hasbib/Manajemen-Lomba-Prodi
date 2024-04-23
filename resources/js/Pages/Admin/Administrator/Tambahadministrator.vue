@@ -21,7 +21,7 @@
                                 <p class="user-name mb-0">Habib Shohiburrotib</p>			
                                 <p class="user-role">habib</p>					
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
                     </div>		
@@ -47,7 +47,7 @@
                                     <label class="c-mb5-black"><b>Username</b></label>
                                     <input type="username" v-model="form.username" class="form-control">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12 margin-top10-crud">
                                     <label class="c-mb5-black"><b>Email</b></label>
                                     <input type="email" v-model="form.email"  class="form-control">
                                 </div>
@@ -55,6 +55,24 @@
                                     <label for="inputChoosePassword" class="form-label warna-hitam"><b>Password</b></label>
                                     <div class="input-group" id="show_hide_password">
                                         <input type="password"  v-model="form.password"  class="form-control border-end-0" id="inputChoosePassword"> <a href="javascript:;" class="input-group-text bg-transparent"><i class='bx bx-hide'></i></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="role-add "><b class="warna-hitam">Role</b></label>
+                                    <select class="form-select" id="inputProductType" v-model="form.role">
+                                        <option value="admin">Admin</option>
+                                        <option value="juri">Juri</option>
+                                        <option value="petugas">Petugas</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="role-add"><b class="warna-hitam">Lomba</b></label>
+                                    <div class="col-12">
+                                        <select class="form-select" id="inputProductType">
+                                            <option value="1" selected>Satu</option>
+                                            <option value="2">Dua</option>
+                                            <option value="3">Tiga</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="btn-posisi">
@@ -80,9 +98,26 @@ const form = reactive({
   name: null,
   email: null,
   password: null,
+  role: null, // Tambahkan role di sini
 })
+
 
 function submit() {
     router.post('/tambahadministrator', form)
 }
+
+$(document).ready(function () {
+		$("#show_hide_password a").on('click', function (event) {
+			event.preventDefault();
+			if ($('#show_hide_password input').attr("type") == "text") {
+				$('#show_hide_password input').attr('type', 'password');
+				$('#show_hide_password i').addClass("bx-hide");
+				$('#show_hide_password i').removeClass("bx-show");
+			} else if ($('#show_hide_password input').attr("type") == "password") {
+				$('#show_hide_password input').attr('type', 'text');
+				$('#show_hide_password i').removeClass("bx-hide");
+				$('#show_hide_password i').addClass("bx-show");
+			}
+		});
+	});
 </script>
