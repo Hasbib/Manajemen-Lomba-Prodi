@@ -2883,6 +2883,9 @@ input.search-control-2::placeholder {
 .jarak-top-kurang18 {
 	margin-top: -18px;
 }
+.jarak-top-kurang25 {
+	margin-top: -25px;
+}
 
 .jarak-bottom-kurang13 {
 	margin-bottom: -13px;
@@ -3045,6 +3048,12 @@ input.search-control-2::placeholder {
 	margin-bottom: 70px;
 }
 
+/* JARAK RIGHT*/
+.c-mr-160 {
+	margin-right: 160px;
+}
+
+
 /* JARAK LEFT*/
 .c-ml-160 {
 	margin-left: 160px;
@@ -3162,6 +3171,9 @@ input.search-control-2::placeholder {
 .crud-width-290 {
 	width: 290px;
 }
+.crud-width-400 {
+	width: 400px;
+}
 
 .crud-max-width260 {
 	max-width: 260px;
@@ -3206,8 +3218,9 @@ input.search-control-2::placeholder {
 .profil-font15 {
 	font-size: 15px;
 }
-
-
+.c-font48 {
+	font-size: 48px;
+}
 
 /*-- BTN --*/
 .btn-putih {

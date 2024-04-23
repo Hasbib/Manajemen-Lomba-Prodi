@@ -7,7 +7,9 @@
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
                         <div class="navbar-left">
-                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            <a href="/">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            </a>
                         </div>
                     </div>
                     <!-- Mobile toggle menu -->
@@ -21,7 +23,7 @@
                                 <p class="user-name mb-0">Habib Shohiburrotib</p>			
                                 <p class="user-role">habib</p>					
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
                     </div>		
@@ -185,39 +187,38 @@
                             <h5 class="p-3">Penilaian</h5>
                             <div class="card-body p-4 text-center">
                                <div class="row">
-                                  <table class="table table-bordered">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+                                  <table class="table table-bordered jarak-top-kurang25">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th class="width-id">NO.</th>
+                                            <th class="crud-width-400">KRITERIA</th>
+                                            <th class="crud-width-40">RATING</th>
+                                            <th class="crud-width-40">NILAI</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>1</th>
+                                            <td class="text-left">Kreativitas</td>
+                                            <td class="text-left"></td>
+                                            <td class="text-left"></td>
+                                        </tr>
+                                        <tr>
+                                            <th>2</th>
+                                            <td class="text-left">Estetika dan Komposisi</td>
+                                            <td class="text-left"></td>
+                                            <td class="text-left"></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3" class="text-left">Rata-rata</th>
+                                            <td class="crud-width-40">0</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                    </table>
                                 </div>
                             </div>             
                         </div>
-                       
                     </div>
                 </div>
             </div>

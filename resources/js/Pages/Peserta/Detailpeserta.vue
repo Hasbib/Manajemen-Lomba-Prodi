@@ -7,7 +7,9 @@
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
                         <div class="navbar-left">
-                            <img src="../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            <a href="/">
+                                <img src="../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            </a>
                         </div>
                     </div>
                     <!-- Mobile toggle menu -->
@@ -21,7 +23,7 @@
                                 <p class="user-name mb-0">Habib Shohiburrotib</p>			
                                 <p class="user-role">habib</p>					
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
                     </div>		

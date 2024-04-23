@@ -4,8 +4,10 @@
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
-                <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                <div> 
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -21,19 +23,23 @@
                 </li>
                 <li>
                     <a href="/proses">
-                        <div class="parent-icon"><i class=""></i>
+                        <div class="parent-icon"><i class="lni lni-flag"></i>
                         </div>
-                        <div class="menu-title" style="padding-left: 25px;">Nilai</div>
+                        <div class="menu-title">Karya</div>
                     </a>
                 </li>
                 <li>
                     <a href="/proses">
-                        <div class="parent-icon"><i class=""></i>
+                        <div class="parent-icon"><i class="bx bx-award"></i>
                         </div>
-                        <div class="menu-title" style="padding-left: 25px;">Karya</div>
+                        <div class="menu-title">Nilai</div>
                     </a>
                 </li>
-                
+                <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
                 <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
@@ -48,13 +54,13 @@
                         <div class="menu-title">SEMENTARA</div>
                     </a>
                     <ul>
-                        <li style="padding-left: 35px;"> <a href="/dashboardjuri">JURI</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardjuri">JURI</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/dashboardpetugas">PETUGAS</a>
+                        <li class="jarak-dropdown"> <a href="/dashboardpetugas">PETUGAS</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/overviewpeserta">PESERTA</a>
+                        <li class="jarak-dropdown"> <a href="/overviewpeserta">PESERTA</a>
                         </li>
-                        <li style="padding-left: 35px;"> <a href="/index2">ADMIN</a>
+                        <li class="jarak-dropdown"> <a href="/index2">ADMIN</a>
                         </li>
                     </ul>
                 </li>
@@ -75,7 +81,7 @@
                             <div class="user-info ps-3">
                                 <p class="user-name mb-0">Habib</p>						
                             </div>
-                            <div class="parent-icon" style="font-size: 30px; margin-left: 10px; "><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -131,9 +137,9 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
+                                        <h5 class="mb-0"><b>50 Pesan</b></h5>
                                         <br>
-                                        <p class="mb-0 font-13">-</p>
+                                        <p class="mb-0 font-13">5 Pesan Belum di Buka</p>
                                     </div>
                                 </div>
                             </div>
@@ -144,9 +150,9 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
+                                        <h5 class="mb-0"><b>30 Akun Adminis</b></h5>
                                         <br>
-                                        <p class="mb-0 font-13">-</p>
+                                        <p class="mb-0 font-13">1 Akun Admin</p>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +161,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title" style="text-align: center;"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
+                        <h3 class="card-title btn-crud"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
                         <br><br>
                         <div id="bi-weekly-visit" class="chart-lg"></div>
                     </div>

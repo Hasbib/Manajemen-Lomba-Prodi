@@ -5,7 +5,9 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -103,7 +105,7 @@
                             <p class="user-name mb-0">Habib Shohiburrotib</p>			
                             <p class="user-role">habib</p>							
                         </div>
-                        <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                        <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                         </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
