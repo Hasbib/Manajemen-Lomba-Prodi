@@ -5,9 +5,7 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <a href="/">
-                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
-                    </a>
+                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -15,38 +13,38 @@
             <!--navigation-->
             <ul class="metismenu" id="menu">
                 <li>
-                    <a href="/overviewpeserta">
-                        <div class="parent-icon"><i class='bx bx-category'></i>
+                    <a href="/dashboardpetugas">
+                        <div class="parent-icon"><i class='bx bx-home-circle'></i>
                         </div>
-                        <div class="menu-title">Overview</div>
+                        <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/daftarlomba">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                    <a href="/partisipanpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
                         </div>
-                        <div class="menu-title">Daftar Lomba</div>
+                        <div class="menu-title">Partisipan</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/profilpeserta">
-                        <div class="parent-icon"><i class="bx bx-user-circle"></i>
+                    <a href="/timpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated lni lni-users"></i>
                         </div>
-                        <div class="menu-title">Profil</div>
+                        <div class="menu-title">Tim</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/notifikasipeserta">
-                        <div class="parent-icon"><i class="bx bx-user-circle"></i>
-                        </div>
-                        <div class="menu-title">Notifikasi<span class="alert-count">1</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="/reportpeserta">
+                    <a href="/pesanpetugas">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-comment-detail"></i>
                         </div>
-                        <div class="menu-title">Report <span class="alert-count">1</span></div>
+                        <div class="menu-title">Pesan <span class="alert-count">1</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rangkingpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
                     </a>
                 </li>
                 <li>
@@ -88,8 +86,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Lionel Andres</p>			
-                                <p class="user-role">leon</p>					
+                                <p class="user-name mb-0">Petugas</p>				
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -123,42 +120,42 @@
                                 <div class="card radius-15 card-overview">
                                     <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
                                     <label class="judul-overview">UI / UX</label>
-                                    <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                 </div>
                             </div>
                             <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">AR / VR</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">APLIKASI MOBILE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">DESAIN WEBSITE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">SISTEM KEAMANAN DATA</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">UI / UX</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/detailpeserta">Detail</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Peserta</a>
                                     </div>
                                 </div> 
                             </div>
@@ -172,21 +169,5 @@
 	</div>
 	<!--end switcher-->      
 </template>
-
-<script>
-import axios from 'axios';
-import { onMounted, ref, computed } from 'vue';
-
-export default {
-  computed: {
-    username() {
-      return this.$store.state.username;
-    },
-    isLoggedIn() {
-      return this.$store.state.isLoggedIn;
-    },
-  },
-};
-</script>
     
 

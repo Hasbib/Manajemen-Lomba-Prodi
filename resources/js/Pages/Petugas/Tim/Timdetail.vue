@@ -6,11 +6,11 @@
                 <nav class="navbar navbar-expand">
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
-                        <div class="navbar-left">
-                            <a href="/">
+                        <a href="/">
+                            <div class="navbar-left">
                                 <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     </div>
                     <!-- Mobile toggle menu -->
                     <!-- Search bar -->
@@ -20,8 +20,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>					
+                                <p class="user-name mb-0">Petugas</p>					
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -37,6 +36,22 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0">Detail Tim Start Green</h4>
+                        <button class="btn btn-danger crud-width-150 btn-petugas btn-gagal"  @click="showPopup">Gagal</button>
+                        <div v-if="isPopupVisible" class="popup">
+                            <div class="popup-content">
+                                <span class="close" @click="hidePopup">&times;</span>
+                                <h5>Input Notifikasi</h5>
+                                <hr />
+                                <div>
+                                <label class="c-mb5-black c-ml20"><b>Deskripsi</b></label>
+                                <div class="col-11">
+                                    <textarea class="form-control c-mb10 c-ml20" id="inputProductDescription" rows="3" placeholder="Tulis Notifikasi"></textarea>
+                                </div>
+                                <button class="btn btn-primary crud-width100 btn-mid c-mt40" onclick="window.location.href='timpetugas'">Kirim</button>
+                            </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary crud-width-150 btn-petugas btn-verifikasi"  onclick="window.location.href='/timpetugas'">Verifikasi</button>
                         <hr/>
                         <div class="row">
                             <div class="col-md-3 c-mb10">
@@ -175,55 +190,23 @@
             </div>
         </div>
         <!--end page wrapper -->
-
-        <h5 class="c-ml-160 jarak-top-kurang18 jarak-bottom-kurang13">Hasil Penilaian OLINAS</h5>
-        <div class="page-wrapper-report">
-            <div class="page-content">
-                <div class="card">
-                    <div class="card-body">
-                       <h6 class="warna-abu">Tema Lomba</h6>
-                       <h6 class="c-mb20">Judul Karya</h6>
-                       <div class="card">
-                            <h5 class="p-3">Penilaian</h5>
-                            <div class="card-body p-4 text-center">
-                               <div class="row">
-                                  <table class="table table-bordered jarak-top-kurang25">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th class="width-id">NO.</th>
-                                            <th class="crud-width-400">KRITERIA</th>
-                                            <th class="crud-width-40">RATING</th>
-                                            <th class="crud-width-40">NILAI</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>1</th>
-                                            <td class="text-left">Kreativitas</td>
-                                            <td class="text-left"></td>
-                                            <td class="text-left"></td>
-                                        </tr>
-                                        <tr>
-                                            <th>2</th>
-                                            <td class="text-left">Estetika dan Komposisi</td>
-                                            <td class="text-left"></td>
-                                            <td class="text-left"></td>
-                                        </tr>
-                                        <tr>
-                                            <th colspan="3" class="text-left">Rata-rata</th>
-                                            <td class="crud-width-40">0</td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                    </table>
-                                </div>
-                            </div>             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </template>
     
-   
+<script>
+export default {
+  data() {
+    return {
+      isPopupVisible: false
+    };
+  },
+  methods: {
+    showPopup() {
+      this.isPopupVisible = true;
+    },
+    hidePopup() {
+      this.isPopupVisible = false;
+    }
+  }
+}
+</script>

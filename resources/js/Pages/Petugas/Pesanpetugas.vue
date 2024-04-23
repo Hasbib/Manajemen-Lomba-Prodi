@@ -5,59 +5,43 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <a href="/">
-                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
-                    </a>
+                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
-            </div>
+                </div>
             </div>
             <!--navigation-->
             <ul class="metismenu" id="menu">
                 <li>
-                    <a href="/index2">
+                    <a href="/dashboardpetugas">
                         <div class="parent-icon"><i class='bx bx-home-circle'></i>
                         </div>
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;" class="has-arrow">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
-                        </div>
-                        <div class="menu-title">Event</div>
-                    </a>
-                    <ul>
-                        <li class="jarak-dropdown"> <a href="/lomba">Lomba</a>
-                        </li>
-                        <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
-                        </li>
-                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
-                        </li>
-                        <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
-                        </li>
-                        <li class="jarak-dropdown"> <a href="/berita">Berita</a>
-                        </li>
-                        <li class="jarak-dropdown"> <a href="/setting">Setting</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="/partisipan">
+                    <a href="/partisipanpetugas">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
                         </div>
                         <div class="menu-title">Partisipan</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/pesan">
+                    <a href="/timpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated lni lni-users"></i>
+                        </div>
+                        <div class="menu-title">Tim</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pesanpetugas">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-comment-detail"></i>
                         </div>
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
                 </li>
                 <li>
-                    <a href="/rangking">
+                    <a href="/rangkingpetugas">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
                         </div>
                         <div class="menu-title">Rangking</div>
@@ -67,7 +51,7 @@
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                         </div>
-                        <div class="menu-title">Logout</div>
+                        <div class="menu-title">Keluar</div>
                     </a>
                 </li>
                 <li>
@@ -102,8 +86,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>						
+                                <p class="user-name mb-0">Petugas</p>						
                             </div>
                         <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                         </div>
@@ -199,7 +182,5 @@
         <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
     </div>
-    <!--end wrapper-->
-    <!--start switcher-->  
-    <!--end switcher-->
 </template>
+    

@@ -6,7 +6,7 @@
             <div class="sidebar-header">
                 <div> 
                     <a href="/">
-                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                        <img src="../../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                     </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
@@ -100,71 +100,70 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-info">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>1265 Partisipan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1250 Verified</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-success">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">Semua Lomba</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-danger">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>50 Pesan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">5 Pesan Belum di Buka</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>	  
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-warning">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>30 Akun Adminis</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1 Akun Admin</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>             
+                <div class="ps-3">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 p-0">
+                            <li class="breadcrumb-item">
+                            </li>                             
+                        </ol>
+                    </nav>
                 </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title btn-crud"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
-                        <br><br>
-                        <div id="bi-weekly-visit" class="chart-lg"></div>
-                    </div>
+				<div class="card">
+					<div class="card-body">
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Peserta</h4>
+                        <hr class="c-mt10"/>
+                            <label class="jarak-filterstatus">Filter by Status</label> 
+                            <select class="form-select2">
+                                <option selected>Semua</option>
+                                <option>Belum Dibaca</option>
+                                <option>Sudah Dibaca</option>
+                            </select>                           
+                            <br><br>
+                            <div class="table-responsive">	
+                                <table id="example" class="table table-bordered">
+                                    <thead class="table-dark">
+                                        <tr>
+                                            <th class="width-id">ID</th>
+                                            <th class="crud-width-150">Nama Tim</th>  
+                                            <th class="crud-width-180">Judul</th>
+                                            <th class="crud-width100" >File</th>
+                                            <th class="crud-width100">Link</th>
+                                            <th class="crud-width-150">Instansi</th>
+                                            <th class="crud-width100">Status</th>
+                                            <th class="crud-width-180">Aksi</th> 
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Tim Design</td>
+                                            <td>Platform Pendidikan Interaktif</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Universitas</td>
+                                            <td>Belum Nilai</td>
+                                            <td class="btn-crud">
+                                            <button class="btn btn-primary" onclick="window.location.href='/nilai'"><i class="bi bi-pencil-square"></i></button>    
+                                            <button class="btn btn-primary" onclick="window.location.href='/nilai'">Beri Nilai</button>                              
+                                        </td>
+                                        </tr>                                  
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>      
+                    <!--end row-->
                 </div>
-                <!--end row-->
             </div>
-        </div>
-    </div>        
+        <!--end page wrapper -->
+        <!--start overlay-->
+        <div class="overlay toggle-icon"></div>
+        <!--end overlay-->
+        <!--Start Back To Top Button-->
+        <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+        <!--End Back To Top Button-->
+    </div>
+   
 </template>
     
 

@@ -36,47 +36,57 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">DETAIL ADMINISTRATOR</h4>
+                        <h4 class="mb-0">BERI NILAI</h4>
                         <hr/>
                         <div class="row">
                             <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Nama Lengkap</b></label>
-                                <div class="data-tim">	Bambang</div>
+                                <label class="c-mb5-black"><b>1. Kreativitas</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Username</b></label>
-                                <div class="data-tim">admin</div>
+                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <input type="namalomba" class="form-control c-mb20">
+                            </div>
+                            <div class="col-md-6 c-mb10">
+                                <label class="c-mb5-black"><b>2. Estetika dan Komposisi</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Password</b></label>
-                                <div class="data-tim">**********</div>
+                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <input type="namalomba" class="form-control c-mb20">
+                            </div>
+                            <div class="col-md-6 c-mb10">
+                                <label class="c-mb5-black"><b>3. Kriteria 3</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Email</b></label>
-                                <div class="data-tim">bambang@gmail.com</div>
+                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <input type="namalomba" class="form-control c-mb20">
+                            </div>
+                            <div class="col-md-6 c-mb10">
+                                <label class="c-mb5-black"><b>4. Kriteria 4</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Role</b></label>
-                                <div class="data-tim">admin</div>
+                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <input type="namalomba" class="form-control c-mb20">
+                            </div>
+                            <div class="col-md-6 c-mb10">
+                                <label class="c-mb5-black"><b>4. Kriteria 5</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Lomba</b></label>
-                                <div class="data-tim">Lomba Desain</div>
-                            </div>           
-                            <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Tanggal</b></label>
-                                <div class="data-tim">Maret 1, 2024</div>
-                            </div>      
+                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <input type="namalomba" class="form-control c-mb20">
+                            </div>
+                        
                         </div>
                         <div class="btn-posisi">
-                            <button class="btn btn-danger btn-kembali" onclick="window.location.href='/administrator'">Kembali</button>
+                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/tabellomba'">Simpan</button>
+                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/tabellomba'">Batal</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <!--end page wrapper -->
     </div>
-</template>
+    </template>
     
    

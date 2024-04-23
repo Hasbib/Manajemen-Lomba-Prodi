@@ -67,10 +67,19 @@ Route::get('/rangking', [PagesController::class, 'rangking']);
 Route::get('/tabelrangking', [PagesController::class, 'tabelrangking']);
 
 Route::get('/dashboardjuri', [PagesController::class, 'dashboardjuri'])->name('dashboardjuri');
-
+Route::get('/lombajuri', [PagesController::class, 'lombajuri']);
+Route::get('/tabellomba', [PagesController::class, 'tabellomba']);
+Route::get('/rangkingjuri', [PagesController::class, 'rangkingjuri']);
+Route::get('/tabelrangkingjuri', [PagesController::class, 'tabelrangkingjuri']);
+Route::get('/nilai', [PagesController::class, 'nilai']);
 
 Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas'])->name('dashboardpetugas');
-
+Route::get('/partisipanpetugas', [PagesController::class, 'partisipanpetugas']);
+Route::get('/timpetugas', [PagesController::class, 'timpetugas']);
+Route::get('/timdetail', [PagesController::class, 'timdetail']);
+Route::get('/pesanpetugas', [PagesController::class, 'pesanpetugas']);
+Route::get('/rangkingpetugas', [PagesController::class, 'rangkingpetugas']);
+Route::get('/petugasrangking', [PagesController::class, 'petugasrangking']);
 
 Route::get('/overviewpeserta', [PagesController::class, 'overviewpeserta'])->name('overviewpeserta');
 Route::get('/detailpeserta', [PagesController::class, 'detailpeserta']);

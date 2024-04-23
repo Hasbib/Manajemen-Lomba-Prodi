@@ -4,10 +4,8 @@
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
-                <div> 
-                    <a href="/">
-                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
-                    </a>
+                <div>
+                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -15,21 +13,35 @@
             <!--navigation-->
             <ul class="metismenu" id="menu">
                 <li>
-                    <a href="/dashboardjuri">
+                    <a href="/dashboardpetugas">
                         <div class="parent-icon"><i class='bx bx-home-circle'></i>
                         </div>
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/lombajuri">
-                        <div class="parent-icon"><i class="bx bx-award"></i>
+                    <a href="/partisipanpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
                         </div>
-                        <div class="menu-title">Lomba</div>
+                        <div class="menu-title">Partisipan</div>
                     </a>
                 </li>
                 <li>
-                    <a href="/rangkingjuri">
+                    <a href="/timpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated lni lni-users"></i>
+                        </div>
+                        <div class="menu-title">Tim</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/pesanpetugas">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-comment-detail"></i>
+                        </div>
+                        <div class="menu-title">Pesan <span class="alert-count">1</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/rangkingpetugas">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
                         </div>
                         <div class="menu-title">Rangking</div>
@@ -74,7 +86,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Juri</p>						
+                                <p class="user-name mb-0">Petugas</p>						
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -100,71 +112,52 @@
         <!--start page wrapper -->
         <div class="page-wrapper">
             <div class="page-content">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-info">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>1265 Partisipan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1250 Verified</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-success">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>987 Tim</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">Semua Lomba</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-danger">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>50 Pesan</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">5 Pesan Belum di Buka</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>	  
-                    <div class="col">
-                        <div class="card radius-10 border-start border-0 border-3 border-warning">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <h5 class="mb-0"><b>30 Akun Adminis</b></h5>
-                                        <br>
-                                        <p class="mb-0 font-13">1 Akun Admin</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>             
-                </div>
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title btn-crud"><b>Jumlah Pengunjung Setiap Bulan</b></h3>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Tim</h4>
+                        <hr class="c-mt10"/>		
+                        <button class="btn btn-primary btn-export">Export Excel</button>
+                        <label class="dropdown-crud">Filter by Status</label> 
+						<select class="form-select2">
+							<option selected>Semua</option>
+							<option>Verified</option>
+                            <option>Unverified</option>
+						</select>
                         <br><br>
-                        <div id="bi-weekly-visit" class="chart-lg"></div>
+                        <div class="table-responsive">	
+                            <table id="example" class="table table-bordered">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-90">Nama Tim</th>
+                                        <th class="crud-width-90">Lomba</th>
+                                        <th class="crud-width-100">No WhatsApp</th>
+                                        <th class="crud-width-120">Email</th>
+                                        <th class="crud-width-90">Instansi</th>
+                                        <th class="crud-width-60">Status</th>
+                                        <th class="crud-width-60">Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Start Green</td>
+                                        <td>Lomba Desain</td>
+                                        <td>0850000000</td>
+                                        <td>goat@gmail.com</td>
+                                        <td>Universitas</td>
+                                        <td>Verified</td>
+                                        <td class="btn-crud">
+                                            <button class="btn btn-secondary" onclick="window.location.href='/timdetail'"><i class="bi bi-eye"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <!--end row-->
             </div>
         </div>
-    </div>        
+        <!--end page wrapper --> 
+    </div>
 </template>
-    
-

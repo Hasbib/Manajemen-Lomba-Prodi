@@ -2883,6 +2883,9 @@ input.search-control-2::placeholder {
 .jarak-top-kurang18 {
 	margin-top: -18px;
 }
+.jarak-top-kurang25 {
+	margin-top: -25px;
+}
 
 .jarak-bottom-kurang13 {
 	margin-bottom: -13px;
@@ -2955,6 +2958,10 @@ input.search-control-2::placeholder {
 	width: 10px;
 }
 
+.btn-mid {
+	display: block;
+    margin: 0 auto;
+}
 
 .btn-crud {
 	text-align: center;
@@ -3027,6 +3034,9 @@ input.search-control-2::placeholder {
 .c-mt10 {
 	margin-top: 10px;
 }
+.c-mt40 {
+	margin-top: 40px;
+}
 
 .c-mt10b {
 	margin-top: 5px;
@@ -3044,6 +3054,12 @@ input.search-control-2::placeholder {
 .c-mb-70 {
 	margin-bottom: 70px;
 }
+
+/* JARAK RIGHT*/
+.c-mr-160 {
+	margin-right: 160px;
+}
+
 
 /* JARAK LEFT*/
 .c-ml-160 {
@@ -3162,6 +3178,9 @@ input.search-control-2::placeholder {
 .crud-width-290 {
 	width: 290px;
 }
+.crud-width-400 {
+	width: 400px;
+}
 
 .crud-max-width260 {
 	max-width: 260px;
@@ -3189,6 +3208,11 @@ input.search-control-2::placeholder {
 	margin-bottom: 8px;
 }
 
+/* LEFT */
+.c-ml20 {
+	margin-left: 20px;
+}
+
 /* PROFIL */
 .ukuran-foto {
 	width: 200px; 
@@ -3206,8 +3230,12 @@ input.search-control-2::placeholder {
 .profil-font15 {
 	font-size: 15px;
 }
-
-
+.c-font25 {
+	font-size: 25px;
+}
+.c-font48 {
+	font-size: 40px;
+}
 
 /*-- BTN --*/
 .btn-putih {
@@ -3277,7 +3305,18 @@ input.search-control-2::placeholder {
 	margin-top: -7px; 
 	float: right;
 }
+.btn-petugas {
+    position: absolute;
+    top: 10px;
+}
 
+.btn-gagal {
+    right: 200px;
+}
+
+.btn-verifikasi {
+    right: 20px;
+}
 
 /* USERNAME */
 .user-role {

@@ -77,10 +77,10 @@ import { reactive } from 'vue'
 import { router } from '@inertiajs/vue3'
 
 const form = reactive({
-  name: null,
-
-  email: null,
-  password: null,
+  	name: null,
+	username: null,
+  	email: null,
+  	password: null,
 })
 
 function submit() {
