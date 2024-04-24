@@ -258,17 +258,25 @@
                 <div class="tf__heading_area mb_15">
                     <h5>Sponsor</h5>
                     <div class="sponsor-grid">
-                        <div class="sponsor-item">
-                            <img src="../../../public/bootstrap/images/logo-sv.png" alt="about" class="img-fluid">
+                        <div class="sponsor-item2">
+                            <a href="" >
+                                <img src="../../../public/bootstrap/images/logo-sv.png" alt="about" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="sponsor-item2">
+                            <a href="" >
+                                <img src="../../../public/bootstrap/images/UNS.png" alt="about" class="img-fluid">
+                            </a>
                         </div>
                         <div class="sponsor-item">
-                            <img src="../../../public/bootstrap/images/UNS.png" alt="about" class="img-fluid">
+                            <a href="" >
+                                <img src="../../../public/bootstrap/images/d3ti.png" alt="about" class="img-fluid">
+                            </a>
                         </div>
-                        <div class="sponsor-item">
-                            <img src="../../../public/bootstrap/images/d3ti.png" alt="about" class="img-fluid">
-                        </div>
-                        <div class="sponsor-item">
-                            <img src="../../../public/bootstrap/images/em.png" alt="about" class="img-fluid">
+                        <div class="sponsor-item2">
+                            <a href="" >
+                                <img src="../../../public/bootstrap/images/em.png" alt="about" class="img-fluid">
+                            </a>
                         </div>
                     </div>
                 </div>

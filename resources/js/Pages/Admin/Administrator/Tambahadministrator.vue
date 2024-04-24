@@ -7,7 +7,9 @@
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
                         <div class="navbar-left">
-                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            <a href="/">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            </a>
                         </div>
                     </div>
                     <!-- Mobile toggle menu -->
@@ -69,9 +71,9 @@
                                     <label class="role-add"><b class="warna-hitam">Lomba</b></label>
                                     <div class="col-12">
                                         <select class="form-select" id="inputProductType">
-                                            <option value="1" selected>Satu</option>
-                                            <option value="2">Dua</option>
-                                            <option value="3">Tiga</option>
+                                            <option value="1" selected>AR/VR</option>
+                                            <option value="2">DESAIN WEBSITE</option>
+                                            <option value="3">APLIKASI MOBILE</option>
                                         </select>
                                     </div>
                                 </div>

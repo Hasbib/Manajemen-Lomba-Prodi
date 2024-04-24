@@ -82,10 +82,10 @@
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
                             </div>
-                            <div class="col-md-2">
+                            <!-- <div class="col-md-2">
                                 <label class="c-mb5-black"><b>Surat</b></label>
                                 <div class="c-mb20"><a href="#">Lihat Surat</a></div>
-                            </div>
+                            </div> -->
                             <div class="col-md-3">
                                 <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
                                 <div class="c-mb20"><a href="#">Lihat Bukti</a></div>

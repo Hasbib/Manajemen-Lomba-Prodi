@@ -32,8 +32,6 @@
                         </li>
                         <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
-                        </li>
                         <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
                         </li>
                         <li class="jarak-dropdown"> <a href="/berita">Berita</a>
@@ -41,13 +39,20 @@
                         <li class="jarak-dropdown"> <a href="/setting">Setting</a>
                         </li>
                     </ul>
-                  </li>
-                  <li>
-                      <a href="/partisipan">
-                          <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
-                          </div>
-                          <div class="menu-title">Partisipan</div>
-                      </a>
+                </li>
+                <li>
+                    <a href="/tim">
+                        <div class="parent-icon"><i class="fadeIn animated lni lni-users"></i>
+                        </div>
+                        <div class="menu-title">Tim</div>
+                    </a>
+                </li>   
+                <li>
+                    <a href="/partisipan">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
+                        </div>
+                        <div class="menu-title">Partisipan</div>
+                    </a>
                 </li>
                 <li>
                     <a href="/pesan">

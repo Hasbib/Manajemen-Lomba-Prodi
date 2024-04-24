@@ -75,6 +75,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Tim');
     }
+    public function tabeltim()
+    {
+        return Inertia::render('Admin/Tim/Tabeltim');
+    }
     public function detailtim()
     {
         return Inertia::render('Admin/Tim/Detailtim');

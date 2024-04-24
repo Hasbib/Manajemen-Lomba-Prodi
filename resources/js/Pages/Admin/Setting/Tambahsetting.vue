@@ -43,12 +43,6 @@
                                 <label class="c-mb5-black"><b>Nama Event</b></label>
                                 <input type="email" class="form-control" value="Olinas">
                             </div>  
-                            <div>
-                                <label class="c-mb5-black"><b>Deskripsi</b></label>
-                                <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="4" value="Olinas adalah"></textarea>
-                                </div>
-                            </div>
                             <div class="c-mb10">
                                 <label class="c-mb5-black"><b>Judul</b></label>
                                 <input type="email" class="form-control" value="OLINAS 2024">
@@ -56,6 +50,16 @@
                             <div class="c-mb10">
                                 <label class="c-mb5-black"><b>Sub Judul</b></label>
                                 <input type="email" class="form-control">
+                            </div>
+                            <div class="c-mb10">
+                                <label class="c-mb5-black"><b>Judul Deskripsi</b></label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div>
+                                <label class="c-mb5-black"><b>Deskripsi</b></label>
+                                <div class="col-12">
+                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="4" value="Olinas adalah"></textarea>
+                                </div>
                             </div>
                             <div>
                                 <label class="form-label warna-hitam"><b>Tanggal Mulai</b></label>

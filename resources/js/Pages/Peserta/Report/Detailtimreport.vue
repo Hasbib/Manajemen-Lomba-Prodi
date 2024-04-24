@@ -67,10 +67,10 @@
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
                             </div>
-                            <div class="col-md-2">
+                            <!-- <div class="col-md-2">
                                 <label class="c-mb5-black"><b>Surat</b></label>
                                 <div class="c-mb20"><a href="#">Lihat Surat</a></div>
-                            </div>
+                            </div> -->
                             <div class="col-md-3">
                                 <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
                                 <div class="c-mb20"><a href="#">Lihat Bukti</a></div>
@@ -191,30 +191,26 @@
                                     <thead class="table-dark">
                                         <tr>
                                             <th class="width-id">NO.</th>
-                                            <th class="crud-width-400">KRITERIA</th>
-                                            <th class="crud-width-40">RATING</th>
+                                            <th class="crud-width-400 posisi-text">KRITERIA</th>
                                             <th class="crud-width-40">NILAI</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>1</th>
-                                            <td class="text-left">Kreativitas</td>
-                                            <td class="text-left"></td>
-                                            <td class="text-left"></td>
-                                        </tr>
-                                        <tr>
-                                            <th>2</th>
-                                            <td class="text-left">Estetika dan Komposisi</td>
-                                            <td class="text-left"></td>
-                                            <td class="text-left"></td>
-                                        </tr>
-                                        <tr>
-                                            <th colspan="3" class="text-left">Rata-rata</th>
-                                            <td class="crud-width-40">0</td>
-                                        </tr>
-                                        
-                                    </tbody>
+                                        <tbody>
+                                            <tr>
+                                                <th>1</th>
+                                                <td class="text-left">Kreativitas</td>
+                                                <td class="text-left"></td>
+                                            </tr>
+                                            <tr>
+                                                <th>2</th>
+                                                <td class="text-left">Estetika dan Komposisi</td>
+                                                <td class="text-left"></td>
+                                            </tr>
+                                            <tr>
+                                                <th colspan="2" class="text-left">Total</th>
+                                                <td class="crud-width-40">0</td>
+                                            </tr>
+                                        </tbody>
                                     </table>
                                 </div>
                             </div>             

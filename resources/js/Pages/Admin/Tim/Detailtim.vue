@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>INSTASNSI</b></label>
-                                <div class="c-mb20">Start Green</div>
+                                <div class="c-mb20">Universitas</div>
                             </div>
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>LOMBA</b></label>
@@ -66,10 +66,6 @@
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
-                            </div>
-                            <div class="col-md-2">
-                                <label class="c-mb5-black"><b>Surat</b></label>
-                                <div class="c-mb20"><a href="#">Lihat Surat</a></div>
                             </div>
                             <div class="col-md-3">
                                 <label class="c-mb5-black"><b>PEMBAYARAN</b></label>

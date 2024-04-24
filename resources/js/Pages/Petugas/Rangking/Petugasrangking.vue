@@ -122,14 +122,10 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Peserta</h4>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Rangking</h4>
                         <hr class="c-mt10"/>
-                            <label class="jarak-filterstatus">Filter by Status</label> 
-                            <select class="form-select2">
-                                <option selected>Semua</option>
-                                <option>Belum Dibaca</option>
-                                <option>Sudah Dibaca</option>
-                            </select>                           
+                           <button class="btn btn-danger">Tidak lolos</button>
+                           <button class="btn btn-primary crud-width120">Lolos</button>                      
                             <br><br>
                             <div class="table-responsive">	
                                 <table id="example" class="table table-bordered">
@@ -138,11 +134,13 @@
                                             <th class="width-id">ID</th>
                                             <th class="crud-width-150">Nama Tim</th>  
                                             <th class="crud-width-180">Judul</th>
-                                            <th class="crud-width100" >File</th>
-                                            <th class="crud-width100">Link</th>
-                                            <th class="crud-width-150">Instansi</th>
-                                            <th class="crud-width-70">Rata-rata</th>
-                                            <th class="crud-width100">Status</th>
+                                            <th class="crud-width100" >Instansi</th>
+                                            <th class="crud-width100">Hasil</th>
+                                            <th class="crud-width-150">Status</th>
+                                            <th class="crud-width-70">Aksi</th>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -150,11 +148,15 @@
                                             <td>1</td>
                                             <td>Tim Design</td>
                                             <td>Platform Pendidikan Interaktif</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>Universitas</td>
-                                            <td></td>
-                                            <td>Tidak Lolos</td>
+                                            <td>UNS</td>
+                                            <td>90</td>
+                                            <td>Lolos</td>
+                                            <td class="btn-crud">
+                                                <button class="btn btn-secondary" onclick="window.location.href='/detailadministrator'"><i class="bi bi-eye"></i></button>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
                                         </tr>                                  
                                     </tbody>
                                 </table>

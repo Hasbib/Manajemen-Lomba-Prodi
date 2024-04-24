@@ -3037,6 +3037,9 @@ input.search-control-2::placeholder {
 .c-mt40 {
 	margin-top: 40px;
 }
+.c-mt50 {
+	margin-top: 50px;
+}
 
 .c-mt10b {
 	margin-top: 5px;
@@ -3116,8 +3119,12 @@ input.search-control-2::placeholder {
 }
 
 .sponsor-item {
-    width: 90%;
+    width: 85%;
 }
+.sponsor-item2 {
+    width: 120%;
+}
+
 
 .sponsor-grid-overview {
     display: grid;
@@ -3132,6 +3139,9 @@ input.search-control-2::placeholder {
 }
 .warna-abu {
 	color: #8D8686;
+}
+.warna-p {
+	color: #AAAAAA;
 }
 
 /* BTN */
@@ -3213,11 +3223,19 @@ input.search-control-2::placeholder {
 .c-mb8 {
 	margin-bottom: 8px;
 }
+.c-mb50 {
+	margin-bottom: 50px;
+}
 
 /* LEFT */
 .c-ml20 {
 	margin-left: 20px;
 }
+.c-mlk10 {
+	margin-right: 10px;
+}
+
+
 
 /* PROFIL */
 .ukuran-foto {
@@ -3647,3 +3665,29 @@ input.search-control-2::placeholder {
     top: 10px;
     right: 20px;
 }
+
+
+/* BERITA */
+.isi-p {
+	text-align: justify;
+	text-indent: 50px;
+}
+.paragraf-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warna-p {
+    color: #AAAAAA;
+}
+
+.p-right {
+    text-align: right;
+}
+
+
+.posisi-text {
+	text-align: start;
+}
+
+

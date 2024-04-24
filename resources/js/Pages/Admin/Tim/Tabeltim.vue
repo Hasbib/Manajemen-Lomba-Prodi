@@ -6,7 +6,7 @@
             <div class="sidebar-header">
                 <div>
                     <a href="/">
-                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                        <img src="../../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                     </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
-                </li>         
+                </li> 
                 <li>
                     <a href="/rangking">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
@@ -109,9 +109,9 @@
                             <div class="user-info ps-3">
                             <p class="user-name mb-0">Habib Shohiburrotib</p>			
                             <p class="user-role">habib</p>							
-                        </div>
-                        <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
-                        </div>
+                            </div>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
+                            </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-notifications-list">
@@ -135,33 +135,41 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Berita</h4>
-                        <hr class="c-mt10" />		
-                        <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahberita'">Tambah Berita</button>
-                        <hr class="c-mt10" />
-                        <div class="table-responsive">
-                            <table id="example" class="table mt-3  table-bordered">
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Tim</h4>
+                        <hr class="c-mt10"/>		
+                        <button class="btn btn-primary btn-export">Export Excel</button>
+                        <label class="dropdown-crud">Filter by Status</label> 
+						<select class="form-select2">
+							<option selected>Semua</option>
+							<option>Verified</option>
+                            <option>Unverified</option>
+						</select>
+                        <br><br>
+                        <div class="table-responsive">	
+                            <table id="example" class="table table-bordered">
                                 <thead class="table-dark">
-                                <tr>
-                                    <th class="width-id">ID</th>
-                                    <th class="crud-width100">Judul</th>
-                                    <th class="crud-width-150">Deskripsi Awal</th>
-                                    <th class="crud-width-40">Penerbit</th>
-                                    <th class="crud-custom">Tanggal Upload</th>  
-                                    <th class="crud-width130">Aksi</th>
-                                </tr>
+                                    <tr>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-90">Nama Tim</th>
+                                        <th class="crud-width-90">Lomba</th>
+                                        <th class="crud-width-100">No WhatsApp</th>
+                                        <th class="crud-width-120">Email</th>
+                                        <th class="crud-width-90">Instansi</th>
+                                        <th class="crud-width-60">Status</th>
+                                        <th class="crud-width-60">Aksi</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>Profil Ketua Emailkomp Periode 2024</td>
-                                        <td>Emailkomp adalah sebuah organisasi dibawah pengawasan langsung oleh Prodi Teknik Informatika</td>
-                                        <td>Admin</td>   
-                                        <td>February 27, 2024</td>
+                                        <td>Start Green</td>
+                                        <td>Lomba Desain</td>
+                                        <td>0850000000</td>
+                                        <td>goat@gmail.com</td>
+                                        <td>Universitas</td>
+                                        <td>Verified</td>
                                         <td class="btn-crud">
-                                            <button class="btn btn-secondary" onclick="window.location.href='/detailberita'"><i class="bi bi-eye"></i></button>
-                                            <button class="btn btn-primary" onclick="window.location.href='/editberita'"><i class="bi bi-pencil-square"></i></button>    
-                                            <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
+                                            <button class="btn btn-secondary" onclick="window.location.href='/detailtim'"><i class="bi bi-eye"></i></button>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -171,12 +179,6 @@
                 </div>
             </div>
         </div>
-        <!--end page wrapper -->
+        <!--end page wrapper --> 
     </div>
 </template>
-    
-<script>
-$(document).ready(function() {
-    $('#example').DataTable();
-  } );
-</script>

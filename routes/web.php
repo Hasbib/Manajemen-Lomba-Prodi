@@ -51,6 +51,7 @@ Route::post('/tambahadministrator', [UsersController::class, 'store'])->name('da
 Route::get('/editadministrator', [PagesController::class, 'editadministrator']);
 Route::get('/detailadministrator', [PagesController::class, 'detailadministrator']);
 Route::get('/tim', [PagesController::class, 'tim']);
+Route::get('/tabeltim', [PagesController::class, 'tabeltim']);
 Route::get('/detailtim', [PagesController::class, 'detailtim']);
 Route::get('/sponsor', [PagesController::class, 'sponsor']);
 Route::get('/tambahsponsor', [PagesController::class, 'tambahsponsor']);

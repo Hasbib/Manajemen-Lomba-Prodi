@@ -125,12 +125,12 @@
                                         <tr>
                                             <th class="width-id">ID</th>
                                             <th class="crud-width-150">Nama Tim</th>  
-                                            <th class="crud-width-180">Judul</th>
+                                            <th class="crud-width-150">Judul</th>
                                             <th class="crud-width100" >File</th>
                                             <th class="crud-width100">Link</th>
                                             <th class="crud-width-150">Instansi</th>
                                             <th class="crud-width100">Status</th>
-                                            <th class="crud-width-220">Aksi</th> 
+                                            <th class="crud-width-290">Aksi</th> 
                                         </tr>
                                     </thead>
                                     <tbody>

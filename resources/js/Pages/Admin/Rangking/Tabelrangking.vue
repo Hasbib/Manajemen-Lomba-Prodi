@@ -90,6 +90,38 @@
                 </ul>
                 <!--end navigation-->
             </div>
+            <header>
+                <div class="topbar d-flex align-items-center">
+                    <nav class="navbar navbar-expand">
+                        <div class="mobile-toggle-menu"><i class='bx bx-menu'></i>
+                        </div>
+                        <div class="search-bar flex-grow-1">
+                        </div>
+                        <div class="top-menu ms-auto">
+                            <ul class="navbar-nav align-items-center">
+                                <div class="user-info ps-3">
+                                    <p class="user-name mb-0">Habib Shohiburrotib</p>			
+                                    <p class="user-role">habib</p>							
+                                </div>
+                                <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
+                                </div>
+                                <li class="nav-item dropdown dropdown-large">
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <div class="header-notifications-list">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown dropdown-large">	
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <div class="header-message-list">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>		
+                    </nav>
+                </div>
+        </header>
             <!--end sidebar wrapper -->
             <!--start header -->
            <!--start page wrapper -->

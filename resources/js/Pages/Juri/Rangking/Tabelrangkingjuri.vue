@@ -129,6 +129,7 @@
                                             <th class="crud-width100" >File</th>
                                             <th class="crud-width100">Link</th>
                                             <th class="crud-width-150">Instansi</th>
+                                            <th class="crud-width-80">Nilai</th>
                                             <th class="crud-width100">Status</th>
                                         </tr>
                                     </thead>
@@ -140,6 +141,7 @@
                                             <td></td>
                                             <td></td>
                                             <td>Universitas</td>
+                                            <td></td>
                                             <td>Tidak Lolos</td>
                                         </tr>                                  
                                     </tbody>
