@@ -157,7 +157,7 @@ class PagesController extends Controller
     }
     public function tabelrangking()
     {
-        return Inertia::render('Admin/Rangking/Tabelrangkingjuri');
+        return Inertia::render('Admin/Rangking/Tabelrangking');
     }
 
 

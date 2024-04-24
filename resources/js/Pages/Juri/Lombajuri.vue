@@ -109,28 +109,28 @@
                                 <div class="card radius-15 card-overview">
                                     <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
                                     <label class="judul-overview">UI / UX</label>
-                                    <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                    <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Karya</a>
                                 </div>
                             </div>
                             <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">AR / VR</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Karya</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">APLIKASI MOBILE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Karya</a>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="card radius-15 card-overview">
                                         <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
                                         <label class="judul-overview">DESAIN WEBSITE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Peserta</a>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabellomba">Lihat Karya</a>
                                     </div>
                                 </div>
                                 <div class="col">

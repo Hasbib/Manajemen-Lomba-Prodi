@@ -6,11 +6,11 @@
                 <nav class="navbar navbar-expand">
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
-                        <a href="/">
-                            <div class="navbar-left">
-                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
-                            </div>
-                        </a>
+                        <div class="navbar-left">
+                            <a href="/">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">   
+                            </a>
+                        </div>
                     </div>
                     <!-- Mobile toggle menu -->
                     <!-- Search bar -->

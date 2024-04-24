@@ -48,8 +48,14 @@
                                 <input type="email" class="form-control">
                             </div>
                             <div class="col-md-6">
-                                <label class="jarak-input"><b>Lomba</b></label>
-                                <input type="email" class="form-control c-mb8">
+                                <label class="c-mb5-black"><b>Nama Lomba</b></label>
+                                <div class="col-12">
+                                    <select class="form-select" id="inputProductType">
+                                        <option value="1" selected>AR/VR</option>
+                                        <option value="2">APLIKASI MOBILE</option>
+                                        <option value="3">DESAIN WEBSITE</option>
+                                    </select>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <label class="jarak-input"><b>No WhatsApp</b></label>
@@ -59,10 +65,10 @@
                                 <label class="jarak-input"><b>Email</b></label>
                                 <input type="email" class="form-control">
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <label for="formFile" class="form-label jarak-teks11"><b>Surat</b></label>
 								<input class="form-control" type="file" id="formFile">
-                            </div>
+                            </div> -->
                             <div class="col-md-6">
                                 <label for="formFile" class="form-label jarak-teks12"><b>Bukti Pembayaran</b></label>
 								<input class="form-control" type="file" id="formFile">

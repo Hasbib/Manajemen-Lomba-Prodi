@@ -110,7 +110,7 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Peserta</h4>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Rangking</h4>
                         <hr class="c-mt10"/>
                             <label class="jarak-filterstatus">Filter by Status</label> 
                             <select class="form-select2">

@@ -142,17 +142,13 @@
                                     <div class="data-tim">0850000000s</div>
                                 </div>
                                 <div class="col-md-2 jarak-daftar-lomba">
-                                    <label class="c-mb5-black"><b>SERTIFIKAT</b></label>
-                                    <div class="data-tim">Universitas</div>
-                                </div>
-                                <div class="col-md-2 jarak-daftar-lomba">
                                     <label class="c-mb5-black"><b>STATUS</b></label>
                                     <div class="data-tim">Verified</div>
                                 </div>
-                                <div class="col-md-2 jarak-daftar-lomba">
+                                <!-- <div class="col-md-2 jarak-daftar-lomba">
                                     <label class="c-mb5-black"><b>Surat</b></label>
                                     <div class="data-tim"><a href="#">Lihat Surat</a></div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-2 jarak-daftar-lomba">
                                     <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
                                     <div class="data-tim c-mb-70"><a href="#">Lihat Bukti</a></div>

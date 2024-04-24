@@ -110,7 +110,7 @@
                 </div>
 				<div class="card">
 					<div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Peserta</h4>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Karya</h4>
                         <hr class="c-mt10"/>
                             <label class="jarak-filterstatus">Filter by Status</label> 
                             <select class="form-select2">
@@ -130,7 +130,7 @@
                                             <th class="crud-width100">Link</th>
                                             <th class="crud-width-150">Instansi</th>
                                             <th class="crud-width100">Status</th>
-                                            <th class="crud-width-180">Aksi</th> 
+                                            <th class="crud-width-220">Aksi</th> 
                                         </tr>
                                     </thead>
                                     <tbody>
