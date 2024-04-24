@@ -152,7 +152,7 @@
                                             <td>90</td>
                                             <td>Lolos</td>
                                             <td class="btn-crud">
-                                                <button class="btn btn-secondary" onclick="window.location.href='/detailadministrator'"><i class="bi bi-eye"></i></button>
+                                                <button class="btn btn-secondary" onclick="window.location.href=''"><i class="bi bi-eye"></i></button>
                                             </td>
                                             <td>
                                                 <input type="checkbox">
