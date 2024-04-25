@@ -2890,6 +2890,9 @@ input.search-control-2::placeholder {
 .jarak-bottom-kurang13 {
 	margin-bottom: -13px;
 }
+.jarak-bottom-kurang20 {
+	margin-bottom: -20px;
+}
 
 /* KONTAK */
 .judul-kontak {
@@ -3143,6 +3146,12 @@ input.search-control-2::placeholder {
 .warna-p {
 	color: #AAAAAA;
 }
+.bg-cred {
+	background-color: #fa5050;
+}
+.bg-cgreen {
+	background-color: #9FE2A6;
+}
 
 /* BTN */
 .btn-float-right {
@@ -3219,6 +3228,9 @@ input.search-control-2::placeholder {
 
 .c-mb20 {
 	margin-bottom: 20px
+}
+.c-mb30 {
+	margin-bottom: 30px
 }
 .c-mb8 {
 	margin-bottom: 8px;
@@ -3691,3 +3703,34 @@ input.search-control-2::placeholder {
 }
 
 
+.keterangan {
+	background-color: red; 
+	width: 300px; 
+	text-align: center; 
+	height: 40px; 
+	color: white; 
+	border-radius: 5px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.keterangan-notif {
+    position: relative;
+    width: 970px; 
+    height: 60px; 
+    color: #000;
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: left;
+    padding-left: 30px;
+}
+
+/* .keterangan-notif label:nth-child(1) { */
+.keterangan-notif label:first-child {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin: 10px;
+	color: white;
+}

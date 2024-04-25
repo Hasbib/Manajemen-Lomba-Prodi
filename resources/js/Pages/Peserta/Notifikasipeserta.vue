@@ -115,10 +115,15 @@
         <div class="page-wrapper">
             <div class="page-content"> 
                 <div class="card-body btn-crud">
-                    <div class="d-grid notifikasi-peserta"> <a class="btn btn-danger radius-3 text-warna warna-hitam">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</a>
-					</div>
-                    <div class="d-grid notifikasi-peserta-2"> <a class="btn btn-success radius-3 text-warna warna-hitam">Selamat TIM anda telah terdaftar lomba UI/UX</a>
-				    </div>
+                    <div  class="keterangan-notif jarak-bottom-kurang20 c-mb30 bg-cred"> 
+                        <label>Mey 21</label>
+                        <label>Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux </label>
+                    </div>
+                    <div  class="keterangan-notif jarak-bottom-kurang20 bg-cgreen"> 
+                        <label>Mey 21</label>
+                        <label>Selamat TIM anda telah terdaftar lomba ui/ux </label>
+                    </div>
+                   
                 </div>
             </div>
         </div>
