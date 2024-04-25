@@ -116,7 +116,7 @@
             <div class="page-content">
                 <div class="card card-height200">
                     <div class="card-body">
-                        <button class="btn btn-danger btn-report">TIDAK LOLOS</button>
+                        <label class="keterangan jarak-bottom-kurang20">TIDAK LOLOS</label>
                         <br><br>
                         <div class="row">
                             <div class="col-md-7 label-left">
