@@ -20,13 +20,13 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>					
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>
+                                <p class="user-role">habib</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -37,7 +37,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0">Edit Lomba</h4>
-                        <hr/>
+                        <hr />
                         <div class="row">
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>Nama Lomba</b></label>
@@ -45,18 +45,13 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="c-mb5-black"><b>Nama PJ</b></label>
-                                <div class="col-12">
-                                    <select class="form-select" id="inputProductType">
-                                        <option value="1" selected>Admin 1</option>
-                                        <option value="2">Admin 2</option>
-                                        <option value="3">Admin 3</option>
-                                    </select>
-                                </div>
+                                <input type="email" class="form-control label-8">
                             </div>
                             <div class="col-md-6">
                                 <label class="c-mb5-black"><b>Deskripsi</b></label>
                                 <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="deskripsi" rows="4" value="Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan." ></textarea>  
+                                    <textarea class="form-control c-mb10" id="deskripsi" rows="4"
+                                        value="Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan."></textarea>
                                 </div>
                                 <div>
                                     <label for="formFile" class="form-label judul-form"><b>Gambar</b></label>
@@ -71,7 +66,7 @@
                             <div class="col-md-6">
                                 <label class="c-mb5-black"><b>Kontak PJ</b></label>
                                 <input type="email" class="form-control label-8" value="085000000000">
-     
+
                                 <div>
                                     <label class="c-mb5-black"><b>Tempat</b></label>
                                     <input type="email" class="form-control">
@@ -80,11 +75,21 @@
                                     <label class="c-mb5-black"><b>Biaya Pendaftaran</b></label>
                                     <input type="email" class="form-control label-8" value="20.000">
                                 </div>
+                                <div class="c-mt10">
+                                    <label class="c-mb5-black c-mt10"><b>Kriteria Penilaian</b></label>
+                                    <div id="kriteriaPenilaianContainer">
+                                        <input type="email" class="form-control label-8">
+                                    </div>
+                                    <button id="tambahKriteriaButton" class="btn btn-secondary"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
                             </div>
                         </div>
                         <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/lomba'">Simpan</button>
-                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/lomba'">Batal</button>
+                            <button class="btn btn-primary button-tabel-right"
+                                onclick="window.location.href='/lomba'">Simpan</button>
+                            <button class="btn btn-danger button-tabel-left"
+                                onclick="window.location.href='/lomba'">Batal</button>
                         </div>
                     </div>
                 </div>
@@ -93,5 +98,3 @@
         <!--end page wrapper -->
     </div>
 </template>
-    
-   >>

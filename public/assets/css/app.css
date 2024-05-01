@@ -3034,6 +3034,9 @@ input.search-control-2::placeholder {
 
 
 /* JARAK TOP*/
+.c-mt5 {
+	margin-top: 5px;
+}
 .c-mt10 {
 	margin-top: 10px;
 }
