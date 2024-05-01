@@ -5,7 +5,9 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -89,7 +91,7 @@
                                 <p class="user-name mb-0">Lionel Andres</p>			
                                 <p class="user-role">leon</p>									
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -114,7 +116,7 @@
             <div class="page-content">
                 <div class="card card-height200">
                     <div class="card-body">
-                        <button class="btn btn-danger btn-report">TIDAK LOLOS</button>
+                        <label class="keterangan jarak-bottom-kurang20">TIDAK LOLOS</label>
                         <br><br>
                         <div class="row">
                             <div class="col-md-7 label-left">
@@ -122,7 +124,7 @@
                                 <div class="judul-lomba-index">Olinas Periode 2024</div>
                             </div>
                             <div class="col-md-5 d-flex justify-content-end align-items-center">
-                                <button class="btn btn-primary crud-width-150">Detail</button>
+                                <a class="btn btn-primary crud-width-150" href="/detailtimreport">Detail</a>
                             </div>
                         </div>
                     </div>      

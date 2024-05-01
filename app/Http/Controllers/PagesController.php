@@ -75,6 +75,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Tim');
     }
+    public function tabeltim()
+    {
+        return Inertia::render('Admin/Tim/Tabeltim');
+    }
     public function detailtim()
     {
         return Inertia::render('Admin/Tim/Detailtim');
@@ -124,15 +128,71 @@ class PagesController extends Controller
         return Inertia::render('Admin/Setting/Editsetting');
     }
 
+
     public function dashboardjuri()
     {
         return Inertia::render('Juri/Dashboardjuri');
     }
+    public function rangkingjuri()
+    {
+        return Inertia::render('Juri/Rangkingjuri');
+    }
+    public function tabelrangkingjuri()
+    {
+        return Inertia::render('Juri/Rangking/Tabelrangkingjuri');
+    }
+    public function lombajuri()
+    {
+        return Inertia::render('Juri/Lombajuri');
+    }
+    public function tabellomba()
+    {
+        return Inertia::render('Juri/Lomba/Tabellomba');
+    }
+    public function nilai()
+    {
+        return Inertia::render('Juri/Lomba/Nilai');
+    }
+
+
+    public function rangking()
+    {
+        return Inertia::render('Admin/Adminrangking');
+    }
+    public function tabelrangking()
+    {
+        return Inertia::render('Admin/Rangking/Tabelrangking');
+    }
+
 
 
     public function dashboardpetugas()
     {
         return Inertia::render('Petugas/Dashboardpetugas');
+    }
+    public function partisipanpetugas()
+    {
+        return Inertia::render('Petugas/Partisipanpetugas');
+    }
+    public function timpetugas()
+    {
+        return Inertia::render('Petugas/Timpetugas');
+    }
+    public function timdetail()
+    {
+        return Inertia::render('Petugas/Tim/Timdetail');
+    }
+    public function pesanpetugas()
+    {
+        return Inertia::render('Petugas/Pesanpetugas');
+    }
+    public function rangkingpetugas()
+    {
+        return Inertia::render('Petugas/Rangkingpetugas');
+    }
+    public function petugasrangking()
+    {
+        return Inertia::render('Petugas/Rangking/Petugasrangking');
     }
 
 
@@ -155,6 +215,10 @@ class PagesController extends Controller
     public function reportpeserta()
     {
         return Inertia::render('Peserta/Reportpeserta');
+    }
+    public function detailtimreport()
+    {
+        return Inertia::render('Peserta/Report/Detailtimreport');
     }
     public function daftarlomba()
     {

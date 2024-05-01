@@ -7,7 +7,9 @@
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
                         <div class="navbar-left">
-                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            <a href="/">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            </a>
                         </div>
                     </div>
                     <!-- Mobile toggle menu -->
@@ -21,7 +23,7 @@
                                 <p class="user-name mb-0">Lionel Andres</p>			
                                 <p class="user-role">leon</p>						
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
                     </div>		
@@ -46,8 +48,14 @@
                                 <input type="email" class="form-control">
                             </div>
                             <div class="col-md-6">
-                                <label class="jarak-input"><b>Lomba</b></label>
-                                <input type="email" class="form-control c-mb8">
+                                <label class="c-mb5-black"><b>Nama Lomba</b></label>
+                                <div class="col-12">
+                                    <select class="form-select" id="inputProductType">
+                                        <option value="1" selected>AR/VR</option>
+                                        <option value="2">APLIKASI MOBILE</option>
+                                        <option value="3">DESAIN WEBSITE</option>
+                                    </select>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <label class="jarak-input"><b>No WhatsApp</b></label>
@@ -57,10 +65,10 @@
                                 <label class="jarak-input"><b>Email</b></label>
                                 <input type="email" class="form-control">
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <label for="formFile" class="form-label jarak-teks11"><b>Surat</b></label>
 								<input class="form-control" type="file" id="formFile">
-                            </div>
+                            </div> -->
                             <div class="col-md-6">
                                 <label for="formFile" class="form-label jarak-teks12"><b>Bukti Pembayaran</b></label>
 								<input class="form-control" type="file" id="formFile">

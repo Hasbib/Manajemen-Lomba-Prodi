@@ -5,7 +5,9 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -30,8 +32,6 @@
                         </li>
                         <li class="jarak-dropdown"> <a href="/administrator">Administrator</a>
                         </li>
-                        <li class="jarak-dropdown"> <a href="/tim">Tim</a>
-                        </li>
                         <li class="jarak-dropdown"> <a href="/sponsor">Sponsor</a>
                         </li>
                         <li class="jarak-dropdown"> <a href="/berita">Berita</a>
@@ -41,8 +41,15 @@
                     </ul>
                 </li>
                 <li>
+                    <a href="/tim">
+                        <div class="parent-icon"><i class="fadeIn animated lni lni-users"></i>
+                        </div>
+                        <div class="menu-title">Tim</div>
+                    </a>
+                </li>   
+                <li>
                     <a href="/partisipan">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
                         </div>
                         <div class="menu-title">Partisipan</div>
                     </a>
@@ -54,6 +61,13 @@
                         <div class="menu-title">Pesan <span class="alert-count">1</span></div>
                     </a>
                 </li> 
+                <li>
+                    <a href="/rangking">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-trophy"></i>
+                        </div>
+                        <div class="menu-title">Rangking</div>
+                    </a>
+                </li>
                 <li>
                     <a href="/">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
@@ -96,7 +110,7 @@
                             <p class="user-name mb-0">Habib Shohiburrotib</p>			
                             <p class="user-role">habib</p>							
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -116,56 +130,63 @@
             </div>
         </header>
         <!--end header -->
-        <!--start page wrapper -->
-        <div class="page-wrapper">
-            <div class="page-content">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Tim</h4>
-                        <hr class="c-mt10"/>		
-                        <button class="btn btn-primary btn-export">Export Excel</button>
-                        <label class="dropdown-crud">Filter by Status</label> 
-						<select class="form-select2">
-							<option selected>Semua</option>
-							<option>Verified</option>
-                            <option>Unverified</option>
-						</select>
-                        <br><br>
-                        <div class="table-responsive">	
-                            <table id="example" class="table table-bordered">
-                                <thead class="table-dark">
-                                    <tr>
-                                        <th class="width-id">ID</th>
-                                        <th class="crud-width-90">Nama Tim</th>
-                                        <th class="crud-width-90">Lomba</th>
-                                        <th class="crud-width-100">No WhatsApp</th>
-                                        <th class="crud-width-120">Email</th>
-                                        <th class="crud-width-90">Instansi</th>
-                                        <th class="crud-width-60">Status</th>
-                                        <th class="crud-width-60">Aksi</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Start Green</td>
-                                        <td>Lomba Desain</td>
-                                        <td>0850000000</td>
-                                        <td>goat@gmail.com</td>
-                                        <td>Universitas</td>
-                                        <td>Verified</td>
-                                        <td class="btn-crud">
-                                            <button class="btn btn-secondary" onclick="window.location.href='/detailtim'"><i class="bi bi-eye"></i></button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+     	<!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content">
+				<!--breadcrumb-->
+				<div class="tf__activities_slider_area">
+                    <div class="container">
+                        <!--breadcrumb-->
+                        <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                                    <label class="judul-overview">UI / UX</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">AR / VR</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">APLIKASI MOBILE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">DESAIN WEBSITE</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">SISTEM KEAMANAN DATA</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card radius-15 card-overview">
+                                        <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
+                                        <label class="judul-overview">UI / UX</label>
+                                        <a class="btn btn-primary btn-landing-page2" href="/tabeltim">Daftar Tim</a>
+                                    </div>
+                                </div> 
+                            </div>
+                        <!--end row-->
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--end page wrapper --> 
+                </div>				
+                <!--end row-->
+			</div>
+		</div>
     </div>
 </template>
 

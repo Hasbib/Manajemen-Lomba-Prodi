@@ -6,9 +6,11 @@
                 <nav class="navbar navbar-expand">
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
-                        <div class="navbar-left">
-                            <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
-                        </div>
+                        <a href="/">
+                            <div class="navbar-left">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
+                            </div>
+                        </a>
                     </div>
                     <!-- Mobile toggle menu -->
                     <!-- Search bar -->
@@ -21,7 +23,7 @@
                                 <p class="user-name mb-0">Habib Shohiburrotib</p>			
                                 <p class="user-role">habib</p>					
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
                     </div>		
@@ -43,7 +45,7 @@
                             </div>
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>INSTASNSI</b></label>
-                                <div class="c-mb20">Start Green</div>
+                                <div class="c-mb20">Universitas</div>
                             </div>
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>LOMBA</b></label>
@@ -64,10 +66,6 @@
                             <div class="col-md-2">
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
-                            </div>
-                            <div class="col-md-2">
-                                <label class="c-mb5-black"><b>Surat</b></label>
-                                <div class="c-mb20"><a href="#">Lihat Surat</a></div>
                             </div>
                             <div class="col-md-3">
                                 <label class="c-mb5-black"><b>PEMBAYARAN</b></label>

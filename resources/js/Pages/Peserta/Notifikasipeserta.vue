@@ -5,7 +5,9 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -89,7 +91,7 @@
                                 <p class="user-name mb-0">Lionel Andres</p>			
                                 <p class="user-role">leon</p>								
                             </div>
-                            <div class="parent-icon posisi-icon"><i class="bx bxs-user me-1"></i>
+                            <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                             <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
@@ -113,10 +115,15 @@
         <div class="page-wrapper">
             <div class="page-content"> 
                 <div class="card-body btn-crud">
-                    <div class="d-grid notifikasi-peserta"> <a class="btn btn-danger radius-3 text-warna warna-hitam">Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux dalam event Olinas (Olimpiade Nasional)</a>
-					</div>
-                    <div class="d-grid notifikasi-peserta-2"> <a class="btn btn-success radius-3 text-warna warna-hitam">Selamat TIM anda telah terdaftar lomba UI/UX</a>
-				    </div>
+                    <div  class="keterangan-notif jarak-bottom-kurang20 c-mb30 bg-cred"> 
+                        <label>Mey 21</label>
+                        <label>Mohon maaf TIM anda gagal ke tahap selanjutnya untuk lomba ui/ux </label>
+                    </div>
+                    <div  class="keterangan-notif jarak-bottom-kurang20 bg-cgreen"> 
+                        <label>Mey 21</label>
+                        <label>Selamat TIM anda telah terdaftar lomba ui/ux </label>
+                    </div>
+                   
                 </div>
             </div>
         </div>

@@ -2883,6 +2883,16 @@ input.search-control-2::placeholder {
 .jarak-top-kurang18 {
 	margin-top: -18px;
 }
+.jarak-top-kurang25 {
+	margin-top: -25px;
+}
+
+.jarak-bottom-kurang13 {
+	margin-bottom: -13px;
+}
+.jarak-bottom-kurang20 {
+	margin-bottom: -20px;
+}
 
 /* KONTAK */
 .judul-kontak {
@@ -2951,6 +2961,10 @@ input.search-control-2::placeholder {
 	width: 10px;
 }
 
+.btn-mid {
+	display: block;
+    margin: 0 auto;
+}
 
 .btn-crud {
 	text-align: center;
@@ -3020,8 +3034,17 @@ input.search-control-2::placeholder {
 
 
 /* JARAK TOP*/
+.c-mt5 {
+	margin-top: 5px;
+}
 .c-mt10 {
 	margin-top: 10px;
+}
+.c-mt40 {
+	margin-top: 40px;
+}
+.c-mt50 {
+	margin-top: 50px;
 }
 
 .c-mt10b {
@@ -3039,6 +3062,17 @@ input.search-control-2::placeholder {
 }
 .c-mb-70 {
 	margin-bottom: 70px;
+}
+
+/* JARAK RIGHT*/
+.c-mr-160 {
+	margin-right: 160px;
+}
+
+
+/* JARAK LEFT*/
+.c-ml-160 {
+	margin-left: 160px;
 }
 
 /* LEFT */
@@ -3091,8 +3125,12 @@ input.search-control-2::placeholder {
 }
 
 .sponsor-item {
-    width: 90%;
+    width: 85%;
 }
+.sponsor-item2 {
+    width: 120%;
+}
+
 
 .sponsor-grid-overview {
     display: grid;
@@ -3104,6 +3142,18 @@ input.search-control-2::placeholder {
 /* WARNA */
 .warna-hitam {
 	color: black;
+}
+.warna-abu {
+	color: #8D8686;
+}
+.warna-p {
+	color: #AAAAAA;
+}
+.bg-cred {
+	background-color: #fa5050;
+}
+.bg-cgreen {
+	background-color: #9FE2A6;
 }
 
 /* BTN */
@@ -3147,8 +3197,17 @@ input.search-control-2::placeholder {
 .crud-width-180 {
 	width: 180px;
 }
+.crud-width-180 {
+	width: 180px;
+}
+.crud-width-220 {
+	width: 220px;
+}
 .crud-width-290 {
 	width: 290px;
+}
+.crud-width-400 {
+	width: 400px;
 }
 
 .crud-max-width260 {
@@ -3173,9 +3232,25 @@ input.search-control-2::placeholder {
 .c-mb20 {
 	margin-bottom: 20px
 }
+.c-mb30 {
+	margin-bottom: 30px
+}
 .c-mb8 {
 	margin-bottom: 8px;
 }
+.c-mb50 {
+	margin-bottom: 50px;
+}
+
+/* LEFT */
+.c-ml20 {
+	margin-left: 20px;
+}
+.c-mlk10 {
+	margin-right: 10px;
+}
+
+
 
 /* PROFIL */
 .ukuran-foto {
@@ -3194,8 +3269,12 @@ input.search-control-2::placeholder {
 .profil-font15 {
 	font-size: 15px;
 }
-
-
+.c-font25 {
+	font-size: 25px;
+}
+.c-font48 {
+	font-size: 40px;
+}
 
 /*-- BTN --*/
 .btn-putih {
@@ -3265,7 +3344,18 @@ input.search-control-2::placeholder {
 	margin-top: -7px; 
 	float: right;
 }
+.btn-petugas {
+    position: absolute;
+    top: 10px;
+}
 
+.btn-gagal {
+    right: 200px;
+}
+
+.btn-verifikasi {
+    right: 20px;
+}
 
 /* USERNAME */
 .user-role {
@@ -3387,6 +3477,95 @@ input.search-control-2::placeholder {
 }
 
 
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+    .page-wrapper-report {
+        margin-top: 0px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+    .page-wrapper-report {
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+	.topbar {
+		left: 0!important
+	}
+	.mobile-search-icon {
+		display: block
+	}
+	.mobile-toggle-menu {
+		display: block
+	}
+	.sidebar-wrapper {
+		left: -300px;
+		box-shadow: none
+	}
+	.page-wrapper-report {
+		margin-left: 0
+	}
+	.page-footer {
+		left: 0
+	}
+	.search-bar {
+		display: none
+	}
+	.full-search-bar {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		z-index: 100;
+		background: #ffffff;
+		height: 60px;
+		padding: 0 1.4rem
+	}
+	.search-bar-box {
+		width: 100%
+	}
+	.search-close {
+		display: block
+	}
+	.search-show {
+		left: 15px;
+		right: auto
+	}
+	.search-control {
+		background-color: #fff;
+		border: 1px solid #f2efef00;
+		padding-left: 2.5rem
+	}
+	.search-control-2 {
+		color: #fff;
+		background-color: #212529;
+		border: 1px solid rgb(255 255 255 / 12%)!important;
+		padding-left: 2.5rem
+	}
+	.wrapper.toggled .sidebar-wrapper {
+		left: 0
+	}
+	.wrapper.toggled .page-wrapper-report{
+		margin-left: 0
+	}
+}
+
+
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+    .page-wrapper-report {
+        margin-top: 0px;
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+}
+
 /* DETAIL PESERTA */
 
 /* Aturan CSS untuk tampilan desktop */
@@ -3500,4 +3679,61 @@ input.search-control-2::placeholder {
     position: absolute;
     top: 10px;
     right: 20px;
+}
+
+
+/* BERITA */
+.isi-p {
+	text-align: justify;
+	text-indent: 50px;
+}
+.paragraf-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warna-p {
+    color: #AAAAAA;
+}
+
+.p-right {
+    text-align: right;
+}
+
+
+.posisi-text {
+	text-align: start;
+}
+
+
+.keterangan {
+	background-color: red; 
+	width: 300px; 
+	text-align: center; 
+	height: 40px; 
+	color: white; 
+	border-radius: 5px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.keterangan-notif {
+    position: relative;
+    width: 970px; 
+    height: 60px; 
+    color: #000;
+    border-radius: 5px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: left;
+    padding-left: 30px;
+}
+
+/* .keterangan-notif label:nth-child(1) { */
+.keterangan-notif label:first-child {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin: 10px;
+	color: white;
 }
