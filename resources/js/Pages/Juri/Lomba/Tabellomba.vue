@@ -142,7 +142,8 @@
                                             <td></td>
                                             <td>Universitas</td>
                                             <td>Belum Nilai</td>
-                                            <td class="btn-crud">
+                                            <td class="btn-crud-af">
+                                            <button class="btn btn-secondary" onclick="window.location.href='/timdetailjuri'"><i class="bi bi-eye"></i></button>
                                             <button class="btn btn-primary" onclick="window.location.href='/nilai'"><i class="bi bi-pencil-square"></i></button>    
                                             <button class="btn btn-primary" onclick="window.location.href='/nilai'">Beri Nilai</button>                              
                                         </td>
