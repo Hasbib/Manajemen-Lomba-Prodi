@@ -30,21 +30,29 @@
         </header>
         <!--end header -->
         <!--start page wrapper -->
-        <div class="page-wrapper-peserta">
-            <div class="page-content">
-                <div class="card container-hg180">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-7 label-left">
-                                <h5 class="judul-detail c-ml-80 c-mt10"><b>Tema Lomba</b></h5>
-                                <div class="judul-lomba-index c-ml-80 warna-hitam"><b>Desain Website</b></div>
+
+        <div class="kotak-putih">
+            <div class="page-wrapper-peserta">
+                <div class="page-content">
+                    <div class="card container-hg180">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4 label-left">
+                                    <h5 class="judul-detail c-ml-80 c-mt10"><b>Tema Lomba</b></h5>
+                                    <div class="judul-lomba-index c-ml-80 warna-hitam"><b>Desain Website</b></div>
+                                </div>
+                                <div class="ayam col-md-8 d-flex justify-content-end align-items-center ">
+                                    <a class="btn btn-pink crud-width-af warna-hitam" href="/daftarlomba">BUKU PANDUAN</a>
+                                    <a class="btn btn-success crud-width-af margin-afkar warna-hitam" href="/daftarlomba">AJUKAN PERTANYAAN</a>
+                                    <a class="btn btn-primary crud-width-af warna-hitam" href="/daftarlomba">DAFTAR LOMBA</a>
+                                </div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-end align-items-center">
-                                <a class="btn btn-primary crud-width-180  isi-data" href="/daftarlomba">Daftar Lomba</a>
-                            </div>
-                        </div>
-                    </div>      
+                        </div>      
+                    </div>            
                 </div>
+            </div>
+            <div class="des-biru">
+                    <a class="kont">Deskripsi</a>
             </div>
         </div>
         <!--end page wrapper -->

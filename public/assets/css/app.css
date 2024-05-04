@@ -3147,10 +3147,16 @@ input.search-control-2::placeholder {
 .crud-width-180 {
 	width: 180px;
 }
+.crud-width-200 {
+	width: 200px;
+}
 .crud-width-290 {
 	width: 290px;
 }
-
+.crud-width-af {
+	width: 300px;
+	margin-left: 5px;
+}
 .crud-max-width260 {
 	max-width: 260px;
 }
@@ -3500,4 +3506,48 @@ input.search-control-2::placeholder {
     position: absolute;
     top: 10px;
     right: 20px;
+}
+
+.btn-pink {
+    background-color: #FB9AD1; /* Menentukan warna latar belakang */
+    color: rgb(0, 0, 0); /* Menentukan warna teks */
+}
+
+/* Saat tombol disentuh */
+.btn-pink:hover {
+    background-color: rgba(251, 154, 209, 0.8); /* Menentukan warna latar belakang yang lebih gelap */
+    color: #ffffff; /* Menentukan warna teks menjadi putih */
+}
+
+.margin-afkar {
+	margin-left: 10px;
+}
+
+.kotak-putih {
+	margin-top: 90px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: #ffffff;
+}
+
+.des-biru {
+	height: 280px; 
+	background-color: #E6F4FF;
+}
+
+.kont {
+	margin-left: 80px;
+	margin-top: 80px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.tulis {
+	margin-left: 80px;
+	margin-top: 80px;
+	color: #000000;
+}
+
+.ayam {
+	margin-bottom: 85px;
 }
