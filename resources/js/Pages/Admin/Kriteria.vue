@@ -143,36 +143,30 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Lomba</h4>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Kriteria</h4>
                         <hr class="c-mt10" />
-                        <a class="btn btn-success jarak-top-kurang7" href="/tambahlomba">Tambah Lomba</a>
-                        <a class="btn btn-info jarak-top-kurang7" href="/kriteria">Kriteria</a>
+                        <a class="btn btn-success jarak-top-kurang7" href="/lomba">Lomba</a>
+                        <a class="btn btn-info jarak-top-kurang7" href="/tambahkriteria">Tambah Kriteria</a>
                         <hr class="c-mt10" />
                         <div class="table-responsive">
                             <table id="example" class="table mt-3  table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th class="width-id">ID</th>
-                                        <th>Nama Lomba</th>
-                                        <th>Deskripsi</th>
-                                        <th>Nama PJ</th>
-                                        <th>Kontak PJ</th>
-                                        <th class="crud-width-180">Aksi</th>
+                                        <th class="width-id2">ID</th>
+                                        <th class="crud-width-400">Kritera</th>
+                                        <th class="crud-width100">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
                                         <td>Lomba Desain</td>
-                                        <td>Desain adalah</td>
-                                        <td>Leocris</td>
-                                        <td>29 Maret 2024</td>
                                         <td class="btn-crud">
                                             <button class="btn btn-secondary"
-                                                onclick="window.location.href='/detaillomba'"><i
+                                                onclick="window.location.href='/detailkriteria'"><i
                                                     class="bi bi-eye"></i></button>
                                             <button class="btn btn-primary"
-                                                onclick="window.location.href='/editlomba'"><i
+                                                onclick="window.location.href='/editkriteria'"><i
                                                     class="bi bi-pencil-square"></i></button>
                                             <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
                                         </td>

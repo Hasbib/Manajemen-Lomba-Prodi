@@ -8,7 +8,7 @@
                     <div class="navbar-tambah">
                         <div class="navbar-left">
                             <a href="/">
-                                <img src="../../../../public/bootstrap/images/logo.png" alt="Logo">
+                                <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
                             </a>
                         </div>
                     </div>
@@ -32,36 +32,28 @@
         </header>
         <!--end header -->
         <!--start page wrapper -->
-        <div class="kotak-putih">
-            <div class="page-wrapper-peserta">
-                <div class="page-content">
-                    <div class="card container-hgnew">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-7 label-left">
-                                    <h5 class="judul-detail c-ml-25 c-mt10"><b>Tema Lomba</b></h5>
-                                    <div class="judul-lomba-index c-ml-25 warna-hitam"><b>Desain Website</b></div>
-                                </div>
-                                <div>
-                                    <div class="div-class">
-                                        <a class="btn btn-pink margin-afkar" href="#">BUKU
-                                            PANDUAN</a>
-                                        <a class="btn btn-success margin-afkar c-btm10 warna-hitam" href="#">AJUKAN
-                                            PERTANYAAN</a>
-                                        <a class="btn btn-primary c-btm10 warna-hitam" href="/daftarlomba">DAFTAR
-                                            LOMBA</a>
-                                    </div>
-                                </div>
+        <div class="page-wrapper-new">
+            <div class="page-content">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="mb-0">Edit Kriteria Lomba</h4>
+                        <hr />
+                        <div class="row">
+                            <div class=" c-mb10">
+                                <label class="c-mb5-black"><b>Nama Kriteria</b></label>
+                                <input type="namalomba" class="form-control">
                             </div>
+                        </div>
+                        <div class="btn-posisi">
+                            <button class="btn btn-primary button-tabel-right"
+                                onclick="window.location.href='/kriteria'">Simpan</button>
+                            <button class="btn btn-danger button-tabel-left"
+                                onclick="window.location.href='/kriteria'">Batal</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="des-biru">
-                <a class="kont">Deskripsi</a>
-            </div>
         </div>
         <!--end page wrapper -->
     </div>
-
 </template>

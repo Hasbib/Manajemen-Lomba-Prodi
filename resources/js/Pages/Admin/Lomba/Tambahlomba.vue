@@ -73,13 +73,23 @@
                                     <label class="c-mb5-black"><b>Biaya Pendaftaran</b></label>
                                     <input type="email" class="form-control label-8">
                                 </div>
-                                <div class="c-mt10">
-                                    <label class="c-mb5-black c-mt10"><b>Kriteria Penilaian</b></label>
-                                    <div id="kriteriaPenilaianContainer">
-                                        <input type="email" class="form-control label-8">
+                                <div>
+                                    <label class="role-add"><b class="warna-hitam">Kriteria Lomba</b></label>
+                                    <div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">Kreativitas</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck"> Kesesuaian Tahap
+                                                Pelaksanaan</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">Potensi Produk</label>
+                                        </div>
                                     </div>
-                                    <button id="tambahKriteriaButton" class="btn btn-secondary"><i
-                                            class="fas fa-plus"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -97,23 +107,3 @@
         <!--end page wrapper -->
     </div>
 </template>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Menangkap elemen tombol tambah
-    var tambahKriteriaButton = document.getElementById('tambahKriteriaButton');
-
-    // Menambahkan event listener ketika tombol tambah diklik
-    tambahKriteriaButton.addEventListener('click', function () {
-        // Membuat elemen input baru
-        var inputBaru = document.createElement('input');
-        inputBaru.setAttribute('type', 'email');
-        inputBaru.classList.add('form-control', 'label-8');
-
-        // Mendapatkan container untuk kriteria penilaian
-        var kriteriaPenilaianContainer = document.getElementById('kriteriaPenilaianContainer');
-
-        // Menambahkan input baru ke dalam container
-        kriteriaPenilaianContainer.appendChild(inputBaru);
-    });
-});
-</script>
