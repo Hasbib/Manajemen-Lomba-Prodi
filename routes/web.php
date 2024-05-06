@@ -47,6 +47,10 @@ Route::get('/administrator', [PagesController::class, 'administrator'])->name('a
 Route::get('/tambahadministrator', [PagesController::class, 'tambahadministrator']);
 Route::post('/tambahadministrator', [UsersController::class, 'store'])->name('daftar.store');
 
+Route::get('/kriteria', [PagesController::class, 'kriteria']);
+Route::get('tambahkriteria', [PagesController::class, 'tambahkriteria']);
+Route::get('/editkriteria', [PagesController::class, 'editkriteria']);
+Route::get('/detailkriteria', [PagesController::class, 'detailkriteria']);
 
 Route::get('/editadministrator', [PagesController::class, 'editadministrator']);
 Route::get('/detailadministrator', [PagesController::class, 'detailadministrator']);
@@ -73,6 +77,7 @@ Route::get('/tabellomba', [PagesController::class, 'tabellomba']);
 Route::get('/rangkingjuri', [PagesController::class, 'rangkingjuri']);
 Route::get('/tabelrangkingjuri', [PagesController::class, 'tabelrangkingjuri']);
 Route::get('/nilai', [PagesController::class, 'nilai']);
+Route::get('/timdetailjuri', [PagesController::class, 'timdetailjuri']);
 
 Route::get('/dashboardpetugas', [PagesController::class, 'dashboardpetugas'])->name('dashboardpetugas');
 Route::get('/partisipanpetugas', [PagesController::class, 'partisipanpetugas']);

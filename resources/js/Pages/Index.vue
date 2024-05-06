@@ -121,41 +121,41 @@
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/desain.jpg" alt="New Image"
                                 class="border-radius">
-                            <button class="btn btn-danger btn-landing-page" href="#">UI / UX </button>
+                            <button class="btn btn-danger btn-landing-page" href="/detailpeserta">UI / UX </button>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
-                            <a class="btn btn-danger btn-landing-page" href="#">AR / VR </a>
+                            <a class="btn btn-danger btn-landing-page" href="/detailpeserta">AR / VR </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image"
                                 class="border-radius">
-                            <a class="btn btn-danger btn-landing-page" href="#">Aplikasi Mobile</a>
+                            <a class="btn btn-danger btn-landing-page" href="/detailpeserta">Aplikasi Mobile</a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/desain-website.jpg" alt="New Image"
                                 class="border-radius">
-                            <a class="btn btn-danger btn-landing-page" href="#">Desain Website </a>
+                            <a class="btn btn-danger btn-landing-page" href="/detailpeserta">Desain Website </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image"
                                 class="border-radius">
-                            <a class="btn btn-danger btn-landing-page" href="#">Sistem Keamanan Data </a>
+                            <a class="btn btn-danger btn-landing-page" href="/detailpeserta">Sistem Keamanan Data </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card radius-15 card-overview">
                             <img src="../../../public/bootstrap/images/membuat-game.jpg" alt="New Image"
                                 class="border-radius">
-                            <a class="btn btn-danger btn-landing-page" href="#">Membuat Game </a>
+                            <a class="btn btn-danger btn-landing-page" href="/detailpeserta">Membuat Game </a>
                         </div>
                     </div>
                 </div>

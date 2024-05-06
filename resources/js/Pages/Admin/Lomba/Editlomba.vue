@@ -75,13 +75,23 @@
                                     <label class="c-mb5-black"><b>Biaya Pendaftaran</b></label>
                                     <input type="email" class="form-control label-8" value="20.000">
                                 </div>
-                                <div class="c-mt10">
-                                    <label class="c-mb5-black c-mt10"><b>Kriteria Penilaian</b></label>
-                                    <div id="kriteriaPenilaianContainer">
-                                        <input type="email" class="form-control label-8">
+                                <div>
+                                    <label class="role-add"><b class="warna-hitam">Kriteria Lomba</b></label>
+                                    <div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">Kreativitas</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck"> Kesesuaian Tahap
+                                                Pelaksanaan</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">Potensi Produk</label>
+                                        </div>
                                     </div>
-                                    <button id="tambahKriteriaButton" class="btn btn-secondary"><i
-                                            class="fas fa-plus"></i></button>
                                 </div>
                             </div>
                         </div>

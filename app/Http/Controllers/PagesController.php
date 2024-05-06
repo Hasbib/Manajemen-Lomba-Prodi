@@ -43,6 +43,22 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Pesan');
     }
+    public function kriteria()
+    {
+        return Inertia::render('Admin/Kriteria');
+    }
+    public function tambahkriteria()
+    {
+        return Inertia::render('Admin/Kriteria/Tambahkriteria');
+    }
+    public function editkriteria()
+    {
+        return Inertia::render('Admin/Kriteria/Editkriteria');
+    }
+    public function detailkriteria()
+    {
+        return Inertia::render('Admin/Kriteria/Detailkriteria');
+    }
     public function lomba()
     {
         return Inertia::render('Admin/Lomba');
@@ -152,6 +168,10 @@ class PagesController extends Controller
     public function nilai()
     {
         return Inertia::render('Juri/Lomba/Nilai');
+    }
+    public function timdetailjuri()
+    {
+        return Inertia::render('Juri/Lomba/Timdetailjuri');
     }
 
 

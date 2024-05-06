@@ -88,8 +88,8 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Lionel Andres</p>			
-                                <p class="user-role">leon</p>									
+                                <p class="user-name mb-0">Lionel Andres</p>
+                                <p class="user-role">leon</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -99,14 +99,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown dropdown-large">	
+                            <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-message-list">
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -117,21 +117,27 @@
                 <div class="card card-height200">
                     <div class="card-body">
                         <label class="keterangan jarak-bottom-kurang20">TIDAK LOLOS</label>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn btn-success crud-width-150" href="#">
+                                <i class="bi bi-download icon-dow "></i>Download
+                            </a>
+                        </div>
+
                         <br><br>
                         <div class="row">
                             <div class="col-md-7 label-left">
                                 <h5 class="judul-report"><b>Poster Keamanan Data</b></h5>
                                 <div class="judul-lomba-index">Olinas Periode 2024</div>
                             </div>
-                            <div class="col-md-5 d-flex justify-content-end align-items-center">
-                                <a class="btn btn-primary crud-width-150" href="/detailtimreport">Detail</a>
+                            <div class="col-md-5 d-flex justify-content-end align-items-center jarak-af">
+                                <a class="btn btn-primary crud-width-150" href="/detailtimreport"><i
+                                        class="bi bi-eye icon-eye"></i>Detail</a>
                             </div>
                         </div>
-                    </div>      
+                    </div>
                 </div>
             </div>
         </div>
         <!--end page wrapper -->
     </div>
 </template>
-    
