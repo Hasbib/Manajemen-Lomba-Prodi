@@ -117,21 +117,20 @@
                 <div class="card card-height200">
                     <div class="card-body">
                         <label class="keterangan jarak-bottom-kurang20">TIDAK LOLOS</label>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn btn-success crud-width-150" href="#">
-                                <i class="bi bi-download icon-dow "></i>Download
-                            </a>
-                        </div>
-
                         <br><br>
                         <div class="row">
-                            <div class="col-md-7 label-left">
+                            <div class="label-left">
                                 <h5 class="judul-report"><b>Poster Keamanan Data</b></h5>
                                 <div class="judul-lomba-index">Olinas Periode 2024</div>
-                            </div>
-                            <div class="col-md-5 d-flex justify-content-end align-items-center jarak-af">
-                                <a class="btn btn-primary crud-width-150" href="/detailtimreport"><i
-                                        class="bi bi-eye icon-eye"></i>Detail</a>
+                                <div class="d-flex justify-content-end posisi-mb7 cnew">
+                                    <a class="btn btn-success crud-width150" href="#">
+                                        <i class="bi bi-download icon-dow"></i>Download
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <a class="btn btn-primary crud-width-150" href="/detailtimreport"><i
+                                            class="bi bi-eye icon-eye"></i>Detail</a>
+                                </div>
                             </div>
                         </div>
                     </div>

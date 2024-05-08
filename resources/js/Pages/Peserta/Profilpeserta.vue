@@ -88,8 +88,8 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Lionel Andres</p>			
-                                <p class="user-role">leon</p>							
+                                <p class="user-name mb-0">Lionel Andres</p>
+                                <p class="user-role">leon</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -99,111 +99,115 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown dropdown-large">	
+                            <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-message-list">
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
-		<!--end header -->
-		<!--start page wrapper -->
-		<div class="page-wrapper">
-			<div class="page-content">
-				<!--breadcrumb-->
-				<!--end breadcrumb-->
-				<div class="container">
-					<div class="main-body">
-						<div class="row">
-							<div class="col-lg-4">
-								<div class="card">
-									<div class="card-body">
-										<div class="d-flex flex-column align-items-center text-center">
-											<div class="ukuran-foto">
-												<img src="../../../../public/bootstrap/images/habib.jpg" alt="Admin" class="rounded-circle p-1 bg-primary" width="190" height="150">
-											</div>
-											<button class="btn btn-primary btn-profil">Edit</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-8">
-								<div class="card">
-									<div class="card-body label-bawah">
-										<div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0 profil-font15 ">Nama Lengkap</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="Habib Shohiburrotib" />
-											</div>
-										</div>
+        <!--end header -->
+        <!--start page wrapper -->
+        <div class="page-wrapper">
+            <div class="page-content">
+                <!--breadcrumb-->
+                <!--end breadcrumb-->
+                <div class="container">
+                    <div class="main-body">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <div class="ukuran-foto">
+                                                <img src="../../../../public/bootstrap/images/habib.jpg" alt="Admin"
+                                                    class="rounded-circle p-1 bg-primary" width="190" height="150">
+                                            </div>
+                                            <label for="edit-file" class="btn btn-primary btn-profil">Edit</label>
+                                            <input id="edit-file" type="file" style="display: none;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="card">
+                                    <div class="card-body label-bawah">
                                         <div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0">Username</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="bibs" />
-											</div>
-										</div>
-										<div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0">Email</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="habibshohiburrotib@gmail.com" />
-											</div>
-										</div>
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0 profil-font15 ">Nama Lengkap</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control" value="Habib Shohiburrotib" />
+                                            </div>
+                                        </div>
                                         <div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0">NIK</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="1234567890" />
-											</div>
-										</div>
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Username</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control" value="bibs" />
+                                            </div>
+                                        </div>
                                         <div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0">Instansi</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="Universitas" />
-											</div>
-										</div>
-										<div class="row mb-3">
-											<div class="col-sm-3">
-												<h6 class="mb-0">Kontak</h6>
-											</div>
-											<div class="col-sm-9 text-secondary">
-												<input type="text" class="form-control" value="085800086454" />
-											</div>
-										</div>
-										<br>
-										<div class="row">
-											<div class="col-sm-3"></div>
-											<div class="col-sm-9 text-secondary">
-												<input type="button" class="btn btn-primary px-4" value="Perbarui" />
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--end page wrapper -->
-		<!--start overlay-->
-		<div class="overlay toggle-icon"></div>
-		<!--end overlay-->
-		<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-		<!--End Back To Top Button-->
-	</div>
-	<!--end switcher-->
-	<!-- Bootstrap JS -->
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Email</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control"
+                                                    value="habibshohiburrotib@gmail.com" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">NIK</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control" value="1234567890" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Instansi</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control" value="Universitas" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-sm-3">
+                                                <h6 class="mb-0">Kontak</h6>
+                                            </div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="text" class="form-control" value="085800086454" />
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-sm-3"></div>
+                                            <div class="col-sm-9 text-secondary">
+                                                <input type="button" class="btn btn-primary px-4" value="Perbarui" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end page wrapper -->
+        <!--start overlay-->
+        <div class="overlay toggle-icon"></div>
+        <!--end overlay-->
+        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
+                class='bx bxs-up-arrow-alt'></i></a>
+        <!--End Back To Top Button-->
+    </div>
+    <!--end switcher-->
+    <!-- Bootstrap JS -->
 </template>

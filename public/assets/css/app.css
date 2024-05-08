@@ -2984,9 +2984,6 @@ input.search-control-2::placeholder {
 .lebar-btn {
 	width: 150px;
 }
-.card-height200 {
-	height: 200px;
-}
 
 .card-height220 {
 	height: 220px;
@@ -3003,6 +3000,35 @@ input.search-control-2::placeholder {
 .jarak-btn8 {
 	margin-bottom: 8px;
 }
+
+/* REPORT PESERTA */
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.card-height200 {
+		height: 190px;
+	}
+	.cnew {
+		margin-top: -80px;
+	}
+	.crud-width150 {
+		width: 150px;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.card-height200 {
+		height: 260px;
+	}
+	.btn-download {
+		margin-top: 150;
+	}
+	.crud-width150 {
+		width: 150px;
+	}
+	
+}
+
 
 /* Aturan CSS untuk tampilan desktop */
 @media (min-width: 768px) {
