@@ -46,7 +46,7 @@
                                     <div class="div-class">
                                         <a class="btn btn-pink margin-afkar" href="#">BUKU
                                             PANDUAN</a>
-                                        <a class="btn btn-success margin-afkar c-btm10 warna-hitam" href="#">AJUKAN
+                                        <a class="btn btn-success c-btm10 warna-hitam" href="#">AJUKAN
                                             PERTANYAAN</a>
                                         <a class="btn btn-primary c-btm10 warna-hitam" href="/daftarlomba">DAFTAR
                                             LOMBA</a>

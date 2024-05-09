@@ -19,46 +19,58 @@ $(function () {
 
 
     //=======EVENT SLIDER======
-    $('.event_slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: true,
-        arrows: false,
-
-        responsive: [
-            {
-                breakpoint: 1400,
-                settings: {
-                    slidesToShow: 3,
+    function initSlider() {
+        $('.event_slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: true,
+            arrows: false,
+    
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
                 }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
+            ]
+        });
+    }
+    
+    // Panggil fungsi initSlider saat halaman dimuat
+    $(document).ready(function() {
+        initSlider();
+    });
+    
+    // Panggil kembali fungsi initSlider saat halaman dimuat kembali (misalnya, setelah tombol "back" diklik)
+    $(window).on('popstate', function() {
+        initSlider();
     });
 
 

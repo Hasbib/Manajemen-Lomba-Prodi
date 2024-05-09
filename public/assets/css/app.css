@@ -2961,7 +2961,68 @@ input.search-control-2::placeholder {
 	width: 10px;
 }
 .width-id2 {
-	width: 1px;
+	width: 10px;
+}
+
+/* REPORT PESERTA */
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.card-height200 {
+		height: 190px;
+	}
+	.cnew {
+		margin-top: -80px;
+	}
+	.crud-width150 {
+		width: 150px;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.card-height200 {
+		height: 260px;
+	}
+	.btn-download {
+		margin-top: 150;
+	}
+	.crud-width150 {
+		width: 150px;
+	}
+
+}
+
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.btn-petugas {
+		position: absolute;
+		top: 10px;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.posisi-hr {
+		margin-top: 12px;
+	}
+	.posisi-ver {
+		margin-top: 7px;
+		margin-left: 160px;
+	}
+	.posisi-gag {
+		margin-top: 17px;
+		margin-left: 160px;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.jud{
+		margin-top: 20px;
+	}
+}
+.c-maxw400 {
+	max-width: 400px;
 }
 
 .btn-mid {
@@ -3001,90 +3062,8 @@ input.search-control-2::placeholder {
 	margin-bottom: 8px;
 }
 
-/* REPORT PESERTA */
-/* Aturan CSS untuk tampilan desktop */
-@media (min-width: 768px) {
-	.card-height200 {
-		height: 190px;
-	}
-	.cnew {
-		margin-top: -80px;
-	}
-	.crud-width150 {
-		width: 150px;
-	}
-}
-
-/* Aturan CSS untuk tampilan mobile */
-@media (max-width: 767px) {
-	.card-height200 {
-		height: 260px;
-	}
-	.btn-download {
-		margin-top: 150;
-	}
-	.crud-width150 {
-		width: 150px;
-	}
-	
-}
 
 
-/* Aturan CSS untuk tampilan desktop */
-@media (min-width: 768px) {
-	.container-hgnew {
-		height: 180px; 
-		background-color: #4B87D0;
-	}
-	.div-class {
-		position: absolute;
-		margin-top: -75px;
-		right: 0;
-	}
-}
-
-/* Aturan CSS untuk tampilan mobile */
-@media (max-width: 767px) {
-	.container-hgnew {
-		height: 280px; 
-		background-color: #4B87D0;
-	}
-	.div-class {
-		position: absolute;
-		margin-top: -75px;
-		right: 0;
-		text-align: right;
-		margin-top: 30px;
-	}
-}
-
-/* Aturan CSS untuk tampilan desktop */
-@media (min-width: 768px) {
-	.des-biru {
-		height: 280px; 
-		background-color: #E6F4FF;
-	}
-	.kont {
-		margin-left: 60px;
-		margin-top: 25px;
-		color: #000000;
-		font-weight: bold;
-	}
-}
-
-/* Aturan CSS untuk tampilan mobile */
-@media (max-width: 767px) {
-	.des-biru {
-		height: 280px; 
-		background-color: #E6F4FF;
-	}
-	.kont {
-		margin-left: 35px;
-		margin-top: 25px;
-		color: #000000;
-		font-weight: bold;
-	}
-}
 
 /* ==================================
     PRIVACY POLICY END
@@ -3134,7 +3113,13 @@ input.search-control-2::placeholder {
 	color: black;
 }
 
+.height-lg {
+	height: 20px;
+}
 /* JARAK BOTTOM*/
+.c-mb-8 {
+	margin-bottom: 8px;
+}
 .c-mb-13 {
 	margin-bottom: 13px;
 }
@@ -3150,7 +3135,9 @@ input.search-control-2::placeholder {
 .c-mr-160 {
 	margin-right: 160px;
 }
-
+.c-mr-5 {
+	margin-right: 5px;
+}
 
 /* JARAK LEFT*/
 .c-ml-160 {
@@ -3159,8 +3146,8 @@ input.search-control-2::placeholder {
 
 /* LEFT */
 @media (min-width: 768px) {
-    .c-ml-25 {
-        margin-left: 25px;
+    .c-ml-80 {
+        margin-left: 80px;
 		color: black;
 
     }
@@ -3209,9 +3196,7 @@ input.search-control-2::placeholder {
 .sponsor-item {
     width: 85%;
 }
-.sponsor-item2 {
-    width: 120%;
-}
+
 
 
 .sponsor-grid-overview {
@@ -3238,6 +3223,76 @@ input.search-control-2::placeholder {
 	background-color: #9FE2A6;
 }
 
+  
+@media (min-width: 768px) {
+	.body-login {
+		background: #007bff;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.ml240 {
+		margin-left: 240px;
+	}
+	.card2 {
+		max-width: 400px;
+		margin: 0 auto; 
+		background: white;
+	}
+	.card3 {
+		height: auto;
+		max-width: 430px;
+		margin: 0 auto; 
+		padding: 15px 15px 15px 15px;
+		background: white;
+		border-radius: 10px;
+	}
+	.top-spacing {
+		padding-top: 25px;
+	}
+	.ch4 {
+		margin-top: -10px
+	}
+}
+
+.rata-kiri {
+	text-align: left;
+}
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.body-login {
+		background: #007bff;
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.card2 {
+		max-width: 400px;
+		margin: 0 auto; 
+		background: white;
+	}
+	.card3 {
+		height: auto;
+		max-width: 430px;
+		margin: 0 auto; 
+		padding: 15px 15px 15px 15px;
+		background: white;
+		border-radius: 10px;
+	}
+	.ml240 {
+		margin-left: 150px;
+	}
+	.jarakm {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
 /* BTN */
 .btn-float-right {
 	float: right;
@@ -3245,9 +3300,7 @@ input.search-control-2::placeholder {
 
 
 /* CRUD --WIDTH */
-.crud-width-30 {
-	width: 30px;
-}
+
 .crud-width-40 {
 	width: 40px;
 }
@@ -3259,6 +3312,12 @@ input.search-control-2::placeholder {
 }
 .crud-width-70 {
 	width: 70px;
+}
+.crud-width-78 {
+	width: 78px;
+}
+.crud-width-80 {
+	width: 80px;
 }
 .crud-width-90 {
 	width: 90px;
@@ -3287,11 +3346,20 @@ input.search-control-2::placeholder {
 .crud-width-220 {
 	width: 220px;
 }
+.crud-width-250 {
+	width: 250px;
+}
 .crud-width-290 {
 	width: 290px;
 }
+.crud-width-350 {
+	width: 350px;
+}
 .crud-width-400 {
 	width: 400px;
+}
+.crud-width-510 {
+	width: 510px;
 }
 
 .crud-max-width260 {
@@ -3301,6 +3369,7 @@ input.search-control-2::placeholder {
 .border-none {
 	border: none;
 }
+
 
 /* LABEL */
 .c-mb5-black {
@@ -3427,10 +3496,6 @@ input.search-control-2::placeholder {
 	margin-top: -7px; 
 	float: right;
 }
-.btn-petugas {
-    position: absolute;
-    top: 10px;
-}
 
 .btn-gagal {
     right: 200px;
@@ -3478,7 +3543,26 @@ input.search-control-2::placeholder {
 	margin-right: 180px;
 }
 
+/* PROFIL PESERTA */
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.crud-width-435 {
+		width: 440px;
+	}
+	.pperbarui{
+		margin-left: 160px;
+	}
+}
 
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.crud-width-435 {
+		width: 135px;
+	}
+	.pperbarui {
+		text-align: center;
+	}
+}
 
 /* Aturan CSS untuk tampilan desktop */
 @media (min-width: 768px) {
@@ -3788,9 +3872,6 @@ input.search-control-2::placeholder {
 	text-align: start;
 }
 
-.container {
-    position: relative;
-}
 
 .keterangan {
 	background-color: red; 
@@ -3805,7 +3886,6 @@ input.search-control-2::placeholder {
 }
 .keterangan-notif {
     position: relative;
-    width: 970px; 
     height: 60px; 
     color: #000;
     border-radius: 5px; 
@@ -3823,7 +3903,73 @@ input.search-control-2::placeholder {
     margin: 10px;
 	color: white;
 }
+button.menu-title {
+    background-color: transparent;
+    border: none; /* Untuk menghilangkan garis tepi tombol jika ada */
+}
 
+.c-maxw400 {
+	max-width: 400px;
+}
+
+.tf__single_event_text {
+    text-align: left;
+}
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.container-hgnew {
+		height: 180px; 
+		background-color: #4B87D0;
+	}
+	.div-class {
+		position: absolute;
+		margin-top: -75px;
+		right: 0;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.container-hgnew {
+		height: 280px; 
+		background-color: #4B87D0;
+	}
+	.div-class {
+		position: absolute;
+		margin-top: -75px;
+		right: 0;
+		text-align: right;
+		margin-top: 30px;
+	}
+}
+
+/* Aturan CSS untuk tampilan desktop */
+@media (min-width: 768px) {
+	.des-biru {
+		height: 280px; 
+		background-color: #E6F4FF;
+	}
+	.kont {
+		margin-left: 60px;
+		margin-top: 25px;
+		color: #000000;
+		font-weight: bold;
+	}
+}
+
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.des-biru {
+		height: 280px; 
+		background-color: #E6F4FF;
+	}
+	.kont {
+		margin-left: 35px;
+		margin-top: 25px;
+		color: #000000;
+		font-weight: bold;
+	}
+}
 
 .icon-dow {
 	margin-right: 10px;

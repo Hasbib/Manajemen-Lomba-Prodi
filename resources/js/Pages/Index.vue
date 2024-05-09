@@ -82,7 +82,7 @@
                 <div class="col-xl-6 col-lg-6 wow fadeInRight">
                     <div> <!-- <div class="tf__home_2_about_text"-->
                         <div class="tf__heading_area tf__heading_area_left mb_25">
-                            <h5>Apa itu OLINAS ?</h5>
+                            <h5 class="jud">Apa itu OLINAS ?</h5>
                         </div>
                         <p class="tentang"> Olinas adalah Olimpiade Informatika Nasional, ajang kompetisi nasional bagi
                             mahasiswa vokasi di Indonesia. Event ini memajukan keterampilan teknologi dan kreativitas,
