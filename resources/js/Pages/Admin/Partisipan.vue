@@ -10,7 +10,7 @@
                     </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
-            </div>
+                </div>
             </div>
             <!--navigation-->
             <ul class="metismenu" id="menu">
@@ -46,7 +46,7 @@
                         </div>
                         <div class="menu-title">Tim</div>
                     </a>
-                </li>   
+                </li>
                 <li>
                     <a href="/partisipan">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-user-circle c-font25"></i>
@@ -107,8 +107,8 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>							
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>
+                                <p class="user-role">habib</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -118,14 +118,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown dropdown-large">	
+                            <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-message-list">
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -137,161 +137,153 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item">
-                            </li>                             
+                            </li>
                         </ol>
-                    </nav> 
+                    </nav>
                 </div>
-				<div class="card">
-					<div class="card-body">
+                <div class="card">
+                    <div class="card-body">
                         <h4 class="mb-0 jarak-top-kurang5">Tabel Partisipan</h4>
-                        <hr class="c-mt10"/>
+                        <hr class="c-mt10" />
                         <button class="btn btn-primary btn-float-right">Export Excel</button>
-                            <label class="jarak-filterstatus">Filter by Status</label> 
-                            <select class="form-select2">
-                                <option selected>Semua</option>
-                                <option>Verified</option>
-                                <option>Unverified</option>
-                            </select>   
-                            <br><br>
-                            <div class="table-responsive">	
-                                <table id="example" class="table table-bordered">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nama</th>
-                                            <th>Username</th>
-                                            <th>Instansi</th>
-                                            <th>Email</th>
-                                            <th>Status</th>
-                                            <th class="crud-width100">Tanggal</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Lionel Andres </td>
-                                            <td>leon</td>
-                                            <td>Universitas</td>
-                                            <td>goat@gmail.com</td>
-                                            <td>Verified</td>
-                                            <td>January 26, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Cristiano Ikhsan </td>
-                                            <td>cris</td>
-                                            <td>Universitas</td>
-                                            <td>goat@gmail.com</td>
-                                            <td>Unverified</td>
-                                            <td>January 26, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Agus Setiawan</td>
-                                            <td>agus123</td>
-                                            <td>Universitas</td>
-                                            <td>agus.setiawan@example.com</td>
-                                            <td>Verified</td>
-                                            <td>February 10, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Siti Rahayu</td>
-                                            <td>siti12</td>
-                                            <td>Universitas</td>
-                                            <td>siti.rahayu@example.com</td>
-                                            <td>Unverified</td>
-                                            <td>February 15, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>Joko Susilo</td>
-                                            <td>joko_sus</td>
-                                            <td>Universitas</td>
-                                            <td>joko.susilo@example.com</td>
-                                            <td>Verified</td>
-                                            <td>February 20, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td>Rina Fitriani</td>
-                                            <td>rina_fi</td>
-                                            <td>Universitas</td>
-                                            <td>rina.fitriani@example.com</td>
-                                            <td>Unverified</td>
-                                            <td>February 25, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>7</td>
-                                            <td>Adi Pratama</td>
-                                            <td>adi11</td>
-                                            <td>Universitas</td>
-                                            <td>adi.pratama@example.com</td>
-                                            <td>Verified</td>
-                                            <td>March 5, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>8</td>
-                                            <td>Dewi Indah</td>
-                                            <td>dewi_22</td>
-                                            <td>Universitas</td>
-                                            <td>dewi.indah@example.com</td>
-                                            <td>Unverified</td>
-                                            <td>March 10, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>9</td>
-                                            <td>Budi Santoso</td>
-                                            <td>budi_s</td>
-                                            <td>Universitas</td>
-                                            <td>budi.santoso@example.com</td>
-                                            <td>Verified</td>
-                                            <td>March 15, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10</td>
-                                            <td>Putri Wulandari</td>
-                                            <td>putri_w</td>
-                                            <td>Universitas Indonesia</td>
-                                            <td>putri.wulandari@example.com</td>
-                                            <td>Unverified</td>
-                                            <td>March 20, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>11</td>
-                                            <td>Rizki Pratama</td>
-                                            <td>rizki_p</td>
-                                            <td>Universitas</td>
-                                            <td>rizki.pratama@example.com</td>
-                                            <td>Verified</td>
-                                            <td>March 25, 2024</td>
-                                        </tr>
-                                        <tr>
-                                            <td>12</td>
-                                            <td>Yuli Susanti</td>
-                                            <td>yuli_s</td>
-                                            <td>Universitas</td>
-                                            <td>yuli.susanti@example.com</td>
-                                            <td>Unverified</td>
-                                            <td>March 30, 2024</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-						    </div>
-					    </div>
-				    </div>      
+                        <label class="jarak-filterstatus">Filter by Status</label>
+                        <select class="form-select2">
+                            <option selected>Semua</option>
+                            <option>Verified</option>
+                            <option>Unverified</option>
+                        </select>
+                        <br><br>
+                        <div class="table-responsive">
+                            <table id="example" class="table table-bordered">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nama</th>
+                                        <th>Username</th>
+                                        <th>Instansi</th>
+                                        <th>Email</th>
+                                        <th>Status</th>
+                                        <th class="crud-width100">Tanggal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Lionel Andres </td>
+                                        <td>leon</td>
+                                        <td>Universitas</td>
+                                        <td>goat@gmail.com</td>
+                                        <td>Verified</td>
+                                        <td>January 26, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Cristiano Ikhsan </td>
+                                        <td>cris</td>
+                                        <td>Universitas</td>
+                                        <td>goat@gmail.com</td>
+                                        <td>Unverified</td>
+                                        <td>January 26, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Agus Setiawan</td>
+                                        <td>agus123</td>
+                                        <td>Universitas</td>
+                                        <td>agus.setiawan@example.com</td>
+                                        <td>Verified</td>
+                                        <td>February 10, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Siti Rahayu</td>
+                                        <td>siti12</td>
+                                        <td>Universitas</td>
+                                        <td>siti.rahayu@example.com</td>
+                                        <td>Unverified</td>
+                                        <td>February 15, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Joko Susilo</td>
+                                        <td>joko_sus</td>
+                                        <td>Universitas</td>
+                                        <td>joko.susilo@example.com</td>
+                                        <td>Verified</td>
+                                        <td>February 20, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Rina Fitriani</td>
+                                        <td>rina_fi</td>
+                                        <td>Universitas</td>
+                                        <td>rina.fitriani@example.com</td>
+                                        <td>Unverified</td>
+                                        <td>February 25, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Adi Pratama</td>
+                                        <td>adi11</td>
+                                        <td>Universitas</td>
+                                        <td>adi.pratama@example.com</td>
+                                        <td>Verified</td>
+                                        <td>March 5, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Dewi Indah</td>
+                                        <td>dewi_22</td>
+                                        <td>Universitas</td>
+                                        <td>dewi.indah@example.com</td>
+                                        <td>Unverified</td>
+                                        <td>March 10, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Budi Santoso</td>
+                                        <td>budi_s</td>
+                                        <td>Universitas</td>
+                                        <td>budi.santoso@example.com</td>
+                                        <td>Verified</td>
+                                        <td>March 15, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Putri Wulandari</td>
+                                        <td>putri_w</td>
+                                        <td>Universitas Indonesia</td>
+                                        <td>putri.wulandari@example.com</td>
+                                        <td>Unverified</td>
+                                        <td>March 20, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Rizki Pratama</td>
+                                        <td>rizki_p</td>
+                                        <td>Universitas</td>
+                                        <td>rizki.pratama@example.com</td>
+                                        <td>Verified</td>
+                                        <td>March 25, 2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Yuli Susanti</td>
+                                        <td>yuli_s</td>
+                                        <td>Universitas</td>
+                                        <td>yuli.susanti@example.com</td>
+                                        <td>Unverified</td>
+                                        <td>March 30, 2024</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
                 <!--end row-->
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button-->
-        <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
     </div>
     <!--end wrapper-->
-    <!--start switcher-->  
-    <!--end switcher-->
 </template>

@@ -154,7 +154,7 @@
                                     <tr>
                                         <th class="width-id2">ID</th>
                                         <th class="crud-width-400">Kritera</th>
-                                        <th class="crud-width100">Aksi</th>
+                                        <th class="crud-width120">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -179,16 +179,7 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
-                class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
     </div>
-    <!--end wrapper-->
-    <!--start switcher-->
-
     <!--end switcher-->
 </template>
 

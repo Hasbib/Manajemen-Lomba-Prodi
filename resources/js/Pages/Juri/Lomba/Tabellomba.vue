@@ -111,7 +111,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0 jarak-top-kurang5">Tabel Karya</h4>
-                        <<<<<<< HEAD <hr class="c-mt10" />
+                        <hr class="c-mt10" />
                         <label class="jarak-filterstatus">Filter by Status</label>
                         <select class="form-select2">
                             <option selected>Semua</option>
@@ -124,13 +124,10 @@
                                 <thead class="table-dark">
                                     <tr>
                                         <th class="width-id">ID</th>
-                                        <th class="crud-width-150">Nama Tim</th>
+                                        <th class="crud-width130">Nama Tim</th>
                                         <th class="crud-width-150">Judul</th>
-                                        <th class="crud-width100">File</th>
-                                        <th class="crud-width100">Link</th>
-                                        <th class="crud-width-150">Instansi</th>
-                                        <th class="crud-width100">Status</th>
-                                        <th class="crud-width-290">Aksi</th>
+                                        <th class="crud-width-50">Status</th>
+                                        <th class="crud-width-150">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -138,65 +135,16 @@
                                         <td>1</td>
                                         <td>Tim Design</td>
                                         <td>Platform Pendidikan Interaktif</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Universitas</td>
                                         <td>Belum Nilai</td>
-                                        <td class="btn-crud-af">
+                                        <td class="btn-crud">
                                             <button class="btn btn-secondary"
                                                 onclick="window.location.href='/timdetailjuri'"><i
                                                     class="bi bi-eye"></i></button>
-                                            <button class="btn btn-primary" onclick="window.location.href='/nilai'"><i
+                                            <button class="btn btn-primary"
+                                                onclick="window.location.href='/editnilai'"><i
                                                     class="bi bi-pencil-square"></i></button>
                                             <button class="btn btn-primary" onclick="window.location.href='/nilai'">Beri
                                                 Nilai</button>
-                                            <hr class="c-mt10" />
-                                            <label class="jarak-filterstatus">Filter by Status</label>
-                                            <select class="form-select2">
-                                                <option selected>Semua</option>
-                                                <option>Belum Dibaca</option>
-                                                <option>Sudah Dibaca</option>
-                                            </select>
-                                            <br><br>
-                                            <div class="table-responsive">
-                                                <table id="example" class="table table-bordered">
-                                                    <thead class="table-dark">
-                                                        <tr>
-                                                            <th class="width-id">ID</th>
-                                                            <th class="crud-width-150">Nama Tim</th>
-                                                            <th class="crud-width-150">Judul</th>
-                                                            <th class="crud-width100">File</th>
-                                                            <th class="crud-width100">Link</th>
-                                                            <th class="crud-width-150">Instansi</th>
-                                                            <th class="crud-width100">Status</th>
-                                                            <th class="crud-width-290">Aksi</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>1</td>
-                                                            <td>Tim Design</td>
-                                                            <td>Platform Pendidikan Interaktif</td>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td>Universitas</td>
-                                                            <td>Belum Nilai</td>
-                                                            <td class="btn-crud-af">
-                                                                <button class="btn btn-secondary"
-                                                                    onclick="window.location.href='/timdetailjuri'"><i
-                                                                        class="bi bi-eye"></i></button>
-                                                                <button class="btn btn-primary"
-                                                                    onclick="window.location.href='/nilai'"><i
-                                                                        class="bi bi-pencil-square"></i></button>
-                                                                <button class="btn btn-primary"
-                                                                    onclick="window.location.href='/nilai'">Beri
-                                                                    Nilai</button>
-                                                                >>>>>>> 7b73b69453e3b7b55e500b877e5705221dd8bd3b
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
                                         </td>
                                     </tr>
                                 </tbody>
