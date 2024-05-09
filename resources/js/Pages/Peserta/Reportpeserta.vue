@@ -117,6 +117,9 @@
                 <div class="card card-height200">
                     <div class="card-body">
                         <label class="keterangan jarak-bottom-kurang20">TIDAK LOLOS</label>
+                        <div class="d-flex justify-content-end">
+                                <a class="btn btn-success crud-width-150" href="/detailtimreport">Dowload</a>
+                            </div>
                         <br><br>
                         <div class="row">
                             <div class="label-left">
@@ -131,6 +134,9 @@
                                     <a class="btn btn-primary crud-width-150" href="/detailtimreport"><i
                                             class="bi bi-eye icon-eye"></i>Detail</a>
                                 </div>
+                            </div>
+                            <div class="col-md-5 d-flex justify-content-end align-items-center jarak-af">
+                                <a class="btn btn-primary crud-width-150" href="/detailtimreport">Detail</a>
                             </div>
                         </div>
                     </div>

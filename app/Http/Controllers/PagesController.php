@@ -264,5 +264,10 @@ class PagesController extends Controller
         return Inertia::render('Proses');
     }
 
+    public function timdetailjuri()
+    {
+        return Inertia::render('Juri/Lomba/timdetailjuri');
+    }
+
 
 }
