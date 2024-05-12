@@ -51,10 +51,6 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Kriteria/Tambahkriteria');
     }
-    public function editkriteria()
-    {
-        return Inertia::render('Admin/Kriteria/Editkriteria');
-    }
     public function detailkriteria()
     {
         return Inertia::render('Admin/Kriteria/Detailkriteria');

@@ -49,7 +49,6 @@ Route::post('/tambahadministrator', [UsersController::class, 'store'])->name('da
 
 Route::get('/kriteria', [PagesController::class, 'kriteria']);
 Route::get('tambahkriteria', [PagesController::class, 'tambahkriteria']);
-Route::get('/editkriteria', [PagesController::class, 'editkriteria']);
 Route::get('/detailkriteria', [PagesController::class, 'detailkriteria']);
 
 Route::get('/editadministrator', [PagesController::class, 'editadministrator']);

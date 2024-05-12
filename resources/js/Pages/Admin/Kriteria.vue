@@ -165,9 +165,6 @@
                                             <button class="btn btn-secondary"
                                                 onclick="window.location.href='/detailkriteria'"><i
                                                     class="bi bi-eye"></i></button>
-                                            <button class="btn btn-primary"
-                                                onclick="window.location.href='/editkriteria'"><i
-                                                    class="bi bi-pencil-square"></i></button>
                                             <button class="btn btn-danger"><i class="bi bi-trash"></i></button>
                                         </td>
                                     </tr>
