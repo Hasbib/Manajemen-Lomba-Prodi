@@ -39,10 +39,18 @@
                         <h4 class="mb-0">Tambah Kriteria Lomba</h4>
                         <hr />
                         <form @submit.prevent="submit">
-                            <div class=" c-mb10">
-                                <label class="c-mb5-black"><b>Nama Kriteria</b></label>
-                                <input type="namalomba" class="form-control">
+                            <div class="row" v-for="(criteria, index) in form.kriteria" :key="index">
+                                <div class="c-mt10">
+                                    <label class="c-mb5-black"><b>Kriteria Penilaian</b></label>
+                                    <div>
+                                        <input type="text" class="form-control label-8">
+                                        <button class="btn btn-secondary" @click="removeKriteria(index)"
+                                            v-if="form.kriteria.length > 1"><i class="fas fa-minus"></i></button>
+                                    </div>
+                                </div>
                             </div>
+                            <button class="btn btn-secondary" @click="addKriteria"><i class="fas fa-plus"></i> Tambah
+                                Kriteria</button>
                             <div class="btn-posisi">
                                 <button class="btn btn-primary button-tabel-right"
                                     onclick="window.location.href='/kriteria'">Simpan</button>
@@ -60,4 +68,22 @@
 </template>
 
 <script setup>
+import { reactive } from 'vue'
+import { useForm } from "@inertiajs/vue3";
+
+const form = useForm({
+    kriteria: [{ name_kriteria: '' }],
+});
+
+const addKriteria = () => {
+    // Get the ID from the first criteria
+    const id = form.kriteria.length > 0 ? form.kriteria[0].id : null;
+    // Add new criteria with the same ID
+    form.kriteria.push({ id, name_kriteria: '' });
+};
+
+const removeKriteria = (index) => {
+    form.kriteria.splice(index, 1);
+};
+
 </script>

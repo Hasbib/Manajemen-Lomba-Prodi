@@ -4,7 +4,7 @@
         <!--sidebar wrapper -->
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
-                <div> 
+                <div>
                     <a href="/">
                         <img src="../../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
                     </a>
@@ -74,7 +74,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Juri</p>						
+                                <p class="user-name mb-0">Juri</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -84,14 +84,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown dropdown-large">	
+                            <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-message-list">
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -104,63 +104,54 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item">
-                            </li>                             
+                            </li>
                         </ol>
                     </nav>
                 </div>
-				<div class="card">
-					<div class="card-body">
+                <div class="card">
+                    <div class="card-body">
                         <h4 class="mb-0 jarak-top-kurang5">Tabel Rangking</h4>
-                        <hr class="c-mt10"/>
-                            <label class="jarak-filterstatus">Filter by Status</label> 
-                            <select class="form-select2">
-                                <option selected>Semua</option>
-                                <option>Belum Dibaca</option>
-                                <option>Sudah Dibaca</option>
-                            </select>                           
-                            <br><br>
-                            <div class="table-responsive">	
-                                <table id="example" class="table table-bordered">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th class="width-id">ID</th>
-                                            <th class="crud-width-150">Nama Tim</th>  
-                                            <th class="crud-width-180">Judul</th>
-                                            <th class="crud-width100" >File</th>
-                                            <th class="crud-width100">Link</th>
-                                            <th class="crud-width-150">Instansi</th>
-                                            <th class="crud-width-80">Nilai</th>
-                                            <th class="crud-width100">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Tim Design</td>
-                                            <td>Platform Pendidikan Interaktif</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>Universitas</td>
-                                            <td></td>
-                                            <td>Tidak Lolos</td>
-                                        </tr>                                  
-                                    </tbody>
-                                </table>
-                            </div>
+                        <hr class="c-mt10" />
+                        <label class="jarak-filterstatus">Filter by Status</label>
+                        <select class="form-select2">
+                            <option selected>Semua</option>
+                            <option>Belum Dibaca</option>
+                            <option>Sudah Dibaca</option>
+                        </select>
+                        <br><br>
+                        <div class="table-responsive">
+                            <table id="example" class="table table-bordered">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-150">Nama Tim</th>
+                                        <th class="crud-width-180">Judul</th>
+                                        <th class="crud-width100">File</th>
+                                        <th class="crud-width100">Link</th>
+                                        <th class="crud-width-150">Instansi</th>
+                                        <th class="crud-width-80">Nilai</th>
+                                        <th class="crud-width100">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Tim Design</td>
+                                        <td>Platform Pendidikan Interaktif</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Universitas</td>
+                                        <td></td>
+                                        <td>Tidak Lolos</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                    </div>      
-                    <!--end row-->
+                    </div>
                 </div>
+                <!--end row-->
             </div>
+        </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button-->
-        <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
     </div>
-   
 </template>
-    
-

@@ -5,11 +5,11 @@
                 <nav class="navbar navbar-expand">
                     <!-- Navbar tambah untuk logo di kiri -->
                     <div class="navbar-tambah">
-                        <a href="/">
-                            <div class="navbar-left">
+                        <div class="navbar-left">
+                            <a href="/">
                                 <img src="../../../../../public/bootstrap/images/logo.png" alt="Logo">
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                     <!-- Mobile toggle menu -->
                     <!-- Search bar -->
@@ -19,13 +19,13 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>					
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>
+                                <p class="user-role">habib</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -36,7 +36,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0">Edit Sponsor</h4>
-                        <hr/>
+                        <hr />
                         <div>
                             <div class="c-mb10">
                                 <label class="c-mb5-black"><b>Nama Sponsor</b></label>
@@ -45,18 +45,21 @@
                             <div>
                                 <label class="c-mb5-black"><b>Link</b></label>
                                 <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="2" value="https://s4-eight.vercel.app/"></textarea>
+                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="2"
+                                        value="https://s4-eight.vercel.app/"></textarea>
                                 </div>
                             </div>
                             <div>
                                 <label for="formFile" class="form-label warna-hitam"><b>Logo</b></label>
-								<input class="form-control" type="file" id="formFile">
+                                <input class="form-control" type="file" id="formFile">
                                 <p class="keterangan-foto">Max 2 MB (500 x 500 px)</p>
                             </div>
                         </div>
                         <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/sponsor'">Simpan</button>
-                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/sponsor'">Batal</button>
+                            <button class="btn btn-primary button-tabel-right"
+                                onclick="window.location.href='/sponsor'">Simpan</button>
+                            <button class="btn btn-danger button-tabel-left"
+                                onclick="window.location.href='/sponsor'">Batal</button>
                         </div>
                     </div>
                 </div>
@@ -65,6 +68,4 @@
 
         <!--end page wrapper -->
     </div>
-    </template>
-    
-   
+</template>

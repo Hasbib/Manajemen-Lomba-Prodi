@@ -5,7 +5,9 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    <a href="/">
+                        <img src="../../../../public/bootstrap/images/logocb.png" class="logo-icon" alt="logo icon">
+                    </a>
                 </div>
                 <div class="toggle-icon ms-auto"><i class="fadeIn animated bx bx-menu"></i>
                 </div>
@@ -86,7 +88,7 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Petugas</p>				
+                                <p class="user-name mb-0">Petugas</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
@@ -96,78 +98,88 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown dropdown-large">	
+                            <li class="nav-item dropdown dropdown-large">
                                 <div class="dropdown-menu dropdown-menu-end">
                                     <div class="header-message-list">
                                     </div>
                                 </div>
                             </li>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
         <!--end header -->
-		<!--start page wrapper -->
-		<div class="page-wrapper">
-			<div class="page-content">
-				<!--breadcrumb-->
-				<div class="tf__activities_slider_area">
+        <!--start page wrapper -->
+        <div class="page-wrapper">
+            <div class="page-content">
+                <!--breadcrumb-->
+                <div class="tf__activities_slider_area">
                     <div class="container">
                         <!--breadcrumb-->
                         <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
                             <div class="col">
                                 <div class="card radius-15 card-overview">
-                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image" class="border-radius">
+                                    <img src="../../../../public/bootstrap/images/desain.jpg" alt="New Image"
+                                        class="border-radius">
                                     <label class="judul-overview">UI / UX</label>
-                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
                                 </div>
                             </div>
                             <div class="col">
-                                    <div class="card radius-15 card-overview">
-                                        <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image" class="border-radius">
-                                        <label class="judul-overview">AR / VR</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
-                                    </div>
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/ar-vr.jpg" alt="New Image"
+                                        class="border-radius">
+                                    <label class="judul-overview">AR / VR</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
                                 </div>
-                                <div class="col">
-                                    <div class="card radius-15 card-overview">
-                                        <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image" class="border-radius">
-                                        <label class="judul-overview">APLIKASI MOBILE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card radius-15 card-overview">
-                                        <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image" class="border-radius">
-                                        <label class="judul-overview">DESAIN WEBSITE</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card radius-15 card-overview">
-                                        <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg" alt="New Image" class="border-radius">
-                                        <label class="judul-overview">SISTEM KEAMANAN DATA</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card radius-15 card-overview">
-                                        <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image" class="border-radius">
-                                        <label class="judul-overview">UI / UX</label>
-                                        <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat Rangking</a>
-                                    </div>
-                                </div> 
                             </div>
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/aplikasi-mobile.jpg" alt="New Image"
+                                        class="border-radius">
+                                    <label class="judul-overview">APLIKASI MOBILE</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/desain-website.jpg" alt="New Image"
+                                        class="border-radius">
+                                    <label class="judul-overview">DESAIN WEBSITE</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/sistem-keamanan-data.jpg"
+                                        alt="New Image" class="border-radius">
+                                    <label class="judul-overview">SISTEM KEAMANAN DATA</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card radius-15 card-overview">
+                                    <img src="../../../../public/bootstrap/images/membuat-game.jpg" alt="New Image"
+                                        class="border-radius">
+                                    <label class="judul-overview">UI / UX</label>
+                                    <a class="btn btn-primary btn-landing-page2" href="/petugasrangking">Lihat
+                                        Rangking</a>
+                                </div>
+                            </div>
+                        </div>
                         <!--end row-->
                     </div>
-                </div>				
+                </div>
                 <!--end row-->
-			</div>
-		</div>
-	
-	</div>
-	<!--end switcher-->      
-</template>
-    
+            </div>
+        </div>
 
+    </div>
+    <!--end switcher-->
+</template>

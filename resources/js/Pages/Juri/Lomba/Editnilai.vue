@@ -86,7 +86,6 @@
                 </div>
             </div>
         </div>
-
         <!--end page wrapper -->
     </div>
 </template>

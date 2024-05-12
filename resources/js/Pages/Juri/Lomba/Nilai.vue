@@ -20,13 +20,13 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>					
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>
+                                <p class="user-role">habib</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -37,7 +37,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mb-0">BERI NILAI</h4>
-                        <hr/>
+                        <hr />
                         <div class="row">
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>1. Kreativitas</b></label>
@@ -74,19 +74,18 @@
                                 <label class="c-mb5-black"><b>Nilai</b></label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
-                        
+
                         </div>
                         <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right" onclick="window.location.href='/tabellomba'">Simpan</button>
-                            <button class="btn btn-danger button-tabel-left" onclick="window.location.href='/tabellomba'">Batal</button>
+                            <button class="btn btn-primary button-tabel-right"
+                                onclick="window.location.href='/tabellomba'">Simpan</button>
+                            <button class="btn btn-danger button-tabel-left"
+                                onclick="window.location.href='/tabellomba'">Batal</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!--end page wrapper -->
     </div>
-    </template>
-    
-   
+</template>
