@@ -145,7 +145,7 @@
                     <div class="card-body">
                         <h4 class="mb-0 jarak-top-kurang5">Tabel Partisipan</h4>
                         <hr class="c-mt10" />
-                        <button class="btn btn-primary btn-float-right">Export Excel</button>
+                        <button class="btn btn-primary btn-float-right" id="exportExcel">Export Excel</button>
                         <label class="jarak-filterstatus">Filter by Status</label>
                         <select class="form-select2">
                             <option selected>Semua</option>
@@ -154,7 +154,7 @@
                         </select>
                         <br><br>
                         <div class="table-responsive">
-                            <table id="example" class="table table-bordered">
+                            <table id="example2" class="table table-bordered">
                                 <thead class="table-dark">
                                     <tr>
                                         <th>ID</th>
@@ -287,3 +287,23 @@
     </div>
     <!--end wrapper-->
 </template>
+<script>
+$(document).ready(function () {
+    var table = $('#example2').DataTable({
+        lengthChange: false,
+        buttons: ['excel']
+    });
+
+    table.buttons().container().appendTo('.export-buttons');
+
+    // Export Excel
+    $('#exportExcel').on('click', function () {
+        table.buttons('.buttons-excel').trigger();
+    });
+
+    // Export PDF
+    $('#exportPdf').on('click', function () {
+        table.buttons('.buttons-pdf').trigger();
+    });
+});
+</script>
