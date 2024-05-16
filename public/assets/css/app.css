@@ -3989,32 +3989,34 @@ input.search-control-2::placeholder {
 /* Aturan CSS untuk tampilan desktop */
 @media (min-width: 768px) {
 	.des-biru {
-		height: 280px; 
+		height: auto; 
 		background-color: #E6F4FF;
 		margin-left: 30px;
 		margin-right: 30px;
+		text-align: justify;
 	}
 	.kont {
-		margin-left: 60px;
+		margin-left: 40px;
+		margin-right: 40px;
 		margin-top: 25px;
 		color: #000000;
-		font-weight: bold;
 	}
 }
 
 /* Aturan CSS untuk tampilan mobile */
 @media (max-width: 767px) {
 	.des-biru {
-		height: 280px; 
+		height: auto; 
 		background-color: #E6F4FF;
 		margin-left: 30px;
 		margin-right: 30px;
+		text-align: justify;
 	}
 	.kont {
-		margin-left: 35px;
+		margin-left: 30px;
+		margin-right: 30px;
 		margin-top: 25px;
 		color: #000000;
-		font-weight: bold;
 	}
 	.mg-t10 {
 		margin-top: 10px;
