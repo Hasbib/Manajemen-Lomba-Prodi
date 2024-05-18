@@ -3243,14 +3243,46 @@ input.search-control-2::placeholder {
 
   
 @media (min-width: 768px) {
+	.body-loginnew {
+		background-image: url('../../bootstrap/images/bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed; /* Keep the background fixed */
+		height: 100vh;
+		width: 100vw;
+		padding-top: 90px;
+	}
+}
+/* Aturan CSS untuk tampilan mobile */
+@media (max-width: 767px) {
+	.body-loginnew {
+		background-image: url('../../bootstrap/images/bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed; /* Keep the background fixed */
+		height: 100vh;
+		width: 100vw;
+		padding-top: 90px;
+	}
+}
+
+
+@media (min-width: 768px) {
 	.body-login {
-		background: #007bff;
+		background-image: url('../../bootstrap/images/bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed; /* Keep the background fixed */
 		height: 100vh;
 		width: 100vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+	
 	.ml240 {
 		margin-left: 240px;
 	}
@@ -3281,13 +3313,18 @@ input.search-control-2::placeholder {
 /* Aturan CSS untuk tampilan mobile */
 @media (max-width: 767px) {
 	.body-login {
-		background: #007bff;
+		background-image: url('../../bootstrap/images/bg.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed; /* Keep the background fixed */
 		height: 100vh;
 		width: 100vw;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
+	
 	.card2 {
 		max-width: 400px;
 		margin: 0 auto; 
