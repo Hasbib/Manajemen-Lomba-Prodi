@@ -52,7 +52,7 @@
                             <div>
                                 <label for="formFile" class="form-label warna-hitam"><b>Logo</b></label>
                                 <input class="form-control" type="file" id="formFile">
-                                <p class="keterangan-foto">Max 2 MB (500 x 500 px)</p>
+                                <p class="keterangan-foto">Max 2 MB (200 x 200 px)</p>
                             </div>
                         </div>
                         <div class="btn-posisi">
