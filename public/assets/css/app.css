@@ -3453,6 +3453,9 @@ input.search-control-2::placeholder {
 .c-ml20 {
 	margin-left: 20px;
 }
+.csearch {
+	margin: 10px;
+}
 .c-mlk10 {
 	margin-right: 10px;
 }
@@ -3901,6 +3904,7 @@ input.search-control-2::placeholder {
     position: absolute;
     top: 10px;
     right: 20px;
+	cursor: pointer; 
 }
 
 
@@ -4066,4 +4070,18 @@ input.search-control-2::placeholder {
 	width: 200px; 
 	margin-top: 40px; 
 	margin-bottom: 30px;
+}
+
+.overflow-auto {
+    width: 560px;
+    height: 200px;
+    overflow: auto;
+	margin-top: 10px;
+	border-radius: 5px;
+    border: 1px solid #e2e1e1;
+}
+
+.selected {
+    background-color: #606c77;
+    color: white;
 }
