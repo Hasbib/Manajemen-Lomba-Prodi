@@ -53,8 +53,8 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-8">
                         <div class="tf__banner_text wow fadeInUp">
-                            <h1 style="font-size: 26px;"><b>Olimpiade Informatika Nasional</b></h1>
-                            <h1 style="font-size: 40px;"><b>OLINAS 2024</b></h1>
+                            <h1 class="teks-judul"><b>Olimpiade Informatika Nasional</b></h1>
+                            <h1 class="teks-judul2"><b>OLINAS 2024</b></h1>
                         </div>
                     </div>
                 </div>
@@ -307,18 +307,11 @@
             </div>
         </section>
 
-
-        <!--=================================
-       FOOTER START
-   ==================================-->
         <footer class="tf__footer mt_100">
-            <div class="text-center p-4" style="background-color: #191e24f5; color: white;">
+            <div class="text-center p-4 cfooter">
                 Copyright ©2024 Tim Website OLINAS
             </div>
         </footer>
-        <!--=================================
-       FOOTER END
-   ==================================-->
     </div>
 </template>
 <!-- <style>
