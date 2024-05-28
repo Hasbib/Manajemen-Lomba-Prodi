@@ -43,35 +43,35 @@
                                 <label class="c-mb5-black"><b>1. Kreativitas</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <label class="c-mb5-black">Nilai</label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>2. Estetika dan Komposisi</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <label class="c-mb5-black">Nilai</label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>3. Kriteria 3</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <label class="c-mb5-black">Nilai</label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>4. Kriteria 4</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <label class="c-mb5-black">Nilai</label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
                             <div class="col-md-6 c-mb10">
                                 <label class="c-mb5-black"><b>4. Kriteria 5</b></label>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nilai</b></label>
+                                <label class="c-mb5-black">Nilai</label>
                                 <input type="namalomba" class="form-control c-mb20">
                             </div>
 

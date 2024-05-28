@@ -178,7 +178,7 @@
                                         <td>bambang@gmail.com</td>
                                         <td>admin</td>
                                         <td>Lomba Desain</td>
-                                        <td>Maret 1, 2024</td>
+                                        <td>1 Maret 2024</td>
                                         <td class="btn-crud">
                                             <button class="btn btn-secondary"
                                                 onclick="window.location.href='/detailadministrator'"><i

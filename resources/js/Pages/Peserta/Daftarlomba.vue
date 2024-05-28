@@ -145,10 +145,6 @@
                                     <label class="c-mb5-black"><b>STATUS</b></label>
                                     <div class="data-tim">Verified</div>
                                 </div>
-                                <!-- <div class="col-md-2 jarak-daftar-lomba">
-                                    <label class="c-mb5-black"><b>Surat</b></label>
-                                    <div class="data-tim"><a href="#">Lihat Surat</a></div>
-                                </div> -->
                                 <div class="col-md-2 jarak-daftar-lomba">
                                     <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
                                     <div class="data-tim c-mb-70"><a href="#">Lihat Bukti</a></div>
@@ -171,7 +167,7 @@
                                         <div class="card-body p-4 text-center posisi-mb23">
                                             <div class="btn-crud ">
                                                 <img src="http://via.placeholder.com/120x120" height="120" alt="..."
-                                                    class="img-fluid rounded">
+                                                    class="img-fluidc rounded">
                                             </div>
                                             <br>
                                             <h6><b>Muhammaad Afkar Triwardana</b></h6>
@@ -193,6 +189,11 @@
                                             <br>
                                         </div>
                                     </div>
+                                </div>
+                                <div>
+                                    <br><br>
+                                    <button type="submit" @click="saveTeamMembers"
+                                        class="btn btn-primary radius-5 isi-data2">Kirim</button>
                                 </div>
                             </div>
                         </div>

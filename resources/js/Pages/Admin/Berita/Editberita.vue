@@ -36,7 +36,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Edit Berita</h4>
+                        <h4 class="mb-0">EDIT BERITA</h4>
                         <hr />
                         <div>
                             <div class="c-mb10">

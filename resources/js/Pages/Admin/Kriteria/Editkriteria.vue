@@ -1,5 +1,6 @@
 <template>
     <div class="wrapper">
+        <!--start header -->
         <header>
             <div class="c-topbar">
                 <nav class="navbar navbar-expand">
@@ -35,37 +36,25 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">EDIT SPONSOR</h4>
+                        <h4 class="mb-0">EDIT KRITERIA LOMBA</h4>
                         <hr />
-                        <div>
-                            <div class="c-mb10">
-                                <label class="c-mb5-black"><b>Nama Sponsor</b></label>
-                                <input type="email" class="form-control" value="D3TI UNS">
-                            </div>
-                            <div>
-                                <label class="c-mb5-black"><b>Link</b></label>
-                                <div class="col-12">
-                                    <textarea class="form-control c-mb10" id="inputProductDescription" rows="2"
-                                        value="https://s4-eight.vercel.app/"></textarea>
+                        <form>
+                            <div class="row">
+                                <div class=" c-mb10">
+                                    <label class="c-mb5-black"><b>Nama Kriteria</b></label>
+                                    <input type="namalomba" class="form-control" required>
                                 </div>
                             </div>
-                            <div>
-                                <label for="formFile" class="form-label warna-hitam"><b>Logo</b></label>
-                                <input class="form-control" type="file" id="formFile">
-                                <p class="keterangan-foto">Max 2 MB (200 x 200 px)</p>
+                            <div class="btn-posisi">
+                                <button type="submit" class="btn btn-primary button-tabel-right">Simpan</button>
+                                <a class="btn btn-danger button-tabel-left"
+                                    onclick="window.location.href='/kriteria'">Batal</a>
                             </div>
-                        </div>
-                        <div class="btn-posisi">
-                            <button class="btn btn-primary button-tabel-right"
-                                onclick="window.location.href='/sponsor'">Simpan</button>
-                            <button class="btn btn-danger button-tabel-left"
-                                onclick="window.location.href='/sponsor'">Batal</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-
         <!--end page wrapper -->
     </div>
 </template>

@@ -51,6 +51,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Admin/Kriteria/Tambahkriteria');
     }
+    public function editkriteria()
+    {
+        return Inertia::render('Admin/Kriteria/Editkriteria');
+    }
     public function detailkriteria()
     {
         return Inertia::render('Admin/Kriteria/Detailkriteria');
@@ -214,7 +218,10 @@ class PagesController extends Controller
     {
         return Inertia::render('Petugas/Rangking/Petugasrangking');
     }
-
+    public function detailtimpetugas()
+    {
+        return Inertia::render('Petugas/Rangking/Detailtimpetugas');
+    }
 
     public function overviewpeserta()
     {

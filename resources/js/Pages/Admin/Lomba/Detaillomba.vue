@@ -36,47 +36,47 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Lomba</h4>
+                        <h4 class="mb-0">DETAIL LOMBA</h4>
                         <hr />
                         <div class="row">
                             <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Nama Lomba</b></label>
+                                <label class="c-mb5-black"><b>NAMA LOMBA</b></label>
                                 <div class="data-tim">Lomba Desain</div>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Nama PJ</b></label>
+                                <label class="c-mb5-black"><b>NAMA PJ</b></label>
                                 <div class="data-tim">Agung</div>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Deskripsi</b></label>
+                                <label class="c-mb5-black"><b>DESKRIPSI</b></label>
                                 <div class="col-12">
                                     <div class="data-tim">Lomba Desain adalah ajang kompetitif di mana beberapa tim
                                         bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif,
                                         sesuai dengan tema yang ditentukan.</div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label class="c-mb5-black"><b>Gambar</b></label>
+                                    <label class="c-mb5-black"><b>GAMBAR</b></label>
                                     <div class="col-12">
                                         <img src="../../../../../public/bootstrap/images/desain-website.jpg"
                                             width="150" />
                                     </div>
                                 </div>
                                 <div class="col-md-6 jarak-sertifikat">
-                                    <label class="c-mb5-black"><b>Sertifikat</b></label>
+                                    <label class="c-mb5-black"><b>SERTIFIKAT</b></label>
                                     <div class="col-12">
                                         <img src="../../../../../public/bootstrap/images/sertifikat.png" width="150" />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <label class="c-mb5-black"><b>Kontak PJ</b></label>
+                                <label class="c-mb5-black"><b>KONTAK PJ</b></label>
                                 <div class="data-tim">085000000000</div>
 
-                                <label class="c-mb5-black"><b>Tempat</b></label>
+                                <label class="c-mb5-black"><b>TEMPAT</b></label>
                                 <div class="data-tim">Surakarta</div>
 
                                 <div class="margin-top5-crud">
-                                    <label class="c-mb5-black"><b>Biaya Pendaftaran</b></label>
+                                    <label class="c-mb5-black"><b>BIAYA PENDAFTARAN</b></label>
                                     <div class="data-tim">20.000</div>
                                 </div>
                                 <div class="margin-top5-crud">

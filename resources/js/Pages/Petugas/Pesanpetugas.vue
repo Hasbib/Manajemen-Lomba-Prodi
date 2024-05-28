@@ -123,7 +123,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0 jarak-top-kurang5">Tabel Partisipan</h4>
+                        <h4 class="mb-0 jarak-top-kurang5">Tabel Pesan</h4>
                         <hr class="c-mt10" />
                         <label class="jarak-filterstatus">Filter by Status</label>
                         <select class="form-select2">
@@ -136,13 +136,13 @@
                             <table id="example" class="table table-bordered">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th>ID</th>
-                                        <th>Nama</th>
-                                        <th>Email</th>
-                                        <th class="crud-width100">No WhatsApp</th>
-                                        <th class="crud-width-290">Pesan</th>
-                                        <th class="border-none">Status</th>
-                                        <th class="border-none"></th>
+                                        <th class="width-id">ID</th>
+                                        <th class="crud-width-250">Nama</th>
+                                        <th class="crud-width-50">Email</th>
+                                        <th class="crud-width-150">No WhatsApp</th>
+                                        <th class="crud-width-350">Pesan</th>
+                                        <th class="crud-width-80">Status</th>
+                                        <th class="width-id"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -152,7 +152,7 @@
                                         <td>goat@gmail.com</td>
                                         <td>08123456789</td>
                                         <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                        <td class="border-none"><label>Belum Baca</label></td>
+                                        <td><label>Belum Baca</label></td>
                                         <td class="border-none">
                                             <input type="checkbox">
                                         </td>
@@ -163,7 +163,7 @@
                                         <td>goat@gmail.com</td>
                                         <td>08123456789</td>
                                         <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
-                                        <td class="border-none"><label>Sudah Baca</label></td>
+                                        <td><label>Sudah Baca</label></td>
                                         <td class="border-none">
                                             <input type="checkbox" checked>
                                         </td>
@@ -177,11 +177,5 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button-->
-        <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
     </div>
 </template>

@@ -36,7 +36,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Kriteria Lomba</h4>
+                        <h4 class="mb-0">DETAIL KRITERIA LOMBA</h4>
                         <hr />
                         <div class="row">
                             <div class="col-md-6 c-mb10">

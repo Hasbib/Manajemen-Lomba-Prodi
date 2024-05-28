@@ -20,13 +20,13 @@
                     <div class="top-menu ms-auto">
                         <ul class="navbar-nav align-items-center">
                             <div class="user-info ps-3">
-                                <p class="user-name mb-0">Habib Shohiburrotib</p>			
-                                <p class="user-role">habib</p>					
+                                <p class="user-name mb-0">Habib Shohiburrotib</p>
+                                <p class="user-role">habib</p>
                             </div>
                             <div class="parent-icon posisi-icon"><i class="bx bx-user-circle c-font48"></i>
                             </div>
                         </ul>
-                    </div>		
+                    </div>
                 </nav>
             </div>
         </header>
@@ -36,8 +36,8 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Tim Start Green</h4>
-                        <hr/>
+                        <h4 class="mb-0">DETAIL TIM START GREEN</h4>
+                        <hr />
                         <div class="row">
                             <div class="col-md-3 c-mb10">
                                 <label class="c-mb5-black"><b>NAMA TIM</b></label>
@@ -60,17 +60,9 @@
                                 <div class="c-mb20">0850000000s</div>
                             </div>
                             <div class="col-md-3">
-                                <label class="c-mb5-black"><b>SERTIFIKAT</b></label>
-                                <div class="c-mb20">Belum Ada</div>
-                            </div>
-                            <div class="col-md-2">
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
                             </div>
-                            <!-- <div class="col-md-2">
-                                <label class="c-mb5-black"><b>Surat</b></label>
-                                <div class="c-mb20"><a href="#">Lihat Surat</a></div>
-                            </div> -->
                             <div class="col-md-3">
                                 <label class="c-mb5-black"><b>PEMBAYARAN</b></label>
                                 <div class="c-mb20"><a href="#">Lihat Bukti</a></div>
@@ -85,8 +77,9 @@
                                     </div>
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
-							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
-			                            </div>
+                                            <img src="http://via.placeholder.com/120x120" height="120" alt="..."
+                                                class="img-fluidc rounded">
+                                        </div>
                                         <br>
                                         <h6><b>Muhammaad Afkar Triwardana</b></h6>
                                         <br>
@@ -102,14 +95,15 @@
                                     </div>
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
-							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
-						                </div>
+                                            <img src="http://via.placeholder.com/120x120" height="120" alt="..."
+                                                class="img-fluidc rounded">
+                                        </div>
                                         <br>
                                         <h6><b>Muhammaad Haidar</b></h6>
                                         <br>
                                         <div class="posisi-mb7">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
-                                    </div>                        
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3 crud-max-width260">
@@ -119,14 +113,15 @@
                                     </div>
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
-							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
-						                </div>
+                                            <img src="http://via.placeholder.com/120x120" height="120" alt="..."
+                                                class="img-fluidc rounded">
+                                        </div>
                                         <br>
                                         <h6><b>Iqbal Farhan Rasyid</b></h6>
                                         <br>
                                         <div class="posisi-mb7">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
-                                    </div>                        
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-3 crud-max-width260">
@@ -136,39 +131,40 @@
                                     </div>
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
-							                <img src="http://via.placeholder.com/120x120" height="120" alt="..." class="img-fluid rounded">
-						                </div>
+                                            <img src="http://via.placeholder.com/120x120" height="120" alt="..."
+                                                class="img-fluidc rounded">
+                                        </div>
                                         <br>
                                         <h6><b>Lutfi Iffah Lathifah</b></h6>
                                         <br>
                                         <div class="posisi-mb7">1234567890</div>
                                         <div class="text-muted">Teknik Informatika</div>
-                                    </div>                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="card card-height400">
                             <div class="card-body p-4 text-center">
-                                <h6 class="sub-judul-tim" >PENGUMPULAN KARYA</h6>
-                               <div class="row">
+                                <h6 class="sub-judul-tim"><b>PENGUMPULAN KARYA</b></h6>
+                                <div class="row">
                                     <div class="col-md-3 label-left">
-                                        <label class="jarak-teks05" ><b>JUDUL</b></label>                                                
+                                        <label class="jarak-teks05"><b>JUDUL</b></label>
                                         <div class="c-mb20">Platform Pendidikan Interaktif</div>
                                     </div>
                                     <div class="col-md-3 label-left">
                                         <label class="jarak-teks05"><b>DESKRIPSI</b></label>
-                                        <div class="c-mb20" >Platform Pendidikan Interaktif “LearnXperience”</div>
+                                        <div class="c-mb20">Platform Pendidikan Interaktif “LearnXperience”</div>
                                     </div>
                                     <div class="col-md-3 label-left">
                                         <label class="jarak-teks05"><b>File</b></label>
-                                        <div class="c-mb20" ><a href="#">Lihat File</a></div>
+                                        <div class="c-mb20"><a href="#">Lihat File</a></div>
                                     </div>
                                     <div class="col-md-3 label-left">
                                         <label class="jarak-teks05"><b>LINK VIDEO</b></label>
-                                        <div class="data-tim" ><a href="#">Link Video</a></div>
+                                        <div class="data-tim"><a href="#">Link Video</a></div>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -181,20 +177,20 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                       <h6 class="warna-abu">Tema Lomba</h6>
-                       <h6 class="c-mb20">Judul Karya</h6>
-                       <div class="card">
+                        <h6 class="warna-abu">Tema Lomba</h6>
+                        <h6 class="c-mb20">Judul Karya</h6>
+                        <div class="card">
                             <h5 class="p-3">Penilaian</h5>
                             <div class="card-body p-4 text-center">
-                               <div class="row">
-                                  <table class="table table-bordered jarak-top-kurang25">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th class="width-id">NO.</th>
-                                            <th class="crud-width-400 posisi-text">KRITERIA</th>
-                                            <th class="crud-width-40">NILAI</th>
-                                        </tr>
-                                    </thead>
+                                <div class="row">
+                                    <table class="table table-bordered jarak-top-kurang25">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th class="width-id">NO.</th>
+                                                <th class="crud-width-400 posisi-text">KRITERIA</th>
+                                                <th class="crud-width-40">NILAI</th>
+                                            </tr>
+                                        </thead>
                                         <tbody>
                                             <tr>
                                                 <th>1</th>
@@ -213,7 +209,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>             
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -221,5 +217,18 @@
         </div>
     </div>
 </template>
-    
-   
+
+<style scoped>
+/* DAFTAR LOMBA EDIT */
+.crud-max-width260 {
+    /* flex: 1 1 calc(25% - 1rem); */
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+</style>

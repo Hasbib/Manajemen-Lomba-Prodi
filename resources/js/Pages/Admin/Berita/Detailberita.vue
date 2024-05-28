@@ -36,33 +36,33 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Berita</h4>
+                        <h4 class="mb-0">DETAIL BERITA</h4>
                         <hr />
                         <div>
                             <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Judul</b></label>
+                                <label class="c-mb5-black"><b>JUDUL</b></label>
                                 <div class="c-mb20">Profil Ketua Emailkomp Periode 2024</div>
                             </div>
                             <div>
-                                <label class="c-mb5-black"><b>Deskripsi Awal</b></label>
+                                <label class="c-mb5-black"><b>DESKRIPSI AWAL</b></label>
                                 <div class="c-mb20">Emailkomp adalah sebuah organisasi dibawah pengawasan langsung oleh
                                     Prodi Teknik Informatika</div>
                             </div>
                             <div>
-                                <label class="c-mb5-black"><b>Deskripsi</b></label>
+                                <label class="c-mb5-black"><b>DESKRIPSI</b></label>
                                 <div class="c-mb20">Emailkomp adalah sebuah organisasi dibawah pengawasan langsung oleh
                                     Prodi Teknik Informatika</div>
                             </div>
                             <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Penerbit</b></label>
+                                <label class="c-mb5-black"><b>PENERBIT</b></label>
                                 <div class="c-mb20">Admin</div>
                             </div>
                             <div class="col-md-6 c-mb10">
-                                <label class="c-mb5-black"><b>Tanggal Upload</b></label>
+                                <label class="c-mb5-black"><b>TANGGAL UPLOAD</b></label>
                                 <div class="c-mb20">15 Maret 2024</div>
                             </div>
                             <div class="c-mb10">
-                                <label class="c-mb5-black"><b>Gambar</b></label><br>
+                                <label class="c-mb5-black"><b>GAMBAR</b></label><br>
                                 <img src="../../../../../public/bootstrap/images/about_2_img_3.jpg" alt="Product Image"
                                     class="form-control c-maxw400">
                             </div>

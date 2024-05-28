@@ -36,7 +36,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Tambah Lomba</h4>
+                        <h4 class="mb-0">TAMBAH LOMBA</h4>
                         <hr />
                         <div class="row">
                             <div class="col-md-6 c-mb10">
@@ -60,6 +60,7 @@
                                 <div>
                                     <label for="formFile" class="form-label judul-form"><b>Sertifikat</b></label>
                                     <input class="form-control" type="file" id="formFile">
+                                    <p class="keterangan-foto">Max 2 MB</p>
                                 </div>
                             </div>
                             <div class="col-md-6">

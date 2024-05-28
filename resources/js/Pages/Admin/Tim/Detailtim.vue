@@ -36,7 +36,7 @@
             <div class="page-content">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="mb-0">Detail Tim Start Green</h4>
+                        <h4 class="mb-0">DETAIL TIM START GREEN</h4>
                         <hr />
                         <div class="row">
                             <div class="col-md-3 c-mb10">
@@ -60,10 +60,6 @@
                                 <div class="c-mb20">0850000000s</div>
                             </div>
                             <div class="col-md-3">
-                                <label class="c-mb5-black"><b>SERTIFIKAT</b></label>
-                                <div class="c-mb20">Belum Ada</div>
-                            </div>
-                            <div class="col-md-2">
                                 <label class="c-mb5-black"><b>STATUS</b></label>
                                 <div class="c-mb20">Verified</div>
                             </div>
@@ -82,7 +78,7 @@
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
                                             <img src="http://via.placeholder.com/120x120" height="120" alt="..."
-                                                class="img-fluid rounded">
+                                                class="img-fluidc  rounded">
                                         </div>
                                         <br>
                                         <h6><b>Muhammaad Afkar Triwardana</b></h6>
@@ -100,7 +96,7 @@
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
                                             <img src="http://via.placeholder.com/120x120" height="120" alt="..."
-                                                class="img-fluid rounded">
+                                                class="img-fluidc rounded">
                                         </div>
                                         <br>
                                         <h6><b>Muhammaad Haidar</b></h6>
@@ -118,7 +114,7 @@
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
                                             <img src="http://via.placeholder.com/120x120" height="120" alt="..."
-                                                class="img-fluid rounded">
+                                                class="img-fluidc rounded">
                                         </div>
                                         <br>
                                         <h6><b>Iqbal Farhan Rasyid</b></h6>
@@ -136,7 +132,7 @@
                                     <div class="card-body p-4 text-center posisi-mb23">
                                         <div class="btn-crud">
                                             <img src="http://via.placeholder.com/120x120" height="120" alt="..."
-                                                class="img-fluid rounded">
+                                                class="img-fluidc rounded">
                                         </div>
                                         <br>
                                         <h6><b>Lutfi Iffah Lathifah</b></h6>
@@ -149,7 +145,7 @@
                         </div>
                         <div class="card card-height400">
                             <div class="card-body p-4 text-center">
-                                <h6 class="sub-judul-tim">PENGUMPULAN KARYA</h6>
+                                <h6 class="sub-judul-tim"><b>PENGUMPULAN KARYA</b></h6>
                                 <div class="row">
                                     <div class="col-md-3 label-left">
                                         <label class="jarak-teks05"><b>JUDUL</b></label>
@@ -177,3 +173,18 @@
         <!--end page wrapper -->
     </div>
 </template>
+
+<style scoped>
+/* DAFTAR LOMBA EDIT */
+.crud-max-width260 {
+    /* flex: 1 1 calc(25% - 1rem); */
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+</style>
